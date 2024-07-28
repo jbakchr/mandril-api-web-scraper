@@ -45,7 +45,7 @@
     "name": "Borger Louie",
     "desc": "Bordd\u00e6kker med speciale i servietfoldning."
   },
-  { "name": "Boris", "desc": "" },
+  { "name": "Boris", "desc": "Teenager i ungdomsserien Frisbee" },
   {
     "name": "Bosse Johansson",
     "desc": "Landstr\u00e6ner for Danmarks herre-fodboldlandshold."
@@ -156,7 +156,10 @@
     "name": "D\u00e5sen Allan",
     "desc": "Talende l\u00f8g. Casper inviterer ham i studiet for at lave indslag til de b\u00f8rn, der m\u00e5tte se med. Som regel ender det med, at han fort\u00e6ller lidt om, at nogen eller noget skal \"skides i munden\". Inspirationen til figuren kom fra Casper Christensens folkeskole\u00e5r.[4] Christensen havde en klassekammerat ved navn Allan, hvis mor altid tiltalte ham \"lille Allan!\", n\u00e5r hun sk\u00e6ldte ham ud.[4]"
   },
-  { "name": "Ebbe Karlmeyers (og unavngiven figur)", "desc": "" },
+  {
+    "name": "Ebbe Karlmeyers (og unavngiven figur)",
+    "desc": "Skyggespiloptr\u00e6der der har lavet det pragtfulde skyggespil \"Fyldt eller forladt\""
+  },
   { "name": "Ebenezer Kvasthval", "desc": "Genert model." },
   {
     "name": "Edgar",
@@ -211,12 +214,12 @@
     "name": "Fissirul Lohmann",
     "desc": "Blev TV2's chef, blev fyret af TV 2 og blev s\u00e5 ansat p\u00e5 Louisiana.\nLohmann dukker op, da TV2 angiveligt skal have ny chef. Her stiller Lohmann op som kandidat, med mange gode ideer til, hvad der skal sendes p\u00e5 TV 2. Eksempler omfatter \"Knep Bubber\", hvor man \"s\u00e5 kunne g\u00f8re det p\u00e5 tid\", og ellers noget med en rumraket og \"bare patter oppe i rumraketten\", med Claus Elgaard som v\u00e6rt og Bubber i v\u00e6gtl\u00f8s tilstand."
   },
-  { "name": "Flemming Kirchh\u00fcner", "desc": "51" },
+  { "name": "Flemming Kirchh\u00fcner", "desc": "" },
   {
     "name": "Flemming Timmernik",
     "desc": "Ubeslutsom hiphopper og forfatter. Interviewet med Timmernik g\u00e5r mestendels med at denne ikke kan beslutte sig for et hiphop-navn, og derfor kan Christensen ikke komme videre med sine sp\u00f8rgsm\u00e5l. Slutteligt f\u00e5r han afsl\u00f8ret at han ikke er den egentlige forfatter til bogen for blinde hiphoppere, men at han da har t\u00e6nkt sig at skrive \"Tilh\u00f8rer MCGl\u00f8gg eller MCMowgli\" udenp\u00e5 den."
   },
-  { "name": "Frans", "desc": "" },
+  { "name": "Frans", "desc": "Teenager i ungdomsserien Frisbee" },
   { "name": "Fridtjof Kragemost", "desc": "" },
   {
     "name": "Fyrst Walter",
@@ -226,7 +229,7 @@
     "name": "Gentleman Finn",
     "desc": "Identitetsforvirret gentleman. Finn blev interviewet gentagne gange af Casper Christensen, fordi han var begyndt p\u00e5 noget nyt i sit liv. Han har fx optr\u00e5dt som nazist, satanist, p\u00e6dofil, voldt\u00e6gtsmand, homoseksuel, TV 2-ansat, samt asiat (da han skal drage med Pelle Klumpfeber og Broder Salsa til Kina). Finn kunne ikke se noget i galt i det han gjorde, da hans projekter jo blev st\u00f8ttet af kommunen og beskrevet i mange ringbind. I alle interviewene fik Casper overbevist Gentleman Finn om, at man ikke m\u00e5 g\u00f8re andre ondt, dog er episoden hvor Gentleman Finn er blevet ny TV 2-ansat stik modsat. If\u00f8lge Frank Hvam er Gentleman Finns inderste \u00f8nske at v\u00e6re stueren.[5] Hvam mener ogs\u00e5, at det er Finns evne til simultant at v\u00e6re ond og im\u00f8dekommende, der g\u00f8r ham til en sjov figur.[5]"
   },
-  { "name": "Gerda", "desc": "" },
+  { "name": "Gerda", "desc": "Hennings hjertes k\u00e6re" },
   {
     "name": "Gigi Epstein",
     "desc": "Fantomtegner. G\u00e6ster p\u00e5 eget initiativ programmet, med det form\u00e5l at give seerne sit bud p\u00e5 Lillaprinsens kontrafej p\u00e5 forskellige alderstrin, i takt med at denne bliver voksen. Casper bliver vred p\u00e5 Gigi, da tegneren p\u00e5 eget initiativ tegner prinsen if\u00f8rt nederdel; for som Gigi udtaler \"...det synes jeg er s\u00e5 p\u00e6nt til \u00e9n p\u00e5 36!\""
@@ -330,7 +333,7 @@
     "name": "Jericho Lala",
     "desc": "Detektiv. Han er en uhyre hurtig fantomtegner og bruger interflora som database."
   },
-  { "name": "Jimbo", "desc": "" },
+  { "name": "Jimbo", "desc": "Deltager p\u00e5 guideskolen" },
   {
     "name": "Jimmy Naller og Bauditz",
     "desc": "Naller er kropsforsker og har taget en ven med. De skal sammen fors\u00f8ge at hj\u00e6lpe Casper til at sidde ordentligt."
@@ -376,7 +379,7 @@
     "desc": "Dansetrup. Optr\u00e6der f\u00f8rst med krybbespillet \u00c6ggene og opstandelsen og senere med nummeret Hi-tech Gakov."
   },
   { "name": "K\u00e9vin", "desc": "Mandschauvinist." },
-  { "name": "Kim Bellamonte", "desc": "50" },
+  { "name": "Kim Bellamonte", "desc": "" },
   {
     "name": "Kjukke Mimergolf",
     "desc": "Homo sapiens. Fort\u00e6ller om sit forhold til en vinbjergsnegl."
@@ -437,7 +440,7 @@
     "name": "Lucy",
     "desc": "Ringer ind med et sp\u00f8rgsm\u00e5l til Det Okkulte Hj\u00f8rne."
   },
-  { "name": "Lukas Pensacola", "desc": "50" },
+  { "name": "Lukas Pensacola", "desc": "" },
   {
     "name": "Lusty Dave",
     "desc": "Fors\u00f8ger at l\u00e6gge verdens st\u00f8rste kabale."
@@ -449,7 +452,7 @@
     "name": "Mad Asta",
     "desc": "Mand, der altid fejler. Casper fors\u00f8ger at opmuntre Asta med det faktum at han i det mindste er m\u00f8dt rettidigt til dagens program, hvortil Asta svarer med dirrende stemme: \"Jeg har siddet her i 62 programmer!\""
   },
-  { "name": "Mand fra Venezuela", "desc": "" },
+  { "name": "Mand fra Venezuela", "desc": "Mand fra Venezuela" },
   {
     "name": "Mandrillen",
     "desc": "Figuren, der har lagt navn til programmet."
@@ -517,8 +520,11 @@
     "desc": "Temperaturforsker og Jes Dorph-Petersens l\u00e6ge. Mallebrok har de sidste 14 \u00e5r foretaget temperaturm\u00e5linger p\u00e5 Jes dagligt klokken 17:46 og har kunnet konstatere, at han har en h\u00f8jere kropstemperatur end normalt, nemlig 80\u00a0\u00b0C. Temperaturm\u00e5lingen m\u00e5les ved at f\u00f8re et orangader\u00f8r op i rektum p\u00e5 Jes og der er, if\u00f8lge Mallebrok, al grund til bekymring, is\u00e6r hvis man arbejder p\u00e5 TV2 p\u00e5 Kv\u00e6gtorvet i Odense. Af andre patienter ramt af for h\u00f8j kropstemperatur, kan Ulla Terkelsen n\u00e6vnes, da hun i forbindelse med sit korrespondentarbejde rejser med frott\u00e9. Dette skaber s\u00e5 h\u00f8j en friktion at Ulla er glohed. Jes Dorph-Petersens h\u00f8je kropstemperatur skyldes, if\u00f8lge Otis Mallebrok, et alt for h\u00f8jt indtag af hveder og hans temperatur har i v\u00e6rste fald v\u00e6ret oppe p\u00e5 89\u00a0\u00b0C.[6]"
   },
   { "name": "Otis Rose", "desc": "Jurist med et motto." },
-  { "name": "Otto Leisner", "desc": "41" },
-  { "name": "Papa Bue's Viking Jazz Band", "desc": "" },
+  { "name": "Otto Leisner", "desc": "" },
+  {
+    "name": "Papa Bue's Viking Jazz Band",
+    "desc": "Jazz band der spiller mens ilten langsomt suges ud af rummet"
+  },
   {
     "name": "Papa Rhodos",
     "desc": "Klunkespiller. Optr\u00e6der med percussion-nummeret Ocean View."
@@ -629,8 +635,8 @@
     "name": "Simba",
     "desc": "Simba medvirker i sketchen Guideskolen: Den Nye Generation og leverer citater som \"permaprinter\", \"absolut halogen\" og de legendariske \"Dizzy Mizz Lizzy fun\". Simba minder en del om Guideskolens Jimbo."
   },
-  { "name": "Simon Le Bon", "desc": "50" },
-  { "name": "Siddhartha Colombus", "desc": "50" },
+  { "name": "Simon Le Bon", "desc": "" },
+  { "name": "Siddhartha Colombus", "desc": "" },
   { "name": "Sixten Bo Maneater", "desc": "Multikunstner." },
   {
     "name": "Sixten Sparre",
@@ -747,7 +753,7 @@
     "desc": "Specialist i at holde dyr i live. Han har genoplivet sine dyr, Jungle-Ras og Peder Dingo, flere gange."
   },
   { "name": "Vienna", "desc": "Akustiker." },
-  { "name": "Vildere klovn!", "desc": "11, 16 (klip fra Afsnit 11)" },
+  { "name": "Vildere klovn!", "desc": "" },
   { "name": "Virtus Bj\u00e6ldeklemme", "desc": "M\u00f8belbryder." },
   {
     "name": "Voksen Lars & Sn\u00f8flen",
@@ -766,7 +772,7 @@
     "desc": "Han er bl.a. inde for at fort\u00e6lle som sin rolle i \"Blade\", eller p\u00e5 dansk \"Negervampyren\". Han er helt vild med Rene Dif, som han siger er skide s\u00f8d og rig. Han underviser young black educated people fra community college i at de skal skyde lerduer, fordi Rene Dif er bange for dem. Han ejer en husb\u00e5d men planl\u00e6gger at indt\u00e6gten fra \"Negervampyren\" skal bruges p\u00e5 endnu en husb\u00e5d, s\u00e5 han kan hoppe fra husb\u00e5d til husb\u00e5d."
   },
   { "name": "Wilfred Baal", "desc": "Masai." },
-  { "name": "Yannik Noah", "desc": "22-25" },
+  { "name": "Yannik Noah", "desc": "" },
   {
     "name": "Yussuf \u00c5benhat",
     "desc": "Valgobservat\u00f8r og ham med rulletekst-b\u00e5ndet."
