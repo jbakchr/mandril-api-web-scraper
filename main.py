@@ -77,7 +77,7 @@ def create_seasons_table():
 
             counter += 1
             seasons.append(
-                {"title_number": counter, "season": season, "episode": episode}
+                {"episode_title_number": counter, "season": season, "episode": episode}
             )
 
     with open("./episodes.json", "w") as f:
