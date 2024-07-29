@@ -20,6 +20,8 @@ def main() -> None:
 
     appearances = extract_appareances(tables[1])
 
+    save_cleaned_appearances(appearances["cleaned"])
+
 
 def extract_characters(table: Tag) -> None:
     characters = []
@@ -116,6 +118,51 @@ def extract_appareances(table: Tag) -> dict:
             appearances["cleaned"].append(appearance_row)
 
     return appearances
+
+
+def save_cleaned_appearances(cleaned_appearances_rows: dict):
+    appearance_data = []
+
+    # Load characters
+    with open("./characters.json") as f:
+        characters = json.loads(f.read())
+
+    # Loop through each cleaned appearences row
+    for i, appearance_row in enumerate(cleaned_appearances_rows):
+
+        # Create appearance_id
+        appearance_id = i + 1
+
+        # Get "character_id" from "characters"
+        character_id = characters[i]["character_id"]
+
+        # Get appearances
+        appearances = appearance_row.find_all("td")[2].text.strip()
+
+        if "," in appearances:
+            list_of_appearances = appearances.split(", ")
+            for j, appearance in enumerate(list_of_appearances):
+                episode_id = int(appearance)
+
+                appearance_item = {
+                    "appearance_id": appearance_id + j,
+                    "character_id": character_id,
+                    "episode_id": episode_id,
+                }
+
+                appearance_data.append(appearance_item)
+        else:
+            appearance_item = {
+                "appearance_id": appearance_id,
+                "character_id": character_id,
+                "episode_id": int(appearances),
+            }
+
+            appearance_data.append(appearance_item)
+
+    with open("./appearances.json", "w") as f:
+        appearance_json = json.dumps(appearance_data)
+        f.write(appearance_json)
 
 
 if __name__ == "__main__":
