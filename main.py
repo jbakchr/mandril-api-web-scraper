@@ -12,9 +12,9 @@ def main() -> None:
     soup = BeautifulSoup(r.text, "html.parser")
     tables = soup.find_all("table")
 
-    extract_characters(tables[1])
+    # extract_characters(tables[1])
 
-    # extract_actors(tables[1])
+    extract_actors(tables[1])
 
     # create_seasons_table()
 
@@ -61,9 +61,15 @@ def extract_actors(table: Tag):
             for td_link in td_links:
                 actor_set.add(td_link.text)
 
-    actors = []
+    # First 3 elements are hard-coded missing actors
+    actors = [
+        {"actor_id": 1, "actor_name": "Iben Sol Mauritson"},
+        {"actor_id": 2, "actor_name": "Freulein"},
+        {"actor_id": 3, "actor_name": "Nordine Amraoui"},
+    ]
+
     for actor in actor_set:
-        actors.append({"actor_name": actor})
+        actors.append({"actor_id": len(actors) + 1, "actor_name": actor})
 
     with open("./actors.json", "w") as f:
         actors_json = json.dumps(actors)
