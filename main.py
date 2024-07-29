@@ -12,9 +12,11 @@ def main() -> None:
     soup = BeautifulSoup(r.text, "html.parser")
     tables = soup.find_all("table")
 
-    extract_characters(tables[1])
+    # extract_characters(tables[1])
 
     # extract_actors(tables[1])
+
+    create_seasons_table()
 
 
 def extract_characters(table: Tag):
@@ -62,6 +64,25 @@ def extract_actors(table: Tag):
     with open("./actors.json", "w") as f:
         actors_json = json.dumps(actors)
         f.write(actors_json)
+
+
+def create_seasons_table():
+    seasons = []
+    counter = 0
+
+    for season in range(1, 3):
+        for episode in range(1, 49):
+            if season == 2 and episode > 19:
+                break
+
+            counter += 1
+            seasons.append(
+                {"title_number": counter, "season": season, "episode": episode}
+            )
+
+    with open("./episodes.json", "w") as f:
+        seasons_json = json.dumps(seasons)
+        f.write(seasons_json)
 
 
 if __name__ == "__main__":
