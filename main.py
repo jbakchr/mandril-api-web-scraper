@@ -12,11 +12,11 @@ def main() -> None:
     soup = BeautifulSoup(r.text, "html.parser")
     tables = soup.find_all("table")
 
-    # extract_characters(tables[1])
+    extract_characters(tables[1])
 
     # extract_actors(tables[1])
 
-    create_seasons_table()
+    # create_seasons_table()
 
 
 def extract_characters(table: Tag):
@@ -26,14 +26,18 @@ def extract_characters(table: Tag):
     character_table_rows = characters_table_body.find_all("tr")
 
     # Loop through each character
-    for character_row in character_table_rows:
+    for i, character_row in enumerate(character_table_rows):
         name = str(character_row.th.text).strip()
 
         desc_td = character_row.find_all("td")[-1:]
         for td in desc_td:
             desc = str(td.text).strip()
 
-            character = {"name": name, "desc": desc}
+            character = {
+                "character_id": i - 1,
+                "character_name": name,
+                "character_desc": desc,
+            }
 
             characters.append(character)
 
