@@ -14,12 +14,14 @@ def main() -> None:
 
     # extract_characters(tables[1])
 
-    extract_actors(tables[1])
+    # extract_actors(tables[1])
 
     # create_seasons_table()
 
+    appearances = extract_appareances(tables[1])
 
-def extract_characters(table: Tag):
+
+def extract_characters(table: Tag) -> None:
     characters = []
 
     characters_table_body = table.find("tbody")
@@ -46,7 +48,7 @@ def extract_characters(table: Tag):
         f.write(characters_json)
 
 
-def extract_actors(table: Tag):
+def extract_actors(table: Tag) -> None:
     actor_set = set()
 
     actors_table_body = table.find("tbody")
@@ -76,7 +78,7 @@ def extract_actors(table: Tag):
         f.write(actors_json)
 
 
-def create_seasons_table():
+def create_seasons_table() -> None:
     seasons = []
     counter = 0
 
@@ -87,12 +89,33 @@ def create_seasons_table():
 
             counter += 1
             seasons.append(
-                {"episode_title_number": counter, "season": season, "episode": episode}
+                {"episode_id": counter, "season": season, "episode": episode}
             )
 
     with open("./episodes.json", "w") as f:
         seasons_json = json.dumps(seasons)
         f.write(seasons_json)
+
+
+def extract_appareances(table: Tag) -> dict:
+    appearances = {"cleaned": [], "missing": []}
+
+    appearances_table_body = table.find("tbody")
+    appearances_table_rows = appearances_table_body.find_all("tr")
+
+    # Extract cleaned table rows
+    for appearance_row in appearances_table_rows[2:]:
+
+        # Get appearance td
+        appearance_td = appearance_row.find_all("td")[2].text.strip()
+
+        # Check appearance td include a "-" or a "("
+        if "-" in appearance_td or "(" in appearance_td:
+            appearances["missing"].append(appearance_row)
+        else:
+            appearances["cleaned"].append(appearance_row)
+
+    return appearances
 
 
 if __name__ == "__main__":
