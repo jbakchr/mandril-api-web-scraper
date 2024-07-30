@@ -13,7 +13,7 @@ def main() -> None:
     soup = BeautifulSoup(r.text, "html.parser")
     tables = soup.find_all("table")
 
-    # extract_characters(tables[1])
+    extract_characters(tables[1])
 
     # extract_actors(tables[1])
 
@@ -23,7 +23,7 @@ def main() -> None:
 
     # save_cleaned_appearances(appearances["cleaned"])
 
-    create_database()
+    # create_database()
 
 
 def extract_characters(table: Tag) -> None:
@@ -33,7 +33,7 @@ def extract_characters(table: Tag) -> None:
     character_table_rows = characters_table_body.find_all("tr")
 
     # Loop through each character
-    for i, character_row in enumerate(character_table_rows):
+    for character_row in character_table_rows:
         name = str(character_row.th.text).strip()
 
         desc_td = character_row.find_all("td")[-1:]
@@ -41,7 +41,6 @@ def extract_characters(table: Tag) -> None:
             desc = str(td.text).strip()
 
             character = {
-                "character_id": i - 1,
                 "character_name": name,
                 "character_desc": desc,
             }

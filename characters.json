@@ -1,1502 +1,968 @@
 [
-	{
-		"character_id": 1,
-		"character_name": "Abraham Mamrelund",
-		"character_desc": "Starfucker"
-	},
-	{
-		"character_id": 2,
-		"character_name": "Adolf Honningånde og Kuntakinte Eriksen",
-		"character_desc": "To genstridige naboer."
-	},
-	{
-		"character_id": 3,
-		"character_name": "Alf Bat",
-		"character_desc": "Kedelbruger med hang til hyng"
-	},
-	{
-		"character_id": 4,
-		"character_name": "Alfonso Trendy",
-		"character_desc": "Har glemt, hvorfor han er kommet i studiet. Trendy besøger Casper i studiet over flere omgange. I hans første medvirken har både Casper og Alfonso glemt hvorfor Casper havde inviteret ham. De prøver i fællesskab, at komme frem til et svar og finde ud af hvad det er Alfonso kan, vil gøre eller har gjort. De diskuterer om det er fordi han har sprunget i faldskærm, udgivet en plade eller om det måske er fordi han kan lave plastic om til guld. Dog er ingen af disse ting det som Alfonso kom i studiet for. Fjorten dage efter har Casper igen inviteret Alfonso i og med, at Casper og Alfonso nu er kommet i tanker om, at Alfonso er kommet for at fortælle om hans rejseoplevelser. Men Alfonso har glemt hvor det var han var rejst hen efter, at han var blevet træt af det danske vejr. Casper og Alfonso diskuterer derefter om det kunne være hans tur til Thailand, Månen eller Grækenland. Eller om han har været i Silkeborg eller Indonesien blandt andre. De finder denne gang frem til, at det er Alfonsos tur til Tasmanien, men det viser sig så, at det heller ikke var det emne han var kommet for at snakke om."
-	},
-	{
-		"character_id": 5,
-		"character_name": "Alfred Balle",
-		"character_desc": "Pædagog, dyrepsykolog og forfatter til lydbogen \"Jeg ved hvad du tænker, hund\". Alfred fortæller om og viser nye metoder til at dressere dyr. Bl.a. kan man vinde dyrs tillid ved at gnide sin underarm og albue mod dyrets forhoved. Når dyret skal tæmmes, skal man give det ordrer nedefra, f.eks. ved at man lægger sig under dyret og råber ordrer op imod dets bug og hage. Alfred fortæller desuden at krokodiller er blinde og derfor må finde vej ved at spørge isfugle til råds."
-	},
-	{
-		"character_id": 6,
-		"character_name": "Ali Baba",
-		"character_desc": "Lektor ved Københavns Hovedbanegård. Da Casper bliver bestrålet med uran kurerer Ali Casper ved at få ham til at kigge på et løg."
-	},
-	{
-		"character_id": 7,
-		"character_name": "Amant Krill",
-		"character_desc": "Ekspert i sommertid."
-	},
-	{
-		"character_id": 8,
-		"character_name": "Anne Linnet",
-		"character_desc": "Sangerinde og komponist på turné."
-	},
-	{
-		"character_id": 9,
-		"character_name": "Apple Jack",
-		"character_desc": "Meteorolog."
-	},
-	{
-		"character_id": 10,
-		"character_name": "Arild og Abel",
-		"character_desc": "Siamesiske tvillinger."
-	},
-	{
-		"character_id": 11,
-		"character_name": "Arne Hannover",
-		"character_desc": "Skumgummimand."
-	},
-	{
-		"character_id": 12,
-		"character_name": "Beelzebub Komseda",
-		"character_desc": "Skaberen af datingfirmaet Smykkeskrinet og forhenværende langtursgaffeltrucker."
-	},
-	{
-		"character_id": 13,
-		"character_name": "Bent Tonse",
-		"character_desc": "Mandrilseer nummer 1 milliard. Han kommer i studiet for at blive overrakt en kurv. Bent er ikke tilfreds med kurvens indhold, da han får at vide, at der i kurven mangler en paphjort. Bent Tonse siger, at han er blevet lovet en komplet kurv og mener ikke, at det batteri som Casper har lagt i kurven i stedet for paphjorten kan gøre det. Bent Tonse kræver erstatning og vil have en bil i stedet. Bent bliver mere og mere vred på Casper og vil ikke forlade studiet og kræver konstant mere og mere erstatning fra Casper."
-	},
-	{
-		"character_id": 14,
-		"character_name": "Bitten & Trold",
-		"character_desc": "Teaterduo."
-	},
-	{
-		"character_id": 15,
-		"character_name": "Bjarne Goldbæk",
-		"character_desc": "Hovedpersonen i sagaen om Bjarne Goldbæk. Bjarne Goldbæk deler navn med virkelighedens Bjarne Goldbæk, en professionel fodboldspiller, men er i øvrigt slet ikke inspireret af denne. Goldbæk optræder første gang som værtsvikar for Casper Christensen, der i et afsnit martres af ikke at have samme lunhed som Finn Nørbygaard i et omfang, så han forlader sin plads ved værts-skrivebordet."
-	},
-	{
-		"character_id": 16,
-		"character_name": "Bjørn Thuesen",
-		"character_desc": "Hånd."
-	},
-	{
-		"character_id": 17,
-		"character_name": "Bobby Palt",
-		"character_desc": "Adoptivfar."
-	},
-	{
-		"character_id": 18,
-		"character_name": "Bobotis Bombastic",
-		"character_desc": "Hustroubadour."
-	},
-	{
-		"character_id": 19,
-		"character_name": "Borger Louie",
-		"character_desc": "Borddækker med speciale i servietfoldning."
-	},
-	{
-		"character_id": 20,
-		"character_name": "Boris",
-		"character_desc": "Teenager i ungdomsserien Frisbee"
-	},
-	{
-		"character_id": 21,
-		"character_name": "Bosse Johansson",
-		"character_desc": "Landstræner for Danmarks herre-fodboldlandshold."
-	},
-	{
-		"character_id": 22,
-		"character_name": "Brad Moonsen",
-		"character_desc": "Fantastisk til at arbejde med farver. Optræder med nummeret Lego Fugt."
-	},
-	{
-		"character_id": 23,
-		"character_name": "Broder Salsa",
-		"character_desc": "Voldtægtsmand og tæppefolder. Broder Salsa er en af de få mennesker, der var sexturist på Nordpolen. Dette er han fordi han er en af de få mennesker, som tænder på ting der er magnetiske. Blev sat i fængsel for at skampule en vejrhane fordi den pegede mod nord. Det var en hård tid, og så valgte Salsa så at danne sit eget landskab af Musli! København er Kokos. Derudover har han også beskæftiget sig med foldning af tæpper som statsmænd og foldning af snor som racer. Han plejer oftest at slutte af med at knipse før han går."
-	},
-	{
-		"character_id": 24,
-		"character_name": "Buffalo Shirt Pony-pony Margenititit",
-		"character_desc": "Tidligere bokser med begge fødder forrest, der senere blev Den utømmelige twister - et dansende kanonslag af en frækkert. Han er i stand til at danse med et levende egern på brystet."
-	},
-	{
-		"character_id": 25,
-		"character_name": "Burrito Snille",
-		"character_desc": "Dietist."
-	},
-	{
-		"character_id": 26,
-		"character_name": "Bølle Bob",
-		"character_desc": "Han er sjov, og han er grov."
-	},
-	{
-		"character_id": 27,
-		"character_name": "Bøllemis",
-		"character_desc": "Deltager i Millionærquizzen."
-	},
-	{
-		"character_id": 28,
-		"character_name": "Casey og Jürgen Klins",
-		"character_desc": "Dansetrup fra Tyskland, der oplevede Murens fald."
-	},
-	{
-		"character_id": 29,
-		"character_name": "Casper",
-		"character_desc": "Programmets vært.  Figuren udspringer fra - og spilles af - virkelighedens Casper Christensen."
-	},
-	{
-		"character_id": 30,
-		"character_name": "Chris Super-diarrhea",
-		"character_desc": ""
-	},
-	{
-		"character_id": 31,
-		"character_name": "Chuck Tennyson & China Pete",
-		"character_desc": "Jægersoldater og joviale mordere. Tennyson og Pete gæster programmet for at fortælle om deres oplevelser fra deres tid i jægerkorpset, samt hvordan man sikrer tryghed hos mordofre umiddelbart før de myrdes."
-	},
-	{
-		"character_id": 32,
-		"character_name": "Kjartan Johnnysdottir",
-		"character_desc": "Momsspekulant i mejeriprodukter."
-	},
-	{
-		"character_id": 33,
-		"character_name": "Cillas Wik Wik",
-		"character_desc": "Slangetæmmer."
-	},
-	{
-		"character_id": 34,
-		"character_name": "Claes (Jens) Jakob Baumspielser",
-		"character_desc": "Bilforhandler og komponist. Går under navnene Claes (afsnit 3 og 4) og Jens (afsnit 44).\nKomponerede kendingsmelodien fra \"Her er London\". Det tog ham og 60 mand, et sted imellem 12 sekunder og 4 år, at færdiggøre melodien. Usikkerheden skyldes at han også har været meget syg."
-	},
-	{
-		"character_id": 35,
-		"character_name": "Claes Gynhjalter",
-		"character_desc": "Formand for organisationen Dyrenes Hven og kommer selv fra Hven. Han taler for bedre transportforhold til slagtebier. Han erkender afslutningsvist, at han er \"skingrende sindssyg\"."
-	},
-	{
-		"character_id": 36,
-		"character_name": "Claudius Mendelssohn",
-		"character_desc": "Benægter alt."
-	},
-	{
-		"character_id": 37,
-		"character_name": "Clausen",
-		"character_desc": "Figur i Huset på Christianshavn."
-	},
-	{
-		"character_id": 38,
-		"character_name": "Conan Lurbakke",
-		"character_desc": "Conan Lurbakke er en handicappet mand, som gæster programmet. Conans handicapp ligger i, at han overhovedet ikke er i stand til at huske noget som helst. Casper er nødt til at gå ud bag kulisserne for at få hjulpet Conan ind i studiet, fordi Conan ikke selv ved, hvor han er, og hvor han skal hen. Faktisk ved han ikke engang, om han er Conan Lurbakke. Conan forsøger at komme overens med sit handicap ved at sætte noter på sig selv og andre. På nogle af Conans mange noter står blandt andet \"Niels er din bedste ven\", \"3 år i morgen\" og \"Afghansk Andenpræmie\". Inspirationen til navnet Conan kom fra den fiktive karakter Conan the Barbarian, og fordi Casper Christensen syntes, at navnet var sjovt.[1] Christensen har nævnt, at navnet også havde optrådt i et nytårsshow, som han lavede med Jan Gintberg, hvor en person med navnet Conan vandt i MandagsChancen.[1]"
-	},
-	{
-		"character_id": 39,
-		"character_name": "Cornelius Heinesen",
-		"character_desc": "Viser, hvordan man gør en cykel forårsklar."
-	},
-	{
-		"character_id": 40,
-		"character_name": "Dadadaah",
-		"character_desc": "Lider af præstationsangst."
-	},
-	{
-		"character_id": 41,
-		"character_name": "David Hasselhof",
-		"character_desc": "David Hasselhof er rock and roll revisor for mange af de store danske kunstnere. Han har det meste af Henning Stærk og en lille smule af Don Johnson som kunder. Han deltager i et interview hvor han kommer med tips og tricks til hvordan den almindelige dansker kan spare penge. Et eksempel er, hvis man køber guldstrenge til sin steel guitar, kan man trække 30 kroner fra for hvert kilo man vejer mere end Jes Dorph Petersen.[2]"
-	},
-	{
-		"character_id": 42,
-		"character_name": "David Millentake",
-		"character_desc": "Tøjgartner."
-	},
-	{
-		"character_id": 43,
-		"character_name": "Det nye Linie 3",
-		"character_desc": "Det nye Linie 3."
-	},
-	{
-		"character_id": 44,
-		"character_name": "Dennie Kennels",
-		"character_desc": "Charcuterie-entertainer."
-	},
-	{
-		"character_id": 45,
-		"character_name": "Dennis Pelvis",
-		"character_desc": "Frankrigsekspert og royalist, der gæster programmet med den opfattelse at han er blevet inviteret ind for at tale om vine. Imidlertid mener Casper at det er meget vigtigere at få en forklaring på hvorfor Prins Henrik er iført nylonstrømper til en barnedåb."
-	},
-	{
-		"character_id": 46,
-		"character_name": "De tres tenorer",
-		"character_desc": "Casper har ved et lykketræf truffet aftale med De Tres Tenorer, der vil gæste studiet for at synge temaet fra \"Dick Turpin -- den gode landevejsridder\".\nImidlertid udebliver 59 tenorer fra arrangementet, som den eneste fremmødte tenor forklarer: \"De-øh... Sidder fast i trafikken. Så er der også nogle, der er hjemme hos Otto Brandenb[o]rg!\""
-	},
-	{
-		"character_id": 47,
-		"character_name": "De tre vise strandsten",
-		"character_desc": "Tre vise strandsten. Jeffersen, Dylan og Sir Henry/Ivanhoe. De har røget hashish."
-	},
-	{
-		"character_id": 48,
-		"character_name": "Didrik Amundsen",
-		"character_desc": "34-årig quizdeltager i quizzen \"Klar, Parat, Spar!\", hvor det gælder om at skjule 25-ører i forskellige kropsfolder. Amundsen er medlem af Søren Kasters fanklub, som er en fanklub bestående af præcis 19 millioner (inklusiv alfer). Han er fra Rønne og når han ikke kapper hovedet af vaneforbrydere, bruger han sin fritid på at blende rodfrugter eller på at redigere og udgive sine egne religiøse pamfletter. [3]"
-	},
-	{
-		"character_id": 49,
-		"character_name": "Didrik Motocross",
-		"character_desc": "Opvokset i et døvekollektiv."
-	},
-	{
-		"character_id": 50,
-		"character_name": "Dieter Ponyhof",
-		"character_desc": "Berømt tysk komiker. Optræder med nummeret Nazi Stuhl."
-	},
-	{
-		"character_id": 51,
-		"character_name": "Dino Stram",
-		"character_desc": "Dino Stram besøger Casper i alt to gange. Første gang Dino Stram er i studiet er det fordi barn nr. seks milliard blev født dagen før. Dino er nemlig selv barn nr. fem milliard. Dino fortæller Casper hvordan Dinos mor kæmpede for, at Dino skulle få æren af at være barn nr. fem milliard og at hun blandt andet var drægtig i to år. Da Casper spørger indtil hvad det har gjort for Dino svarer han, at det har hjulpet ham med at få fisse. Dino besøger senere programmet igen, da det viser sig, at han slet ikke er barn nr. fem milliard, men barn nr. hundrede tusinde og denne gang fortæller Dino, at han er med i Shu-Bi-Dua."
-	},
-	{
-		"character_id": 52,
-		"character_name": "Djernis Halland",
-		"character_desc": "Venlig opfinder."
-	},
-	{
-		"character_id": 53,
-		"character_name": "Doktor Metcalfe",
-		"character_desc": "Mandrillens huslæge, der altid kommer løbende med hænderne fulde af rekvisitter og  konstant refererer den kontemporere tv-serie \"Taxa\".\nDr. Metcalfe kurerer Casper med bi-røg og en \"lille dåse tun\". Sidstnævnte menes også, ved gnidning, at kunne kurere Bjarne Goldbæk for dennes morderiske tendenser, \nSom ekspertvidne i sagen Christensten v. Goldbæk, medbringer han \"Sandhedskiwien\", som tvinger den, der holder den, til at tale sandhed. Det røbes, at han bl.a. er kvaksalver og impotent i store forsamlinger. \nHan går også under navnet Pepe."
-	},
-	{
-		"character_id": 54,
-		"character_name": "Dommer Keith",
-		"character_desc": "Dommer i retssagen Casper Christensen mod Bjarne Goldbæk."
-	},
-	{
-		"character_id": 55,
-		"character_name": "Donnerdanserne",
-		"character_desc": "Medvirker i et klip fra deres opsætning af tv-musicalen Fame."
-	},
-	{
-		"character_id": 56,
-		"character_name": "Drengen Ortmann",
-		"character_desc": "Inkompetent linedanser og klovn. Utålmodig i forbindelse med at opnå Christensens anerkendelse af sine evner som entertainer. Ortmann har tydeligvis ikke øvet sig på sine numre; han går på sjippetov lagt på gulvet, og bruger tørkage i stedet for flødeskum i sin komik."
-	},
-	{
-		"character_id": 57,
-		"character_name": "Dubas Kreutz Delmenhorst",
-		"character_desc": "Elastikmand."
-	},
-	{
-		"character_id": 58,
-		"character_name": "Dåsen Allan",
-		"character_desc": "Talende løg. Casper inviterer ham i studiet for at lave indslag til de børn, der måtte se med. Som regel ender det med, at han fortæller lidt om, at nogen eller noget skal \"skides i munden\". Inspirationen til figuren kom fra Casper Christensens folkeskoleår.[4] Christensen havde en klassekammerat ved navn Allan, hvis mor altid tiltalte ham \"lille Allan!\", når hun skældte ham ud.[4]"
-	},
-	{
-		"character_id": 59,
-		"character_name": "Ebbe Karlmeyers (og unavngiven figur)",
-		"character_desc": "Skyggespiloptræder der har lavet det pragtfulde skyggespil \"Fyldt eller forladt\""
-	},
-	{
-		"character_id": 60,
-		"character_name": "Ebenezer Kvasthval",
-		"character_desc": "Genert model."
-	},
-	{
-		"character_id": 61,
-		"character_name": "Edgar",
-		"character_desc": "Mandrilstudiets varmemester. Hænger på skulderen af Christensen og gennemgår varmeanlæggets funktionalitet: En blok kokkepigepalmin presses gennem et album-cover fra det irske band Boyzone. Edgar forklarer at denne proces skaber friktionsvarme, der opvarmer studiet. Hævder også at have trukket Bilka igennem Boyzone ved en tidligere lejlighed."
-	},
-	{
-		"character_id": 62,
-		"character_name": "Eduardo Havanna Goebbels",
-		"character_desc": "21-årig quizdeltager i quizzen \"Klar, Parat, Spar!\", hvor det gælder om at skjule 25-ører i forskellige kropsfolder. Goebbels er medlem af Søren Kasters fanklub, som er en fanklub bestående af præcis 19 millioner (inklusiv alfer). Underviser Anholts gadebørn i svensk origami og er i stor narkogæld grundet amfetaminmisbrug.[3]"
-	},
-	{
-		"character_id": 63,
-		"character_name": "Eiler Torps Nemmerlig",
-		"character_desc": "Tidligere ejendomsmægler, der fik en erotisk åbenbaring ved at opdage en fugtskade i et rækkehus. Nemelig har siden optrådt i hele landet som en slags fugterotikkens apostel og er blevet Mosgaardsmuseets faste huskunstner."
-	},
-	{
-		"character_id": 64,
-		"character_name": "Egern",
-		"character_desc": "En flok egern, som værtsfiguren Casper ansatte som erstatning for 1. sæsons tv-hold. Egernene har en tendens til pludseligt at synge Cirkeline har fødselsdag, mange gaver hun får."
-	},
-	{
-		"character_id": 65,
-		"character_name": "Egon Cervezas Por Favor",
-		"character_desc": "Gysets mester."
-	},
-	{
-		"character_id": 66,
-		"character_name": "Einer Brobrille",
-		"character_desc": "Fremviser en pind, der er i stand til at finde alting. Pinden har bl.a. hjulpet Brobrille med at finde 37 kilo guld, som dog lå en milliard kilometer nede i jorden."
-	},
-	{
-		"character_id": 67,
-		"character_name": "Elmo Gottlieb Våge",
-		"character_desc": "Kom ind for at fortælle om sin vilde arm som han ikke selv kunne styre. Armen var dækket til med pap, for at man ikke skulle genkende den. Armen havde blandt andet rakt hånden op i timerne, uden at han selv vidste hvad han skulle svare, onaneret på et kommunebibliotek, ikke gået med handsker om vinteren og så har den holdt en fremmed mand i hånden."
-	},
-	{
-		"character_id": 68,
-		"character_name": "Elias Pottestepper",
-		"character_desc": "Foreningen Mænd uden grænser."
-	},
-	{
-		"character_id": 69,
-		"character_name": "Emma",
-		"character_desc": ""
-	},
-	{
-		"character_id": 70,
-		"character_name": "Erik Toftgård Nielsen",
-		"character_desc": "Medvirker i en reklame for alfabetblod. En af få navngivne figurer fra programmets reklamer."
-	},
-	{
-		"character_id": 71,
-		"character_name": "Falckredderen Ragamuffin",
-		"character_desc": "Falckredder."
-	},
-	{
-		"character_id": 72,
-		"character_name": "Fax Flora",
-		"character_desc": "Åndelig stripper og forfatter til bogen Ensomhed - dit navn er diskokugle. Flora udleverer sig selv i sin kunst, og inrømmer også at have ekshibitionistiske tendenser, da han fx kan finde på at springe frem fra sit skjul og højlydt afsløre sit pinligt lave studentergennemsnit for folk."
-	},
-	{
-		"character_id": 73,
-		"character_name": "Filip Sut",
-		"character_desc": "Offer for kopist."
-	},
-	{
-		"character_id": 74,
-		"character_name": "Filippo Levian",
-		"character_desc": "Hi-fi-ekspert og fodboldnarkoman. Optræder med Closing Kitty Club; en dommedagsprofeti illustreret kun ved hjælp af puder."
-	},
-	{
-		"character_id": 75,
-		"character_name": "Finn Nørbygaard & Finn Nørbygaard",
-		"character_desc": "Fortæller en morsom vittighed om forskellen på jyder og københavnere."
-	},
-	{
-		"character_id": 76,
-		"character_name": "Fine Albert",
-		"character_desc": "Ekspert i mobning."
-	},
-	{
-		"character_id": 77,
-		"character_name": "Fissirul Lohmann",
-		"character_desc": "Blev TV2's chef, blev fyret af TV 2 og blev så ansat på Louisiana.\nLohmann dukker op, da TV2 angiveligt skal have ny chef. Her stiller Lohmann op som kandidat, med mange gode ideer til, hvad der skal sendes på TV 2. Eksempler omfatter \"Knep Bubber\", hvor man \"så kunne gøre det på tid\", og ellers noget med en rumraket og \"bare patter oppe i rumraketten\", med Claus Elgaard som vært og Bubber i vægtløs tilstand."
-	},
-	{
-		"character_id": 78,
-		"character_name": "Flemming Kirchhüner",
-		"character_desc": ""
-	},
-	{
-		"character_id": 79,
-		"character_name": "Flemming Timmernik",
-		"character_desc": "Ubeslutsom hiphopper og forfatter. Interviewet med Timmernik går mestendels med at denne ikke kan beslutte sig for et hiphop-navn, og derfor kan Christensen ikke komme videre med sine spørgsmål. Slutteligt får han afsløret at han ikke er den egentlige forfatter til bogen for blinde hiphoppere, men at han da har tænkt sig at skrive \"Tilhører MCGløgg eller MCMowgli\" udenpå den."
-	},
-	{
-		"character_id": 80,
-		"character_name": "Frans",
-		"character_desc": "Teenager i ungdomsserien Frisbee"
-	},
-	{
-		"character_id": 81,
-		"character_name": "Fridtjof Kragemost",
-		"character_desc": ""
-	},
-	{
-		"character_id": 82,
-		"character_name": "Fyrst Walter",
-		"character_desc": "Studievejleder. Han er i studiet for at tale med Casper om, hvad han kan blive efter tv. Alle Caspers forslag, herunder at blive Susse Wold eller Zarens kurér bliver afslået. Walter foreslår, at Casper bliver et ringbind."
-	},
-	{
-		"character_id": 83,
-		"character_name": "Gentleman Finn",
-		"character_desc": "Identitetsforvirret gentleman. Finn blev interviewet gentagne gange af Casper Christensen, fordi han var begyndt på noget nyt i sit liv. Han har fx optrådt som nazist, satanist, pædofil, voldtægtsmand, homoseksuel, TV 2-ansat, samt asiat (da han skal drage med Pelle Klumpfeber og Broder Salsa til Kina). Finn kunne ikke se noget i galt i det han gjorde, da hans projekter jo blev støttet af kommunen og beskrevet i mange ringbind. I alle interviewene fik Casper overbevist Gentleman Finn om, at man ikke må gøre andre ondt, dog er episoden hvor Gentleman Finn er blevet ny TV 2-ansat stik modsat. Ifølge Frank Hvam er Gentleman Finns inderste ønske at være stueren.[5] Hvam mener også, at det er Finns evne til simultant at være ond og imødekommende, der gør ham til en sjov figur.[5]"
-	},
-	{
-		"character_id": 84,
-		"character_name": "Gerda",
-		"character_desc": "Hennings hjertes kære"
-	},
-	{
-		"character_id": 85,
-		"character_name": "Gigi Epstein",
-		"character_desc": "Fantomtegner. Gæster på eget initiativ programmet, med det formål at give seerne sit bud på Lillaprinsens kontrafej på forskellige alderstrin, i takt med at denne bliver voksen. Casper bliver vred på Gigi, da tegneren på eget initiativ tegner prinsen iført nederdel; for som Gigi udtaler \"...det synes jeg er så pænt til én på 36!\""
-	},
-	{
-		"character_id": 86,
-		"character_name": "Graham Kelvin",
-		"character_desc": "Har åbnet en sushi-restaurant på toppen af Kilimanjaro."
-	},
-	{
-		"character_id": 87,
-		"character_name": "Grenen Kim",
-		"character_desc": "Træet som Kronprins Frederik plantede til fordel for foreningen Plant et træ."
-	},
-	{
-		"character_id": 88,
-		"character_name": "Grytte Pytte Kytte",
-		"character_desc": "Arkæolog."
-	},
-	{
-		"character_id": 89,
-		"character_name": "Gunnar Jeppe",
-		"character_desc": "Folkekær visesanger."
-	},
-	{
-		"character_id": 90,
-		"character_name": "Gunrack",
-		"character_desc": "Indeholder score-replikker fra 1980'erne."
-	},
-	{
-		"character_id": 91,
-		"character_name": "Miss Sweethart",
-		"character_desc": "Gunrack-reparatør"
-	},
-	{
-		"character_id": 92,
-		"character_name": "Gusser Odderskov Vest",
-		"character_desc": "Ejer af et mintvaskeri i Herning."
-	},
-	{
-		"character_id": 93,
-		"character_name": "Gynther Renouard",
-		"character_desc": "Gynter Renouard gæster studiet for at fortælle om hvordan han er vant til, at blive afvist. Gynter er selvstændig erhvervsdrivende og børnelokker. Gynther er vant til, at blive afvist af børnene og det er hvad Casper snakker med ham om. Under interviewet fortæller Gynther blandt andet, at han lokker med rosenkål og vitaminpiller og, at nogle af de ting han kan finde på, at sige til børnene er fx \"Vil du med ned og totalrenovere en landejendom på Als?\"."
-	},
-	{
-		"character_id": 94,
-		"character_name": "Gøkhan Appel",
-		"character_desc": "Verdens mindste mand. Han bor i en plastik kop. Han har kneppet Cirkeline uden, at hun kunne mærke det. Han vil ikke erkende sin størrelse."
-	},
-	{
-		"character_id": 95,
-		"character_name": "Harntley & Kreiler",
-		"character_desc": "To tyske sexforskere, der er i studiet for at demonstrere tre nyopfundne sexstillinger."
-	},
-	{
-		"character_id": 96,
-		"character_name": "Harley Løvstik",
-		"character_desc": "Harley Løvstik har udgivet bogen \"Sådan er der mange af de gamle sange som vi kender, der rent faktisk oprindeligt har en anden ordlyd, en anden tekst\". Han fortæller bl.a. at han har fundet de originale sangtekster hos munkene i Tibet som han har boet med siden han var ung. I løbet af interviewet går det dog hurtigt op for Casper at Harley Løvstik har forvekslet munke i Tibet med Papa Bue's Viking Jazz Band."
-	},
-	{
-		"character_id": 97,
-		"character_name": "Hasle Ryberæv",
-		"character_desc": "Ryberæv er gæster programmet for at tale om sine oplevelser med racisme. Ryberæv er andengenerationsindvandrer fra Sverige. Hans forældre kom til Danmark i 1972 for at søge lykken. Ryberæv beretter med foudrettethed i stemmen at det viste sig at der ikke var brug for typer som hans far i det danske samfund -- trods dennes evne til at sige som en ren. Ryberævs far ender med at skyde tusind spejdere med sin jagtriffel, da han lider af angst for bævere.\nRyberævs mor havde andereldes succes ved at fortsatte sin hidtidige praksis med at plukke bær, samle tørv og indspille pornofilm. \nRyberæv føler sit svenske ophav negligeret, bl.a. fordi han ikke må snitte på sin hørkarrusel i s-toget -- eller have sin harmonika med på diskoteker. \nRyberæv synes selv, at han er dansk – \"tyttebærdansk\" ifølge ham selv. \nInterviewet afsluttes ved at Casper tilbyder ham en hvid sten, som enhver svensker skal gøre noget for, at gøre sig fortjent til. Sidstnævnte er en reference til den svenske tv-serie fra 1973 \"Den Vita Stenen\"."
-	},
-	{
-		"character_id": 98,
-		"character_name": "Hassan",
-		"character_desc": ""
-	},
-	{
-		"character_id": 99,
-		"character_name": "Hassefar",
-		"character_desc": "Offer for sexchikane."
-	},
-	{
-		"character_id": 100,
-		"character_name": "Hector Strix",
-		"character_desc": "Hverdagsdanser."
-	},
-	{
-		"character_id": 101,
-		"character_name": "Henning",
-		"character_desc": ""
-	},
-	{
-		"character_id": 102,
-		"character_name": "Henning Ingenlunde",
-		"character_desc": "Parodierer kendte altaner."
-	},
-	{
-		"character_id": 103,
-		"character_name": "Hermes Tundra",
-		"character_desc": "Navneterapeut. Designer og sælger kælenavne. Har engang fundet på navnet \"Snittepølsen\" -- der efter hans eget udsagn har øget sandsynligheden for at Anwar Sadats kone kan overtale denne til at \"skifte sandet i kattebakken\"."
-	},
-	{
-		"character_id": 104,
-		"character_name": "Herold Bueflis og Kelly Bødker",
-		"character_desc": "Skorstensfejer og hyrdinde."
-	},
-	{
-		"character_id": 105,
-		"character_name": "Hother Hotlips Slidske",
-		"character_desc": "Konstruktør."
-	},
-	{
-		"character_id": 106,
-		"character_name": "Horst Rema Nulnix",
-		"character_desc": "Danser i pomfritter."
-	},
-	{
-		"character_id": 107,
-		"character_name": "Hovedet i bordet",
-		"character_desc": "Klog på 3D."
-	},
-	{
-		"character_id": 108,
-		"character_name": "Humphrey Desmond Tutu",
-		"character_desc": "Humpfrey Desmond Tutu er kritiker. Han klager over, at Casper hetzer sine gæster. Han får et minuts taletid til at få renset luften og give Casper en dosis af sin egen medicin, hvilket han bruger på en smædevise i to enslydende vers: \"Casper han er homoseksuel, han dyrker seksuelt samkvem med sig selv og hans kone hedder Keld\". Casper modtager derefter et opkald fra sin farmor, der vil høre, hvor vidt han er blevet homoseksuel. Interviewet ender med, at Humfhrey spørger efter Caspers autograf, hvilket han afslår. Hovedelementerne i sketchen er referencer til 1990'ernes kritik af Casper Christensens påståede grove humor, samt et callback til Caspers tidlige tv-karriere, hvor han havde en værtstjans på Danmarks Radio i børneprogrammet Hvaffor 1 hånd, hvori et af de faste indslag var, at Caspers hans far ringede ind med irettesættende formaninger til det han foretog sig i det pågældende afsnit."
-	},
-	{
-		"character_id": 109,
-		"character_name": "Ibiza Polar",
-		"character_desc": "Lider af forvrænget virkelighedsopfattelse. Ibiza oplever Casper sige noget andet end vi gør, typisk noget, der lyder kinesisk. Ibiza svarer derefter."
-	},
-	{
-		"character_id": 110,
-		"character_name": "Idéernes Venner",
-		"character_desc": "Forening, der vejleder forbrugerne i bedre at udnytte de ting, de har i forvejen. Foreningen består af de fire medlemmer: Angelica Houston, Skat Henningsen, Steffen Bep og Torben Eller Murmark."
-	},
-	{
-		"character_id": 111,
-		"character_name": "Ingemar Hildelyst",
-		"character_desc": "Har boet i et Ikea-skab hele sit liv og har derfor haft svært ved at møde damer. Casper får ham overtalt til at komme ud af skabet, men fortryder det straks da han ser Ingmars ansigt, som er dækket af cornflakes."
-	},
-	{
-		"character_id": 112,
-		"character_name": "Isak",
-		"character_desc": "Præsenterer quizdeltagerne i quiz-programmet Klar, parat, spar!."
-	},
-	{
-		"character_id": 113,
-		"character_name": "Isak Spas",
-		"character_desc": "New Age-fakir."
-	},
-	{
-		"character_id": 114,
-		"character_name": "Ivar Urd",
-		"character_desc": "Frivillig (og meget træt) indsamler. Retter gentagende gange \"en hjerteskærene appel\" til seerne."
-	},
-	{
-		"character_id": 115,
-		"character_name": "Jake Ritterband",
-		"character_desc": "Værtaspirant."
-	},
-	{
-		"character_id": 116,
-		"character_name": "Jakob Majkilde",
-		"character_desc": "Våbensælger."
-	},
-	{
-		"character_id": 117,
-		"character_name": "Janni Henrik",
-		"character_desc": "Boksepromoter."
-	},
-	{
-		"character_id": 118,
-		"character_name": "Jarl Fonbørs",
-		"character_desc": "Vægtløs og ansvarlig for at flytte studiet en centimeter til højre."
-	},
-	{
-		"character_id": 119,
-		"character_name": "Jean Carlo",
-		"character_desc": "Sigøjner."
-	},
-	{
-		"character_id": 120,
-		"character_name": "Jean Tim & Jean Per",
-		"character_desc": "Sminkører."
-	},
-	{
-		"character_id": 121,
-		"character_name": "Jeff Denkendorff",
-		"character_desc": "Vejrvært."
-	},
-	{
-		"character_id": 122,
-		"character_name": "Jens Jackson",
-		"character_desc": "Ubådskaptajn og fan af tv-serien Taxa."
-	},
-	{
-		"character_id": 123,
-		"character_name": "Jeppe Vælling",
-		"character_desc": "Produktiv rockmusiker. Hele Danmarks nationalskjald, der ugen op til et besøg hos Casper har udgivet 27 plader. Én af hans mest populære plader hedder \"To Spandauere og En Lille Liter Let\", der er nr. 4 på Helses hitliste."
-	},
-	{
-		"character_id": 124,
-		"character_name": "Jericho Lala",
-		"character_desc": "Detektiv. Han er en uhyre hurtig fantomtegner og bruger interflora som database."
-	},
-	{
-		"character_id": 125,
-		"character_name": "Jimbo",
-		"character_desc": "Deltager på guideskolen"
-	},
-	{
-		"character_id": 126,
-		"character_name": "Jimmy Naller og Bauditz",
-		"character_desc": "Naller er kropsforsker og har taget en ven med. De skal sammen forsøge at hjælpe Casper til at sidde ordentligt."
-	},
-	{
-		"character_id": 127,
-		"character_name": "Joakim Tüttel",
-		"character_desc": "Multiportokunstner."
-	},
-	{
-		"character_id": 128,
-		"character_name": "Joe Alex",
-		"character_desc": "Tidsrejsende."
-	},
-	{
-		"character_id": 129,
-		"character_name": "Johannes Hot",
-		"character_desc": "Udbryderkonge."
-	},
-	{
-		"character_id": 130,
-		"character_name": "Johannes Ludvig",
-		"character_desc": "Danseekspert."
-	},
-	{
-		"character_id": 131,
-		"character_name": "John Gringo",
-		"character_desc": "Verdens mest populære mand. Ifølge ham selv skyldes hans store popularitet, at han har tv-reklamerne i ryggen. Ualindeligt utiltalende og provokerende. Knipser sine fingre lige op i Christensens ansigt flere gange."
-	},
-	{
-		"character_id": 132,
-		"character_name": "John Datsun",
-		"character_desc": "Født som et HFI-relæ. Kan overfære sin sjæl til helt tilfældige genstande."
-	},
-	{
-		"character_id": 133,
-		"character_name": "John Delaware",
-		"character_desc": "Målgruppeforsker."
-	},
-	{
-		"character_id": 134,
-		"character_name": "Jon Bon Jovi",
-		"character_desc": "Forklædt som Rick Astley og Sting."
-	},
-	{
-		"character_id": 135,
-		"character_name": "Josef Kammerly",
-		"character_desc": "Alternativ behandler."
-	},
-	{
-		"character_id": 136,
-		"character_name": "Josti & Steffen",
-		"character_desc": "Hånddukker med ualmindeligt dårlige retoriske evner."
-	},
-	{
-		"character_id": 137,
-		"character_name": "Julius Hazard",
-		"character_desc": "Julius Hazard er en købmand som efter, at have haft et overskud af bacon på sit lager har ændret sin livsstil på drastisk vis. Casper har inviteret Julius Hazard for at snakke med ham om denne handling. Julius er nemlig blevet baconhoved. Julius er frygtelig ked af sit valg og starter interviewet med at fortælle Casper, at han har fortrudt. Casper prøver, at opmuntrer Julius, men uden den store succes. Julius føler sig ikke respekteret af samfundet, hvilket han blandt andet føler på forældremøder. Casper trøster Julius og de finder snart ud af, at Julius har et skjult talent – han har nemlig rytme! Og det er noget folk godt kan lide mener Julius, så Julius går glad fra studiet."
-	},
-	{
-		"character_id": 138,
-		"character_name": "Jørgen Gungading",
-		"character_desc": "Lider af kronisk ironi."
-	},
-	{
-		"character_id": 139,
-		"character_name": "Kenan Pløs",
-		"character_desc": "22 år gammel og ufaglært snedker. Medlem af UFO-kulten De Himmelse Kusiners Ferieudflugt. Stenbuk."
-	},
-	{
-		"character_id": 140,
-		"character_name": "Kenneth",
-		"character_desc": "Niels Jørgen Steens lillebor og mor til Tina Turner."
-	},
-	{
-		"character_id": 141,
-		"character_name": "Kenneth Kiwistone",
-		"character_desc": "Selvlært kirurg, habil petanque-kommentator og formand for Dansk Bøsse- og Madvareforbrug. Bærer en rislampeskærm som turban og har en gaffel i brystelommen.\nHan er gæst i forbindelse med \"Temalørdag på DR2 - Nu om onsdagen!\", der denne gang handler om forbrugerservice. Her forklarer han blandt andet at Kristeligt Dagblad ikke længere er vandtæt, og at mange kristne er \"godt sure\" over dette, da de ikke længere kan dykke med avisen. \nKiwistone har desuden været udsat for en frygtelig jolleulykke ud for Tappernøje, på vej til en forbrugermesse. Han viser også, hvordan vha. en vinballon undgår, at Robinson-holdet går i opløsning."
-	},
-	{
-		"character_id": 142,
-		"character_name": "Kenzo-kuppen",
-		"character_desc": "Dansetrup. Optræder først med krybbespillet Æggene og opstandelsen og senere med nummeret Hi-tech Gakov."
-	},
-	{
-		"character_id": 143,
-		"character_name": "Kévin",
-		"character_desc": "Mandschauvinist."
-	},
-	{
-		"character_id": 144,
-		"character_name": "Kim Bellamonte",
-		"character_desc": ""
-	},
-	{
-		"character_id": 145,
-		"character_name": "Kjukke Mimergolf",
-		"character_desc": "Homo sapiens. Fortæller om sit forhold til en vinbjergsnegl."
-	},
-	{
-		"character_id": 146,
-		"character_name": "Kilimanjaro Jepsen",
-		"character_desc": "Optræder med sine \"happy lammekøller.\""
-	},
-	{
-		"character_id": 147,
-		"character_name": "Kiss Slejpner",
-		"character_desc": "Sejlsportstalent og 7 år gammel."
-	},
-	{
-		"character_id": 148,
-		"character_name": "Klaus",
-		"character_desc": "Fra Bomb Squad."
-	},
-	{
-		"character_id": 149,
-		"character_name": "Klaus Cardigan",
-		"character_desc": "En fredens mand."
-	},
-	{
-		"character_id": 150,
-		"character_name": "Klovnen Lilian",
-		"character_desc": "Optræder i talentkonkurrencen med sit show Limelight."
-	},
-	{
-		"character_id": 151,
-		"character_name": "Kresten Pikhår",
-		"character_desc": "Seksualvejleder."
-	},
-	{
-		"character_id": 152,
-		"character_name": "Krøsus Palnatoke",
-		"character_desc": "Ensom."
-	},
-	{
-		"character_id": 153,
-		"character_name": "Kurt Thyboe & Kurt Thyboe",
-		"character_desc": "Sportskommentatorer."
-	},
-	{
-		"character_id": 154,
-		"character_name": "Kål Frederik & Lars Tærskeværk",
-		"character_desc": "Folkedansere fra Dansk Folkedans Union. Er hinandens umiddelbare modsætninger -- den ene kan ikke stå stille -- den anden knap nok holde sig vågen. De fremviser traditionelle danse, som \"Dan Rachlins tur til bageren\" og \"Sextur til Pattaya\"."
-	},
-	{
-		"character_id": 155,
-		"character_name": "Lars Krimi",
-		"character_desc": "Selvkritisk mimer. Har væltet højskoler med sin lydløse performance, men forlader hver gang opgivende studiet, uden at kunne præstere sit fulde repertoire."
-	},
-	{
-		"character_id": 156,
-		"character_name": "Lars Pejsekammer",
-		"character_desc": "Har i sinde at løbe New York Marathon, mens han \"kvæler en kattemis med de bare hænder\"."
-	},
-	{
-		"character_id": 157,
-		"character_name": "Larsen",
-		"character_desc": "Figur i Huset på Christianshavn."
-	},
-	{
-		"character_id": 158,
-		"character_name": "Laughing Eagle",
-		"character_desc": "Den næstsidste mohikaner. I første omgang er Laughing Eagle inviteret ind for at tale om, hvorfor indianerne er ved at uddø, men interviewet tager en uventet drejning. Det ender med at Casper beskylder Laughing Eagle for værnemageri og sender Laughing Eagle ud af studiet. Til det andet interview vil Casper gerne give Laughing Eagle en chance til men ender igen med at se sig sur på Laughing Eagle og beskylder ham nu for at sympatisere med Japanerne under 2. verdenskrig. Den tredje gang Laughing Eagle er i studiet er det sammen med Wesley Snipes, hvor de skal tale om diskriminering. Også denne gang bliver Casper gal på Laughing Eagle og beskylder nu indianerne for ikke at hjælpe passagerne på Titanic."
-	},
-	{
-		"character_id": 159,
-		"character_name": "Laust Willo Willo",
-		"character_desc": "Danser."
-	},
-	{
-		"character_id": 160,
-		"character_name": "Lennart Berthelsen",
-		"character_desc": "Verdens ældste jomfru. Det benægter han dog selv."
-	},
-	{
-		"character_id": 161,
-		"character_name": "Lennart Rousseau",
-		"character_desc": "Ordblind arkivar og opfinder af \"morgenmadsmappen\", der udgøres af et ringbind, hvori Rousseau har indsat en morgenkomplet, men alfabetiseret \"croissant\" under Q og #corn flakes# under K."
-	},
-	{
-		"character_id": 162,
-		"character_name": "Lil-Babs",
-		"character_desc": "Tiggermunk."
-	},
-	{
-		"character_id": 163,
-		"character_name": "Liller Dræsine Peepee",
-		"character_desc": "I stand til at få en dåse med mintgele til at lette blot ved dans og lydeffekter. Optræder med det forrygende æggende nummer After Eight."
-	},
-	{
-		"character_id": 164,
-		"character_name": "Linz Calvin Ankerby",
-		"character_desc": "Luft- og portrætfotograf."
-	},
-	{
-		"character_id": 165,
-		"character_name": "London-Lars",
-		"character_desc": "Forlanger at man siger undskyld til pølsen."
-	},
-	{
-		"character_id": 166,
-		"character_name": "Lonnie Pandra",
-		"character_desc": "Meningsmåler fra Gallup."
-	},
-	{
-		"character_id": 167,
-		"character_name": "Louis the Liver",
-		"character_desc": ""
-	},
-	{
-		"character_id": 168,
-		"character_name": "Lucy",
-		"character_desc": "Ringer ind med et spørgsmål til Det Okkulte Hjørne."
-	},
-	{
-		"character_id": 169,
-		"character_name": "Lukas Pensacola",
-		"character_desc": ""
-	},
-	{
-		"character_id": 170,
-		"character_name": "Lusty Dave",
-		"character_desc": "Forsøger at lægge verdens største kabale."
-	},
-	{
-		"character_id": 171,
-		"character_name": "Lydias Tati",
-		"character_desc": "Nødhjælpsarbejder."
-	},
-	{
-		"character_id": 172,
-		"character_name": "Lydolf Milt",
-		"character_desc": "Forsker i nye stjernekonstallationer."
-	},
-	{
-		"character_id": 173,
-		"character_name": "Mathieu",
-		"character_desc": "Producer på programmet."
-	},
-	{
-		"character_id": 174,
-		"character_name": "Mad Asta",
-		"character_desc": "Mand, der altid fejler. Casper forsøger at opmuntre Asta med det faktum at han i det mindste er mødt rettidigt til dagens program, hvortil Asta svarer med dirrende stemme: \"Jeg har siddet her i 62 programmer!\""
-	},
-	{
-		"character_id": 175,
-		"character_name": "Mand fra Venezuela",
-		"character_desc": "Mand fra Venezuela der spiser af Caspers brødstok"
-	},
-	{
-		"character_id": 176,
-		"character_name": "Mandrillen",
-		"character_desc": "Figuren, der har lagt navn til programmet."
-	},
-	{
-		"character_id": 177,
-		"character_name": "Mandy Krus",
-		"character_desc": "Dukketeaterentusiast med uforklarlig stor kærlighed til kagecreme."
-	},
-	{
-		"character_id": 178,
-		"character_name": "Marius Caracas",
-		"character_desc": "Superracist."
-	},
-	{
-		"character_id": 179,
-		"character_name": "Mario Rwanda",
-		"character_desc": "Stenrig patenttager med kraftige tics. Han er blevet rig, fordi han har taget patent på forskellige ting, bl.a. ild, kogt vand og lys. Casper bliver vred på Mario over, at man skal betale for at have lys tændt, for at få varmet sine hænder og for at drikke en kop varm kakao. Casper siger derfor, at han vil slukke alt lys og sidde i sin egen lille luftlomme uden at drikke eller trække vejret, så han ikke skal betale afgifter. Mario fortæller dog at dette ikke kan lade sig gøre, da han også har patent på lommer."
-	},
-	{
-		"character_id": 180,
-		"character_name": "Massimo Blanco",
-		"character_desc": "Reb-artist."
-	},
-	{
-		"character_id": 181,
-		"character_name": "Maximillian Syfax",
-		"character_desc": "Brugtshowsforhandler. Syfax optrådte hen imod slutningen af 1. sæson, og han ville købe det studie Casper lavede optagelserne i, og derefter lave et nyt program, Skumsprøjt i søstjernen, beskrevet af Syfax som \"et erotisk sejlsportsmagasin\". Syfax var en rolle som blev introduceret for at imødegå den mulighed, at DR2 ikke ville forlænge Casper & Mandrilaftalen med yderligere en sæson. DR2 valgte i sidste ende at forlænge med yderligere en sæson. Det blev i programmet forklaret ved, at figuren Bjarne Goldbæk blev solgt til FCK, holdet som virkelighedens Bjarne Goldbæk i en del sæsoner spillede for, hvorefter Casper brugte salgssummen til at købe sig fri af sine økonomiske problemer."
-	},
-	{
-		"character_id": 182,
-		"character_name": "McGregor Möwenglut",
-		"character_desc": "Månedens medarbejder med et uudtaleligt fornavn -- samt programmets faste frottédekoratør, som modtager den ærefulde titel for sit arbejde med dette materiale.  Möwenglut har dog ikke lavet frottémodellen af Lohals, men har bestemt fortjent Mandrilplatten.\nCasper bliver dog hen mod slutningen af  interviewet gal på Möwenglut, da denne uforvarende udtværer mandrilplattens med tus påtegnede ansigt."
-	},
-	{
-		"character_id": 183,
-		"character_name": "Melissa",
-		"character_desc": "Børnepasser og mærkesnob."
-	},
-	{
-		"character_id": 184,
-		"character_name": "Mentos Thorsen",
-		"character_desc": "Lynsnar."
-	},
-	{
-		"character_id": 185,
-		"character_name": "Mester Thor",
-		"character_desc": "Imitator."
-	},
-	{
-		"character_id": 186,
-		"character_name": "Meyer",
-		"character_desc": "Figur i Huset på Christianshavn."
-	},
-	{
-		"character_id": 187,
-		"character_name": "Mogens Tube",
-		"character_desc": "Pælesidder."
-	},
-	{
-		"character_id": 188,
-		"character_name": "Mogens Volvo",
-		"character_desc": "Bruger af pendul-hårtørreren. Optræder i en reklame for samme produkt."
-	},
-	{
-		"character_id": 189,
-		"character_name": "Molle Bedstefik",
-		"character_desc": "Videnskabsmand."
-	},
-	{
-		"character_id": 190,
-		"character_name": "Mona Bandy",
-		"character_desc": "Overordentligt overtroisk."
-	},
-	{
-		"character_id": 191,
-		"character_name": "Morten Frost",
-		"character_desc": "Badmintonspiller."
-	},
-	{
-		"character_id": 192,
-		"character_name": "Mørke Ruddin",
-		"character_desc": "Lider af lysoverfølsomhed."
-	},
-	{
-		"character_id": 193,
-		"character_name": "Nadja",
-		"character_desc": ""
-	},
-	{
-		"character_id": 194,
-		"character_name": "Newton Dynamose",
-		"character_desc": "Ekspert i bogmærker. Han skulle eftersigende være en parodi på Niels Boch, som underviser på Marselisborg Gymnasium.[kilde mangler] Tore L. Hanhøj har også samme tics med at gentage \"shh\" konsekvent mens andre taler og ind mellem egne sætninger. Niels Boch har også lagt navn til Niels Buckingham i Langt fra Las Vegas.[kilde mangler]"
-	},
-	{
-		"character_id": 195,
-		"character_name": "Niels Esp",
-		"character_desc": "Stor fan af programmet, der har brugt 6-7 år på at bage en kage til værtsfiguren Casper som tak for udsendelserne. Blandt ingredienserne i kagen er bl.a. medlemmerne fra Kaos Krew, grisekød, rochefort og krymmel."
-	},
-	{
-		"character_id": 196,
-		"character_name": "Niller Sass Ungdom",
-		"character_desc": "Har lavet Nillers Plejehjem, som er et omrejsende plejehjem, som tager ud til byfester og karneval og lægger en dæmper på stemningen."
-	},
-	{
-		"character_id": 197,
-		"character_name": "Nonnie",
-		"character_desc": ""
-	},
-	{
-		"character_id": 198,
-		"character_name": "Norm",
-		"character_desc": "Norms hænder er blevet til hollandske træsko efter en gyserfilm, der omhandler flotte hænder, hvilket Casper morer sig meget med. Sketchen er også en af de eneste hvor Casper driller gæsten med hans problem."
-	},
-	{
-		"character_id": 199,
-		"character_name": "Olav Wretborn",
-		"character_desc": "Optræder med et dejligt stykke musik spillet på glas."
-	},
-	{
-		"character_id": 200,
-		"character_name": "Olrik Nælde",
-		"character_desc": "Verdens stærkeste klovn. Kalder sig selv Den lille clown."
-	},
-	{
-		"character_id": 201,
-		"character_name": "Olsen",
-		"character_desc": "Figur i Huset på Christianshavn."
-	},
-	{
-		"character_id": 202,
-		"character_name": "Otis Mallebrok",
-		"character_desc": "Temperaturforsker og Jes Dorph-Petersens læge. Mallebrok har de sidste 14 år foretaget temperaturmålinger på Jes dagligt klokken 17:46 og har kunnet konstatere, at han har en højere kropstemperatur end normalt, nemlig 80 °C. Temperaturmålingen måles ved at føre et orangaderør op i rektum på Jes og der er, ifølge Mallebrok, al grund til bekymring, især hvis man arbejder på TV2 på Kvægtorvet i Odense. Af andre patienter ramt af for høj kropstemperatur, kan Ulla Terkelsen nævnes, da hun i forbindelse med sit korrespondentarbejde rejser med frotté. Dette skaber så høj en friktion at Ulla er glohed. Jes Dorph-Petersens høje kropstemperatur skyldes, ifølge Otis Mallebrok, et alt for højt indtag af hveder og hans temperatur har i værste fald været oppe på 89 °C.[6]"
-	},
-	{
-		"character_id": 203,
-		"character_name": "Otis Rose",
-		"character_desc": "Jurist med et motto."
-	},
-	{
-		"character_id": 204,
-		"character_name": "Otto Leisner",
-		"character_desc": ""
-	},
-	{
-		"character_id": 205,
-		"character_name": "Papa Bue's Viking Jazz Band",
-		"character_desc": "Jazz band der spiller mens ilten langsomt suges ud af rummet"
-	},
-	{
-		"character_id": 206,
-		"character_name": "Papa Rhodos",
-		"character_desc": "Klunkespiller. Optræder med percussion-nummeret Ocean View."
-	},
-	{
-		"character_id": 207,
-		"character_name": "Pelle Klumpfeber",
-		"character_desc": "Regelbesat budbringer. Fremviser ofte ting han har lavet, herunder 'Regler til kinamanden' eller en liste med 'Janteloven møder de ti bud'. Han tager desuden ud på en ekspedition sammen med Gentleman Finn og Broder Salsa til Kina. Han har catchphrasen \"Kan du så forstå det Marianne!\""
-	},
-	{
-		"character_id": 208,
-		"character_name": "Pelle Stærkhylster og Elvira Bo",
-		"character_desc": "Stærkhylster og Bo er i studiet for at tale om fertilitetsbehandling i Niedersachen, da de ikke kan få ørn."
-	},
-	{
-		"character_id": 209,
-		"character_name": "Per de Burg",
-		"character_desc": "Lider af mangel på tidsfornemmelse. Han påstår blandt andet, at han har ristet brød i 32 år. Heldigvis havde børdet kun fået lige tilpas, og det var faktisk lækkert. Sketchen ender med, at Per De Burg bliver fornærmet da interviewet er færdigt. Han er utilfreds med kun at blive interviewet i 3 sekunder, når det har taget ham 40 år i taxa at komme ind til studiet."
-	},
-	{
-		"character_id": 210,
-		"character_name": "Pete, Poul og Mary",
-		"character_desc": "De tre læger, der hjalp ved værtsfiguren Caspers hustrus fødsel."
-	},
-	{
-		"character_id": 211,
-		"character_name": "Peter Schmeichel",
-		"character_desc": "Han har altid en ketcher med og siger hver gang at taktikken er at de går ind på banen og råber helt vildt. Til sidst indrømmer han at han ikke er Peter Schmeichel alligevel, hvorefter Casper ønsker ham en god kamp alligevel."
-	},
-	{
-		"character_id": 212,
-		"character_name": "Peter Winsey",
-		"character_desc": "Kronisk klakør; klapper af alt og alle, også selvom hans hænder bløder som følge deraf."
-	},
-	{
-		"character_id": 213,
-		"character_name": "Phil Rubberband",
-		"character_desc": "Vinder af kategorien Bedste peanut-jonglering ved MTV Awards."
-	},
-	{
-		"character_id": 214,
-		"character_name": "Plasma Amelung",
-		"character_desc": "Homomaskine-opfinder, politisk kommentator og religiøs fanatiker. Samtalen mellem Casper og Amelung i homomaskine-sketchen fra afsnit 46 blev kåret som Ugens samtale af tv-anmelder Henrik Palle.[kilde mangler]"
-	},
-	{
-		"character_id": 215,
-		"character_name": "Post & Post",
-		"character_desc": "Lumre postbode."
-	},
-	{
-		"character_id": 216,
-		"character_name": "Poul Hulahus",
-		"character_desc": "Trafikforsker."
-	},
-	{
-		"character_id": 217,
-		"character_name": "Poul Reichhardt",
-		"character_desc": "Syvmilevandrer."
-	},
-	{
-		"character_id": 218,
-		"character_name": "Preben Hmfff",
-		"character_desc": "Ejer Danmarks største samling af plastdyr."
-	},
-	{
-		"character_id": 219,
-		"character_name": "Rami & Edvard",
-		"character_desc": "To artister, der i mange år studeret japansk forsvarsfilosofi. Duoen optræder med kropsshowet Den sande historie om Arhu."
-	},
-	{
-		"character_id": 220,
-		"character_name": "Regil & Sydorf",
-		"character_desc": "Kropsekvilibrister. Optræder med nummeret Moppedansen."
-	},
-	{
-		"character_id": 221,
-		"character_name": "Rektum",
-		"character_desc": ""
-	},
-	{
-		"character_id": 222,
-		"character_name": "Renato Offset",
-		"character_desc": "Brandvarm fornyer af det moderne teater."
-	},
-	{
-		"character_id": 223,
-		"character_name": "Rene d'Seance",
-		"character_desc": "Verdens mægtigste mand."
-	},
-	{
-		"character_id": 224,
-		"character_name": "Rico",
-		"character_desc": "Cowboyder."
-	},
-	{
-		"character_id": 225,
-		"character_name": "Rod Stewart",
-		"character_desc": ""
-	},
-	{
-		"character_id": 226,
-		"character_name": "Roar og Jes",
-		"character_desc": "Tore Ellen Hanhøjs to hjælpere."
-	},
-	{
-		"character_id": 227,
-		"character_name": "Rueben Skimmel Paradesh",
-		"character_desc": "Producer og hjernen bag Safir & Granat."
-	},
-	{
-		"character_id": 228,
-		"character_name": "Rulle og Cromwell",
-		"character_desc": "Brødre og jægere. Går på andejagt med en atomaccelerator der har kostet én milliard. Den har dog snart tjent sig selv ind, mener de selv. Ved tilberedning af Anden, turbuleres denne i et bildæk, for at skabe en meget forvirret and, og for at forvirringen kan trække ud i kødet. Derefter dupper Cromwell den med en hårtørrer, i den tid det tager Rulle at køre fra København til Flensborg."
-	},
-	{
-		"character_id": 229,
-		"character_name": "Rusty Mandolini",
-		"character_desc": "En homoseksuel krigsveteran fra Den Spanske Borgerkrig og pacifist. Casper spørger til krigens rædsler, men Rusty er overbevist om, at det var de homoseksuelle, og særligt ham selv, som havde det værst under krigen. Han beretter, at det, under krigen, var ganske umuligt at skaffe Dax Wax og andre hårplejeprodukter, at han aldrig sov mere end 5-6 timer om natten og at han var frygteligt stresset pga. at han bl.a. tabte curlere i mudderet. Casper forstår ikke at Rusty forkuserer så meget på sig selv i stedet for at se krigens lidelser i det store hele, men Rusty begrunder det med at Casper ikke forstår ham, fordi Casper er så \"ung og heteroseksuel\". Rusty begrunder endvidere sine lidelser i at \"der var negle der knækkede, der var homo-kærester der deserterede\" og at han var en af de få som blev tisset i hovedet af Ernest Hemingway."
-	},
-	{
-		"character_id": 230,
-		"character_name": "Safir & Granat",
-		"character_desc": "Drenge danceband."
-	},
-	{
-		"character_id": 231,
-		"character_name": "Sailor",
-		"character_desc": "Verdens smukkeste mand."
-	},
-	{
-		"character_id": 232,
-		"character_name": "Saltefanden",
-		"character_desc": "Salter ældre menneskers sovs mens de sover. Casper vil en overgang gerne hjælpe Saltefanden, men Saltefandens forslag om at Casper skulle gifte sig med 900 salte kvinder og give Saltefanden pengene, ansporer Casper om at der nok er noget galt. Helt galt bliver det ved forslaget om at Casper skal salte folk ombord på fly, og ganske afvisende bliver Casper når Saltefandne vil have ham til at modatge sit nye navn \"Dagens Donna\", hvilket trods alt var for underligt. (End da for Casper, som har slået en Los ihjel med et sværd fordi den kørte hans bus)."
-	},
-	{
-		"character_id": 233,
-		"character_name": "Satan",
-		"character_desc": "Satan selv. Casper får lyst til at takke den person, der har givet ham succes, guld og rigdom -- så han inviterer Satan i studiet.\nDet viser sig at Casper har fået sin succes ved at give det første der løb ham i møde, da han kom hjem, til Satan. Det første han mødte var en polohest. \"...en meget gammel og ækel polohest!\" -- og derfor forlanger Satan nu yderligere betaling for sit arbejde.\nDet ender med at Casper og Satan afgør det i en heftig violin-battle, hvor de jammer over 'The Devil Went Down To Georgia' af The Charlie Daniel Band, hvor Casper vinder stort."
-	},
-	{
-		"character_id": 234,
-		"character_name": "Satire John",
-		"character_desc": "Satiriker. Inspirationen til Satire John kom fra Hvams antipati for det, han kalder \"rygmarvssatire\".[5] Ifølge Hvam er rygmarvssatire den form for humor, der får publikum til at læne sig behageligt tilbage og tænke: \"Jamen I har jo ret!\": \"Korrekte holdninger fører ikke til noget, vi ikke ved i forvejen. Vi kan ikke lide nazister, men hvad nyt er der i det? Den form for dinosauersatire ser vi alt for tit på dansk tv.\"[5]"
-	},
-	{
-		"character_id": 235,
-		"character_name": "Scottie",
-		"character_desc": "Scottie arbejder i nabostudiet, hvor han er vært på programmet Føn Heaven. Her tørrer han hår på de kendte, bl.a. Lene Espersen, som fik ordnet sit hår med en høvl."
-	},
-	{
-		"character_id": 236,
-		"character_name": "Skafte Sergio Münster",
-		"character_desc": "Dygtig med sin krop. Hans varmærke er at holde ting med hagen. Har optrådt ved et stort Åbent hus-arrangement på Nationalmuseet."
-	},
-	{
-		"character_id": 237,
-		"character_name": "Siam",
-		"character_desc": "Tekniker på programmet."
-	},
-	{
-		"character_id": 238,
-		"character_name": "Sidney Kreutzfeldt",
-		"character_desc": "Fantasiens mester. Viser Casper hvordan man laver impro-teater, hvor han \"kiiiigger på blomsterne\"."
-	},
-	{
-		"character_id": 239,
-		"character_name": "Silas Gnom",
-		"character_desc": "Programmets hustegner. Gnom er blevet kendt for sine komiske striber om de to tændstiksmænd \"Skam og Skule\", og afslutter næsten altid striberne med sætningen: \"Giv mig min sko tilbage, røv!\""
-	},
-	{
-		"character_id": 240,
-		"character_name": "Simba",
-		"character_desc": "Simba medvirker i sketchen Guideskolen: Den Nye Generation og leverer citater som \"permaprinter\", \"absolut halogen\" og de legendariske \"Dizzy Mizz Lizzy fun\". Simba minder en del om Guideskolens Jimbo."
-	},
-	{
-		"character_id": 241,
-		"character_name": "Simon Le Bon",
-		"character_desc": ""
-	},
-	{
-		"character_id": 242,
-		"character_name": "Siddhartha Colombus",
-		"character_desc": ""
-	},
-	{
-		"character_id": 243,
-		"character_name": "Sixten Bo Maneater",
-		"character_desc": "Multikunstner."
-	},
-	{
-		"character_id": 244,
-		"character_name": "Sixten Sparre",
-		"character_desc": "Smaskforelsket kollektiv sølvske(-selv-)morder. Slog sin elskerinde ihjel som del af et kollektivt selvmord. Blev imidlertid meget træt af myderiet, og ganske for udmattet til at tage sig selv af dage efterfølgende."
-	},
-	{
-		"character_id": 245,
-		"character_name": "Smokey Spartacus",
-		"character_desc": "Programmets orakel. Han svarer bl.a. på hvordan man transporterer druer og hvorfor cajun-mad er forbudt på havbunden. Han bor desuden i et lyserødt badekar."
-	},
-	{
-		"character_id": 246,
-		"character_name": "Speedy Gregers",
-		"character_desc": "Nanny."
-	},
-	{
-		"character_id": 247,
-		"character_name": "Spend Abazi",
-		"character_desc": "Skyggebokser."
-	},
-	{
-		"character_id": 248,
-		"character_name": "Steen Bostrup-flutene",
-		"character_desc": "Flutes."
-	},
-	{
-		"character_id": 249,
-		"character_name": "Stickan Plint Persson",
-		"character_desc": "Stigan Plint Persson er svensker og formand for firmaet 'Clevin Postordre'. Han solgte engang et porno reliæf i 3D til Casper. Casper er dog ikke tilfreds med varen og inviterer derfor Stigan i studiet for at diskutere Stigans forretningsmetoder."
-	},
-	{
-		"character_id": 250,
-		"character_name": "Storbybasserne",
-		"character_desc": "Soldaterne Fjotte, Kok, Løjtnant Pjock og Unavngiven soldat fra serien ."
-	},
-	{
-		"character_id": 251,
-		"character_name": "Sune",
-		"character_desc": "En af værtsfiguren Caspers gamle skolekammerater."
-	},
-	{
-		"character_id": 252,
-		"character_name": "Susse Wold",
-		"character_desc": "Den altoverskyggende hovedrolle i føljetonen Skøjtearven."
-	},
-	{
-		"character_id": 253,
-		"character_name": "Svenne O'Lotta",
-		"character_desc": "Rekordmager og danskvandselsker. Forsøger at slå talrige rekorder men gennemfører ingen af dem. Kan i en svæver vending drikke tonic."
-	},
-	{
-		"character_id": 254,
-		"character_name": "Sylik Mettesen",
-		"character_desc": "Sprogforsker."
-	},
-	{
-		"character_id": 255,
-		"character_name": "Sølver Austin",
-		"character_desc": "Foredragsholder om racisme hen over Biker-Jens' krop."
-	},
-	{
-		"character_id": 256,
-		"character_name": "Tage Nallan og Kjeld",
-		"character_desc": "Den spanienskyndige Tage Nallan og den mentalt ustabile Kjeld."
-	},
-	{
-		"character_id": 257,
-		"character_name": "Tanja",
-		"character_desc": "Gør-det-selv-mand. Første gang, han optræder i Mandrilaftalen, ser man, at han har ankler af porrer, og anden gang han optræder, er de lavet af majskolber."
-	},
-	{
-		"character_id": 258,
-		"character_name": "Tarp-ekspeditionen",
-		"character_desc": "Meget formælte opdagelsesrejsende. Forsøgte for år tilbage at bevise, at Lotte Tarp er landfast med Cypern, deraf navnet. Har nu forsøgt at tilbagelægge den selvsamme rute i Indien, som Gandhi gik. Dog denne gang med en kælk, men de måtte opgivende vende hjem igen, da de havde glemt kælken."
-	},
-	{
-		"character_id": 259,
-		"character_name": "Teatergruppe fra Odense",
-		"character_desc": "Teatergruppe bestående af tre medlemmer med hold i nakken. I et forsøg på at bevise, at man sagtens kan lave teater med hold i nakken, har de slået sig sammen for at opføre teaterstykket Olsen-banden på panodil."
-	},
-	{
-		"character_id": 260,
-		"character_name": "Terkel",
-		"character_desc": ""
-	},
-	{
-		"character_id": 261,
-		"character_name": "Terkel Algevind",
-		"character_desc": "Tidligere voldsmand, der er frossen fra navlen og ned, eftersom han er blevet dømt til at sidde i en kummefryser resten af sit liv."
-	},
-	{
-		"character_id": 262,
-		"character_name": "Terkel Pappadums Bhopal",
-		"character_desc": "Revydirektør."
-	},
-	{
-		"character_id": 263,
-		"character_name": "Theis Günther Harboe",
-		"character_desc": "Filmanmelder. Tildeler hverken bowlerhatte eller stjerner, men op til 9 000 birkes."
-	},
-	{
-		"character_id": 264,
-		"character_name": "Thomas Kammeruhrdistrikt",
-		"character_desc": "Bogstempler."
-	},
-	{
-		"character_id": 265,
-		"character_name": "Tor Ralle",
-		"character_desc": "Tekniker på programmet. De døde taler gennem ham."
-	},
-	{
-		"character_id": 266,
-		"character_name": "Thøger Messias Vorte",
-		"character_desc": "Selvforsynende."
-	},
-	{
-		"character_id": 267,
-		"character_name": "Tim Stanniole",
-		"character_desc": "Handicappet; stum og lam."
-	},
-	{
-		"character_id": 268,
-		"character_name": "Tiramisu Sommerset & Ven",
-		"character_desc": "Kropsekspert med assistent."
-	},
-	{
-		"character_id": 269,
-		"character_name": "Tissmageren",
-		"character_desc": "Smager på tis i programmet Tissmagning. Han bliver undervejs i smagningen chokeret over, at tis og urin er det samme."
-	},
-	{
-		"character_id": 270,
-		"character_name": "Tjalfe Summersun",
-		"character_desc": "Uhygiejnisk bagersvend og hospitalsarbejder."
-	},
-	{
-		"character_id": 271,
-		"character_name": "Tom Knickers",
-		"character_desc": "Idrætsforsker."
-	},
-	{
-		"character_id": 272,
-		"character_name": "Tommy Dvælsmark",
-		"character_desc": "Opfinder, der aldrig farer vild."
-	},
-	{
-		"character_id": 273,
-		"character_name": "Tonny Subaru",
-		"character_desc": "I stand til at levere fremragende scorereplikker. Suparuhs motto er \"Opmærksomhed, opmærksomhed, opmærksomhed, opmærksomhed.\""
-	},
-	{
-		"character_id": 274,
-		"character_name": "Tony Curtis",
-		"character_desc": "Sidsteelsker."
-	},
-	{
-		"character_id": 275,
-		"character_name": "Torben",
-		"character_desc": ""
-	},
-	{
-		"character_id": 276,
-		"character_name": "Tore Ellen Hanhøj",
-		"character_desc": "Sportsmunk. Viser Casper hvordan man hepper på sportsstjerner, samt hvordan brydning intet har med sex at gøre. Dette gør han med hans sportselever Roar og Jes. Han er nok mest kendt for at han ubevist tysser på folk, selv når han selv snakker."
-	},
-	{
-		"character_id": 277,
-		"character_name": "Torsten",
-		"character_desc": ""
-	},
-	{
-		"character_id": 278,
-		"character_name": "Trommedanser",
-		"character_desc": "Laver en udtømningsdans."
-	},
-	{
-		"character_id": 279,
-		"character_name": "Tronhjem",
-		"character_desc": "Anonym."
-	},
-	{
-		"character_id": 280,
-		"character_name": "Tue Olivier",
-		"character_desc": "Fodboldgal."
-	},
-	{
-		"character_id": 281,
-		"character_name": "Tut van der Elsevier",
-		"character_desc": "Egyptisk tusindkunstner. Optræder med nummeret Soft Silk Dance."
-	},
-	{
-		"character_id": 282,
-		"character_name": "Udo Kielbasa",
-		"character_desc": "Aparte krop."
-	},
-	{
-		"character_id": 283,
-		"character_name": "Ulson Kahlbøgen",
-		"character_desc": "Den kunstner i verden, der kan mindst."
-	},
-	{
-		"character_id": 284,
-		"character_name": "Urban Skurk",
-		"character_desc": "Eventmager."
-	},
-	{
-		"character_id": 285,
-		"character_name": "Vagn Jay-jay",
-		"character_desc": "Caspers gamle klasselærer."
-	},
-	{
-		"character_id": 286,
-		"character_name": "Vagtmesteren",
-		"character_desc": "Balance-fænomen."
-	},
-	{
-		"character_id": 287,
-		"character_name": "Vandrende pind",
-		"character_desc": "Europas sidste vandrende pind."
-	},
-	{
-		"character_id": 288,
-		"character_name": "Verner Lohals",
-		"character_desc": "Specialist i at holde dyr i live. Han har genoplivet sine dyr, Jungle-Ras og Peder Dingo, flere gange."
-	},
-	{
-		"character_id": 289,
-		"character_name": "Vienna",
-		"character_desc": "Akustiker."
-	},
-	{
-		"character_id": 290,
-		"character_name": "Vildere klovn!",
-		"character_desc": ""
-	},
-	{
-		"character_id": 291,
-		"character_name": "Virtus Bjældeklemme",
-		"character_desc": "Møbelbryder."
-	},
-	{
-		"character_id": 292,
-		"character_name": "Voksen Lars & Snøflen",
-		"character_desc": "Studieværter fra 1970'erne."
-	},
-	{
-		"character_id": 293,
-		"character_name": "Vuelta con carne",
-		"character_desc": "Dansetrup, der optræder med \"Jeg skal skide en kande sangria\"-dansen."
-	},
-	{
-		"character_id": 294,
-		"character_name": "Wandy Thyskæg",
-		"character_desc": "Pestpatient med stærk dialekt og armene over hovedet, da det er dér pesten sidder og trækker. Er utilfreds med sundhedssystemets indsats i forbindelse med hans behandling, da; \"...man har fået en pille... kun!\""
-	},
-	{
-		"character_id": 295,
-		"character_name": "Wesley Snipes",
-		"character_desc": "Han er bl.a. inde for at fortælle som sin rolle i \"Blade\", eller på dansk \"Negervampyren\". Han er helt vild med Rene Dif, som han siger er skide sød og rig. Han underviser young black educated people fra community college i at de skal skyde lerduer, fordi Rene Dif er bange for dem. Han ejer en husbåd men planlægger at indtægten fra \"Negervampyren\" skal bruges på endnu en husbåd, så han kan hoppe fra husbåd til husbåd."
-	},
-	{
-		"character_id": 296,
-		"character_name": "Wilfred Baal",
-		"character_desc": "Masai."
-	},
-	{
-		"character_id": 297,
-		"character_name": "Yannik Noah",
-		"character_desc": ""
-	},
-	{
-		"character_id": 298,
-		"character_name": "Yussuf Åbenhat",
-		"character_desc": "Valgobservatør og ham med rulletekst-båndet."
-	},
-	{
-		"character_id": 299,
-		"character_name": "Yngwie Malmsteen",
-		"character_desc": "Utilfreds seer."
-	},
-	{
-		"character_id": 300,
-		"character_name": "Ånden i vasken",
-		"character_desc": "Ånden i vasken har 1100 stykker krymmel med smag. Viser sig senere at være Smokey Spartacus."
-	}
+  { "character_name": "Abraham Mamrelund", "character_desc": "Starfucker." },
+  {
+    "character_name": "Adolf Honning\u00e5nde og Kuntakinte Eriksen",
+    "character_desc": "To genstridige naboer."
+  },
+  {
+    "character_name": "Alf Bat",
+    "character_desc": "Kedelbruger med hang til hyng."
+  },
+  {
+    "character_name": "Alfonso Trendy",
+    "character_desc": "Har glemt, hvorfor han er kommet i studiet. Trendy bes\u00f8ger Casper i studiet over flere omgange. I hans f\u00f8rste medvirken har b\u00e5de Casper og Alfonso glemt hvorfor Casper havde inviteret ham. De pr\u00f8ver i f\u00e6llesskab, at komme frem til et svar og finde ud af hvad det er Alfonso kan, vil g\u00f8re eller har gjort. De diskuterer om det er fordi han har sprunget i faldsk\u00e6rm, udgivet en plade eller om det m\u00e5ske er fordi han kan lave plastic om til guld. Dog er ingen af disse ting det som Alfonso kom i studiet for. Fjorten dage efter har Casper igen inviteret Alfonso i og med, at Casper og Alfonso nu er kommet i tanker om, at Alfonso er kommet for at fort\u00e6lle om hans rejseoplevelser. Men Alfonso har glemt hvor det var han var rejst hen efter, at han var blevet tr\u00e6t af det danske vejr. Casper og Alfonso diskuterer derefter om det kunne v\u00e6re hans tur til Thailand, M\u00e5nen eller Gr\u00e6kenland. Eller om han har v\u00e6ret i Silkeborg eller Indonesien blandt andre. De finder denne gang frem til, at det er Alfonsos tur til Tasmanien, men det viser sig s\u00e5, at det heller ikke var det emne han var kommet for at snakke om."
+  },
+  {
+    "character_name": "Alfred Balle",
+    "character_desc": "P\u00e6dagog, dyrepsykolog og forfatter til lydbogen \"Jeg ved hvad du t\u00e6nker, hund\". Alfred fort\u00e6ller om og viser nye metoder til at dressere dyr. Bl.a. kan man vinde dyrs tillid ved at gnide sin underarm og albue mod dyrets forhoved. N\u00e5r dyret skal t\u00e6mmes, skal man give det ordrer nedefra, f.eks. ved at man l\u00e6gger sig under dyret og r\u00e5ber ordrer op imod dets bug og hage. Alfred fort\u00e6ller desuden at krokodiller er blinde og derfor m\u00e5 finde vej ved at sp\u00f8rge isfugle til r\u00e5ds."
+  },
+  {
+    "character_name": "Ali Baba",
+    "character_desc": "Lektor ved K\u00f8benhavns Hovedbaneg\u00e5rd. Da Casper bliver bestr\u00e5let med uran kurerer Ali Casper ved at f\u00e5 ham til at kigge p\u00e5 et l\u00f8g."
+  },
+  { "character_name": "Amant Krill", "character_desc": "Ekspert i sommertid." },
+  {
+    "character_name": "Anne Linnet",
+    "character_desc": "Sangerinde og komponist p\u00e5 turn\u00e9."
+  },
+  { "character_name": "Apple Jack", "character_desc": "Meteorolog." },
+  {
+    "character_name": "Arild og Abel",
+    "character_desc": "Siamesiske tvillinger."
+  },
+  { "character_name": "Arne Hannover", "character_desc": "Skumgummimand." },
+  {
+    "character_name": "Beelzebub Komseda",
+    "character_desc": "Skaberen af datingfirmaet Smykkeskrinet og forhenv\u00e6rende langtursgaffeltrucker."
+  },
+  {
+    "character_name": "Bent Tonse",
+    "character_desc": "Mandrilseer nummer 1 milliard. Han kommer i studiet for at blive overrakt en kurv. Bent er ikke tilfreds med kurvens indhold, da han f\u00e5r at vide, at der i kurven mangler en paphjort. Bent Tonse siger, at han er blevet lovet en komplet kurv og mener ikke, at det batteri som Casper har lagt i kurven i stedet for paphjorten kan g\u00f8re det. Bent Tonse kr\u00e6ver erstatning og vil have en bil i stedet. Bent bliver mere og mere vred p\u00e5 Casper og vil ikke forlade studiet og kr\u00e6ver konstant mere og mere erstatning fra Casper."
+  },
+  { "character_name": "Bitten & Trold", "character_desc": "Teaterduo." },
+  {
+    "character_name": "Bjarne Goldb\u00e6k",
+    "character_desc": "Hovedpersonen i sagaen om Bjarne Goldb\u00e6k. Bjarne Goldb\u00e6k deler navn med virkelighedens Bjarne Goldb\u00e6k, en professionel fodboldspiller, men er i \u00f8vrigt slet ikke inspireret af denne. Goldb\u00e6k optr\u00e6der f\u00f8rste gang som v\u00e6rtsvikar for Casper Christensen, der i et afsnit martres af ikke at have samme lunhed som Finn N\u00f8rbygaard i et omfang, s\u00e5 han forlader sin plads ved v\u00e6rts-skrivebordet."
+  },
+  { "character_name": "Bj\u00f8rn Thuesen", "character_desc": "H\u00e5nd." },
+  { "character_name": "Bobby Palt", "character_desc": "Adoptivfar." },
+  { "character_name": "Bobotis Bombastic", "character_desc": "Hustroubadour." },
+  {
+    "character_name": "Borger Louie",
+    "character_desc": "Bordd\u00e6kker med speciale i servietfoldning."
+  },
+  {
+    "character_name": "Boris",
+    "character_desc": "Teenager i ungdomsserien Frisbee"
+  },
+  {
+    "character_name": "Bosse Johansson",
+    "character_desc": "Landstr\u00e6ner for Danmarks herre-fodboldlandshold."
+  },
+  {
+    "character_name": "Brad Moonsen",
+    "character_desc": "Fantastisk til at arbejde med farver. Optr\u00e6der med nummeret Lego Fugt."
+  },
+  {
+    "character_name": "Broder Salsa",
+    "character_desc": "Voldt\u00e6gtsmand og t\u00e6ppefolder. Broder Salsa er en af de f\u00e5 mennesker, der var sexturist p\u00e5 Nordpolen. Dette er han fordi han er en af de f\u00e5 mennesker, som t\u00e6nder p\u00e5 ting der er magnetiske. Blev sat i f\u00e6ngsel for at skampule en vejrhane fordi den pegede mod nord. Det var en h\u00e5rd tid, og s\u00e5 valgte Salsa s\u00e5 at danne sit eget landskab af Musli! K\u00f8benhavn er Kokos. Derudover har han ogs\u00e5 besk\u00e6ftiget sig med foldning af t\u00e6pper som statsm\u00e6nd og foldning af snor som racer. Han plejer oftest at slutte af med at knipse f\u00f8r han g\u00e5r."
+  },
+  {
+    "character_name": "Buffalo Shirt Pony-pony Margenititit",
+    "character_desc": "Tidligere bokser med begge f\u00f8dder forrest, der senere blev Den ut\u00f8mmelige twister - et dansende kanonslag af en fr\u00e6kkert. Han er i stand til at danse med et levende egern p\u00e5 brystet."
+  },
+  { "character_name": "Burrito Snille", "character_desc": "Dietist." },
+  {
+    "character_name": "B\u00f8lle Bob",
+    "character_desc": "Han er sjov, og han er grov."
+  },
+  {
+    "character_name": "B\u00f8llemis",
+    "character_desc": "Deltager i Million\u00e6rquizzen."
+  },
+  {
+    "character_name": "Casey og J\u00fcrgen Klins",
+    "character_desc": "Dansetrup fra Tyskland, der oplevede Murens fald."
+  },
+  {
+    "character_name": "Casper",
+    "character_desc": "Programmets v\u00e6rt.  Figuren udspringer fra - og spilles af - virkelighedens Casper Christensen."
+  },
+  { "character_name": "Chris Super-diarrhea", "character_desc": "" },
+  {
+    "character_name": "Chuck Tennyson & China Pete",
+    "character_desc": "J\u00e6gersoldater og joviale mordere. Tennyson og Pete g\u00e6ster programmet for at fort\u00e6lle om deres oplevelser fra deres tid i j\u00e6gerkorpset, samt hvordan man sikrer tryghed hos mordofre umiddelbart f\u00f8r de myrdes."
+  },
+  {
+    "character_name": "Kjartan Johnnysdottir",
+    "character_desc": "Momsspekulant i mejeriprodukter."
+  },
+  {
+    "character_name": "Cillas Wik Wik",
+    "character_desc": "Slanget\u00e6mmer."
+  },
+  {
+    "character_name": "Claes (Jens) Jakob Baumspielser",
+    "character_desc": "Bilforhandler og komponist. G\u00e5r under navnene Claes (afsnit 3 og 4) og Jens (afsnit 44).\nKomponerede kendingsmelodien fra \"Her er London\". Det tog ham og 60 mand, et sted imellem 12 sekunder og 4 \u00e5r, at f\u00e6rdigg\u00f8re melodien. Usikkerheden skyldes at han ogs\u00e5 har v\u00e6ret meget syg."
+  },
+  {
+    "character_name": "Claes Gynhjalter",
+    "character_desc": "Formand for organisationen Dyrenes Hven og kommer selv fra Hven. Han taler for bedre transportforhold til slagtebier. Han erkender afslutningsvist, at han er \"skingrende sindssyg\"."
+  },
+  {
+    "character_name": "Claudius Mendelssohn",
+    "character_desc": "Ben\u00e6gter alt."
+  },
+  {
+    "character_name": "Clausen",
+    "character_desc": "Figur i Huset p\u00e5 Christianshavn."
+  },
+  {
+    "character_name": "Conan Lurbakke",
+    "character_desc": "Conan Lurbakke er en handicappet mand, som g\u00e6ster programmet. Conans handicapp ligger i, at han overhovedet ikke er i stand til at huske noget som helst. Casper er n\u00f8dt til at g\u00e5 ud bag kulisserne for at f\u00e5 hjulpet Conan ind i studiet, fordi Conan ikke selv ved, hvor han er, og hvor han skal hen. Faktisk ved han ikke engang, om han er Conan Lurbakke. Conan fors\u00f8ger at komme overens med sit handicap ved at s\u00e6tte noter p\u00e5 sig selv og andre. P\u00e5 nogle af Conans mange noter st\u00e5r blandt andet \"Niels er din bedste ven\", \"3 \u00e5r i morgen\" og \"Afghansk Andenpr\u00e6mie\". Inspirationen til navnet Conan kom fra den fiktive karakter Conan the Barbarian, og fordi Casper Christensen syntes, at navnet var sjovt.[1] Christensen har n\u00e6vnt, at navnet ogs\u00e5 havde optr\u00e5dt i et nyt\u00e5rsshow, som han lavede med Jan Gintberg, hvor en person med navnet Conan vandt i MandagsChancen.[1]"
+  },
+  {
+    "character_name": "Cornelius Heinesen",
+    "character_desc": "Viser, hvordan man g\u00f8r en cykel for\u00e5rsklar."
+  },
+  {
+    "character_name": "Dadadaah",
+    "character_desc": "Lider af pr\u00e6stationsangst."
+  },
+  {
+    "character_name": "David Hasselhof",
+    "character_desc": "David Hasselhof er rock and roll revisor for mange af de store danske kunstnere. Han har det meste af Henning St\u00e6rk og en lille smule af Don Johnson som kunder. Han deltager i et interview hvor han kommer med tips og tricks til hvordan den almindelige dansker kan spare penge. Et eksempel er, hvis man k\u00f8ber guldstrenge til sin steel guitar, kan man tr\u00e6kke 30 kroner fra for hvert kilo man vejer mere end Jes Dorph Petersen.[2]"
+  },
+  {
+    "character_name": "David Millentake",
+    "character_desc": "T\u00f8jgartner."
+  },
+  { "character_name": "Det nye Linie 3", "character_desc": "Det nye Linie 3." },
+  {
+    "character_name": "Dennie Kennels",
+    "character_desc": "Charcuterie-entertainer."
+  },
+  {
+    "character_name": "Dennis Pelvis",
+    "character_desc": "Frankrigsekspert og royalist, der g\u00e6ster programmet med den opfattelse at han er blevet inviteret ind for at tale om vine. Imidlertid mener Casper at det er meget vigtigere at f\u00e5 en forklaring p\u00e5 hvorfor Prins Henrik er if\u00f8rt nylonstr\u00f8mper til en barned\u00e5b."
+  },
+  {
+    "character_name": "De tres tenorer",
+    "character_desc": "Casper har ved et lykketr\u00e6f truffet aftale med De Tres Tenorer, der vil g\u00e6ste studiet for at synge temaet fra \"Dick Turpin -- den gode landevejsridder\".\nImidlertid udebliver 59 tenorer fra arrangementet, som den eneste fremm\u00f8dte tenor forklarer: \"De-\u00f8h... Sidder fast i trafikken. S\u00e5 er der ogs\u00e5 nogle, der er hjemme hos Otto Brandenb[o]rg!\""
+  },
+  {
+    "character_name": "De tre vise strandsten",
+    "character_desc": "Tre vise strandsten. Jeffersen, Dylan og Sir Henry/Ivanhoe. De har r\u00f8get hashish."
+  },
+  {
+    "character_name": "Didrik Amundsen",
+    "character_desc": "34-\u00e5rig quizdeltager i quizzen \"Klar, Parat, Spar!\", hvor det g\u00e6lder om at skjule 25-\u00f8rer i forskellige kropsfolder. Amundsen er medlem af S\u00f8ren Kasters fanklub, som er en fanklub best\u00e5ende af pr\u00e6cis 19 millioner (inklusiv alfer). Han er fra R\u00f8nne og n\u00e5r han ikke kapper hovedet af vaneforbrydere, bruger han sin fritid p\u00e5 at blende rodfrugter eller p\u00e5 at redigere og udgive sine egne religi\u00f8se pamfletter. [3]"
+  },
+  {
+    "character_name": "Didrik Motocross",
+    "character_desc": "Opvokset i et d\u00f8vekollektiv."
+  },
+  {
+    "character_name": "Dieter Ponyhof",
+    "character_desc": "Ber\u00f8mt tysk komiker. Optr\u00e6der med nummeret Nazi Stuhl."
+  },
+  {
+    "character_name": "Dino Stram",
+    "character_desc": "Dino Stram bes\u00f8ger Casper i alt to gange. F\u00f8rste gang Dino Stram er i studiet er det fordi barn nr. seks milliard blev f\u00f8dt dagen f\u00f8r. Dino er nemlig selv barn nr. fem milliard. Dino fort\u00e6ller Casper hvordan Dinos mor k\u00e6mpede for, at Dino skulle f\u00e5 \u00e6ren af at v\u00e6re barn nr. fem milliard og at hun blandt andet var dr\u00e6gtig i to \u00e5r. Da Casper sp\u00f8rger indtil hvad det har gjort for Dino svarer han, at det har hjulpet ham med at f\u00e5 fisse. Dino bes\u00f8ger senere programmet igen, da det viser sig, at han slet ikke er barn nr. fem milliard, men barn nr. hundrede tusinde og denne gang fort\u00e6ller Dino, at han er med i Shu-Bi-Dua."
+  },
+  { "character_name": "Djernis Halland", "character_desc": "Venlig opfinder." },
+  {
+    "character_name": "Doktor Metcalfe",
+    "character_desc": "Mandrillens husl\u00e6ge, der altid kommer l\u00f8bende med h\u00e6nderne fulde af rekvisitter og  konstant refererer den kontemporere tv-serie \"Taxa\".\nDr. Metcalfe kurerer Casper med bi-r\u00f8g og en \"lille d\u00e5se tun\". Sidstn\u00e6vnte menes ogs\u00e5, ved gnidning, at kunne kurere Bjarne Goldb\u00e6k for dennes morderiske tendenser, \nSom ekspertvidne i sagen Christensten v. Goldb\u00e6k, medbringer han \"Sandhedskiwien\", som tvinger den, der holder den, til at tale sandhed. Det r\u00f8bes, at han bl.a. er kvaksalver og impotent i store forsamlinger. \nHan g\u00e5r ogs\u00e5 under navnet Pepe."
+  },
+  {
+    "character_name": "Dommer Keith",
+    "character_desc": "Dommer i retssagen Casper Christensen mod Bjarne Goldb\u00e6k."
+  },
+  {
+    "character_name": "Donnerdanserne",
+    "character_desc": "Medvirker i et klip fra deres ops\u00e6tning af tv-musicalen Fame."
+  },
+  {
+    "character_name": "Drengen Ortmann",
+    "character_desc": "Inkompetent linedanser og klovn. Ut\u00e5lmodig i forbindelse med at opn\u00e5 Christensens anerkendelse af sine evner som entertainer. Ortmann har tydeligvis ikke \u00f8vet sig p\u00e5 sine numre; han g\u00e5r p\u00e5 sjippetov lagt p\u00e5 gulvet, og bruger t\u00f8rkage i stedet for fl\u00f8deskum i sin komik."
+  },
+  {
+    "character_name": "Dubas Kreutz Delmenhorst",
+    "character_desc": "Elastikmand."
+  },
+  {
+    "character_name": "D\u00e5sen Allan",
+    "character_desc": "Talende l\u00f8g. Casper inviterer ham i studiet for at lave indslag til de b\u00f8rn, der m\u00e5tte se med. Som regel ender det med, at han fort\u00e6ller lidt om, at nogen eller noget skal \"skides i munden\". Inspirationen til figuren kom fra Casper Christensens folkeskole\u00e5r.[4] Christensen havde en klassekammerat ved navn Allan, hvis mor altid tiltalte ham \"lille Allan!\", n\u00e5r hun sk\u00e6ldte ham ud.[4]"
+  },
+  {
+    "character_name": "Ebbe Karlmeyers (og unavngiven figur)",
+    "character_desc": "Skyggespiloptr\u00e6der der har lavet det pragtfulde skyggespil \"Fyldt eller forladt\""
+  },
+  { "character_name": "Ebenezer Kvasthval", "character_desc": "Genert model." },
+  {
+    "character_name": "Edgar",
+    "character_desc": "Mandrilstudiets varmemester. H\u00e6nger p\u00e5 skulderen af Christensen og gennemg\u00e5r varmeanl\u00e6ggets funktionalitet: En blok kokkepigepalmin presses gennem et album-cover fra det irske band Boyzone. Edgar forklarer at denne proces skaber friktionsvarme, der opvarmer studiet. H\u00e6vder ogs\u00e5 at have trukket Bilka igennem Boyzone ved en tidligere lejlighed."
+  },
+  {
+    "character_name": "Eduardo Havanna Goebbels",
+    "character_desc": "21-\u00e5rig quizdeltager i quizzen \"Klar, Parat, Spar!\", hvor det g\u00e6lder om at skjule 25-\u00f8rer i forskellige kropsfolder. Goebbels er medlem af S\u00f8ren Kasters fanklub, som er en fanklub best\u00e5ende af pr\u00e6cis 19 millioner (inklusiv alfer). Underviser Anholts gadeb\u00f8rn i svensk origami og er i stor narkog\u00e6ld grundet amfetaminmisbrug.[3]"
+  },
+  {
+    "character_name": "Eiler Torps Nemmerlig",
+    "character_desc": "Tidligere ejendomsm\u00e6gler, der fik en erotisk \u00e5benbaring ved at opdage en fugtskade i et r\u00e6kkehus. Nemelig har siden optr\u00e5dt i hele landet som en slags fugterotikkens apostel og er blevet Mosgaardsmuseets faste huskunstner."
+  },
+  {
+    "character_name": "Egern",
+    "character_desc": "En flok egern, som v\u00e6rtsfiguren Casper ansatte som erstatning for 1. s\u00e6sons tv-hold. Egernene har en tendens til pludseligt at synge Cirkeline har f\u00f8dselsdag, mange gaver hun f\u00e5r."
+  },
+  {
+    "character_name": "Egon Cervezas Por Favor",
+    "character_desc": "Gysets mester."
+  },
+  {
+    "character_name": "Einer Brobrille",
+    "character_desc": "Fremviser en pind, der er i stand til at finde alting. Pinden har bl.a. hjulpet Brobrille med at finde 37 kilo guld, som dog l\u00e5 en milliard kilometer nede i jorden."
+  },
+  {
+    "character_name": "Elmo Gottlieb V\u00e5ge",
+    "character_desc": "Kom ind for at fort\u00e6lle om sin vilde arm som han ikke selv kunne styre. Armen var d\u00e6kket til med pap, for at man ikke skulle genkende den. Armen havde blandt andet rakt h\u00e5nden op i timerne, uden at han selv vidste hvad han skulle svare, onaneret p\u00e5 et kommunebibliotek, ikke g\u00e5et med handsker om vinteren og s\u00e5 har den holdt en fremmed mand i h\u00e5nden."
+  },
+  {
+    "character_name": "Elias Pottestepper",
+    "character_desc": "Foreningen M\u00e6nd uden gr\u00e6nser."
+  },
+  { "character_name": "Emma", "character_desc": "" },
+  {
+    "character_name": "Erik Toftg\u00e5rd Nielsen",
+    "character_desc": "Medvirker i en reklame for alfabetblod. En af f\u00e5 navngivne figurer fra programmets reklamer."
+  },
+  {
+    "character_name": "Falckredderen Ragamuffin",
+    "character_desc": "Falckredder."
+  },
+  {
+    "character_name": "Fax Flora",
+    "character_desc": "\u00c5ndelig stripper og forfatter til bogen Ensomhed - dit navn er diskokugle. Flora udleverer sig selv i sin kunst, og inr\u00f8mmer ogs\u00e5 at have ekshibitionistiske tendenser, da han fx kan finde p\u00e5 at springe frem fra sit skjul og h\u00f8jlydt afsl\u00f8re sit pinligt lave studentergennemsnit for folk."
+  },
+  { "character_name": "Filip Sut", "character_desc": "Offer for kopist." },
+  {
+    "character_name": "Filippo Levian",
+    "character_desc": "Hi-fi-ekspert og fodboldnarkoman. Optr\u00e6der med Closing Kitty Club; en dommedagsprofeti illustreret kun ved hj\u00e6lp af puder."
+  },
+  {
+    "character_name": "Finn N\u00f8rbygaard & Finn N\u00f8rbygaard",
+    "character_desc": "Fort\u00e6ller en morsom vittighed om forskellen p\u00e5 jyder og k\u00f8benhavnere."
+  },
+  { "character_name": "Fine Albert", "character_desc": "Ekspert i mobning." },
+  {
+    "character_name": "Fissirul Lohmann",
+    "character_desc": "Blev TV2's chef, blev fyret af TV 2 og blev s\u00e5 ansat p\u00e5 Louisiana.\nLohmann dukker op, da TV2 angiveligt skal have ny chef. Her stiller Lohmann op som kandidat, med mange gode ideer til, hvad der skal sendes p\u00e5 TV 2. Eksempler omfatter \"Knep Bubber\", hvor man \"s\u00e5 kunne g\u00f8re det p\u00e5 tid\", og ellers noget med en rumraket og \"bare patter oppe i rumraketten\", med Claus Elgaard som v\u00e6rt og Bubber i v\u00e6gtl\u00f8s tilstand."
+  },
+  { "character_name": "Flemming Kirchh\u00fcner", "character_desc": "" },
+  {
+    "character_name": "Flemming Timmernik",
+    "character_desc": "Ubeslutsom hiphopper og forfatter. Interviewet med Timmernik g\u00e5r mestendels med at denne ikke kan beslutte sig for et hiphop-navn, og derfor kan Christensen ikke komme videre med sine sp\u00f8rgsm\u00e5l. Slutteligt f\u00e5r han afsl\u00f8ret at han ikke er den egentlige forfatter til bogen for blinde hiphoppere, men at han da har t\u00e6nkt sig at skrive \"Tilh\u00f8rer MCGl\u00f8gg eller MCMowgli\" udenp\u00e5 den."
+  },
+  {
+    "character_name": "Frans",
+    "character_desc": "Teenager i ungdomsserien Frisbee"
+  },
+  { "character_name": "Fridtjof Kragemost", "character_desc": "" },
+  {
+    "character_name": "Fyrst Walter",
+    "character_desc": "Studievejleder. Han er i studiet for at tale med Casper om, hvad han kan blive efter tv. Alle Caspers forslag, herunder at blive Susse Wold eller Zarens kur\u00e9r bliver afsl\u00e5et. Walter foresl\u00e5r, at Casper bliver et ringbind."
+  },
+  {
+    "character_name": "Gentleman Finn",
+    "character_desc": "Identitetsforvirret gentleman. Finn blev interviewet gentagne gange af Casper Christensen, fordi han var begyndt p\u00e5 noget nyt i sit liv. Han har fx optr\u00e5dt som nazist, satanist, p\u00e6dofil, voldt\u00e6gtsmand, homoseksuel, TV 2-ansat, samt asiat (da han skal drage med Pelle Klumpfeber og Broder Salsa til Kina). Finn kunne ikke se noget i galt i det han gjorde, da hans projekter jo blev st\u00f8ttet af kommunen og beskrevet i mange ringbind. I alle interviewene fik Casper overbevist Gentleman Finn om, at man ikke m\u00e5 g\u00f8re andre ondt, dog er episoden hvor Gentleman Finn er blevet ny TV 2-ansat stik modsat. If\u00f8lge Frank Hvam er Gentleman Finns inderste \u00f8nske at v\u00e6re stueren.[5] Hvam mener ogs\u00e5, at det er Finns evne til simultant at v\u00e6re ond og im\u00f8dekommende, der g\u00f8r ham til en sjov figur.[5]"
+  },
+  { "character_name": "Gerda", "character_desc": "Hennings hjertes k\u00e6re" },
+  {
+    "character_name": "Gigi Epstein",
+    "character_desc": "Fantomtegner. G\u00e6ster p\u00e5 eget initiativ programmet, med det form\u00e5l at give seerne sit bud p\u00e5 Lillaprinsens kontrafej p\u00e5 forskellige alderstrin, i takt med at denne bliver voksen. Casper bliver vred p\u00e5 Gigi, da tegneren p\u00e5 eget initiativ tegner prinsen if\u00f8rt nederdel; for som Gigi udtaler \"...det synes jeg er s\u00e5 p\u00e6nt til \u00e9n p\u00e5 36!\""
+  },
+  {
+    "character_name": "Graham Kelvin",
+    "character_desc": "Har \u00e5bnet en sushi-restaurant p\u00e5 toppen af Kilimanjaro."
+  },
+  {
+    "character_name": "Grenen Kim",
+    "character_desc": "Tr\u00e6et som Kronprins Frederik plantede til fordel for foreningen Plant et tr\u00e6."
+  },
+  {
+    "character_name": "Grytte Pytte Kytte",
+    "character_desc": "Ark\u00e6olog."
+  },
+  {
+    "character_name": "Gunnar Jeppe",
+    "character_desc": "Folkek\u00e6r visesanger."
+  },
+  {
+    "character_name": "Gunrack",
+    "character_desc": "Indeholder score-replikker fra 1980'erne."
+  },
+  {
+    "character_name": "Miss Sweethart",
+    "character_desc": "Gunrack-reparat\u00f8r"
+  },
+  {
+    "character_name": "Gusser Odderskov Vest",
+    "character_desc": "Ejer af et mintvaskeri i Herning."
+  },
+  {
+    "character_name": "Gynther Renouard",
+    "character_desc": "Gynter Renouard g\u00e6ster studiet for at fort\u00e6lle om hvordan han er vant til, at blive afvist. Gynter er selvst\u00e6ndig erhvervsdrivende og b\u00f8rnelokker. Gynther er vant til, at blive afvist af b\u00f8rnene og det er hvad Casper snakker med ham om. Under interviewet fort\u00e6ller Gynther blandt andet, at han lokker med rosenk\u00e5l og vitaminpiller og, at nogle af de ting han kan finde p\u00e5, at sige til b\u00f8rnene er fx \"Vil du med ned og totalrenovere en landejendom p\u00e5 Als?\"."
+  },
+  {
+    "character_name": "G\u00f8khan Appel",
+    "character_desc": "Verdens mindste mand. Han bor i en plastik kop. Han har kneppet Cirkeline uden, at hun kunne m\u00e6rke det. Han vil ikke erkende sin st\u00f8rrelse."
+  },
+  {
+    "character_name": "Harntley & Kreiler",
+    "character_desc": "To tyske sexforskere, der er i studiet for at demonstrere tre nyopfundne sexstillinger."
+  },
+  {
+    "character_name": "Harley L\u00f8vstik",
+    "character_desc": "Harley L\u00f8vstik har udgivet bogen \"S\u00e5dan er der mange af de gamle sange som vi kender, der rent faktisk oprindeligt har en anden ordlyd, en anden tekst\". Han fort\u00e6ller bl.a. at han har fundet de originale sangtekster hos munkene i Tibet som han har boet med siden han var ung. I l\u00f8bet af interviewet g\u00e5r det dog hurtigt op for Casper at Harley L\u00f8vstik har forvekslet munke i Tibet med Papa Bue's Viking Jazz Band."
+  },
+  {
+    "character_name": "Hasle Ryber\u00e6v",
+    "character_desc": "Ryber\u00e6v er g\u00e6ster programmet for at tale om sine oplevelser med racisme. Ryber\u00e6v er andengenerationsindvandrer fra Sverige. Hans for\u00e6ldre kom til Danmark i 1972 for at s\u00f8ge lykken. Ryber\u00e6v beretter med foudrettethed i stemmen at det viste sig at der ikke var brug for typer som hans far i det danske samfund -- trods dennes evne til at sige som en ren. Ryber\u00e6vs far ender med at skyde tusind spejdere med sin jagtriffel, da han lider af angst for b\u00e6vere.\nRyber\u00e6vs mor havde andereldes succes ved at fortsatte sin hidtidige praksis med at plukke b\u00e6r, samle t\u00f8rv og indspille pornofilm. \nRyber\u00e6v f\u00f8ler sit svenske ophav negligeret, bl.a. fordi han ikke m\u00e5 snitte p\u00e5 sin h\u00f8rkarrusel i s-toget -- eller have sin harmonika med p\u00e5 diskoteker. \nRyber\u00e6v synes selv, at han er dansk \u2013 \"tytteb\u00e6rdansk\" if\u00f8lge ham selv. \nInterviewet afsluttes ved at Casper tilbyder ham en hvid sten, som enhver svensker skal g\u00f8re noget for, at g\u00f8re sig fortjent til. Sidstn\u00e6vnte er en reference til den svenske tv-serie fra 1973 \"Den Vita Stenen\"."
+  },
+  { "character_name": "Hassan", "character_desc": "" },
+  { "character_name": "Hassefar", "character_desc": "Offer for sexchikane." },
+  { "character_name": "Hector Strix", "character_desc": "Hverdagsdanser." },
+  { "character_name": "Henning", "character_desc": "" },
+  {
+    "character_name": "Henning Ingenlunde",
+    "character_desc": "Parodierer kendte altaner."
+  },
+  {
+    "character_name": "Hermes Tundra",
+    "character_desc": "Navneterapeut. Designer og s\u00e6lger k\u00e6lenavne. Har engang fundet p\u00e5 navnet \"Snittep\u00f8lsen\" -- der efter hans eget udsagn har \u00f8get sandsynligheden for at Anwar Sadats kone kan overtale denne til at \"skifte sandet i kattebakken\"."
+  },
+  {
+    "character_name": "Herold Bueflis og Kelly B\u00f8dker",
+    "character_desc": "Skorstensfejer og hyrdinde."
+  },
+  {
+    "character_name": "Hother Hotlips Slidske",
+    "character_desc": "Konstrukt\u00f8r."
+  },
+  {
+    "character_name": "Horst Rema Nulnix",
+    "character_desc": "Danser i pomfritter."
+  },
+  {
+    "character_name": "Hovedet i bordet",
+    "character_desc": "Klog p\u00e5 3D."
+  },
+  {
+    "character_name": "Humphrey Desmond Tutu",
+    "character_desc": "Humpfrey Desmond Tutu er kritiker. Han klager over, at Casper hetzer sine g\u00e6ster. Han f\u00e5r et minuts taletid til at f\u00e5 renset luften og give Casper en dosis af sin egen medicin, hvilket han bruger p\u00e5 en sm\u00e6devise i to enslydende vers: \"Casper han er homoseksuel, han dyrker seksuelt samkvem med sig selv og hans kone hedder Keld\". Casper modtager derefter et opkald fra sin farmor, der vil h\u00f8re, hvor vidt han er blevet homoseksuel. Interviewet ender med, at Humfhrey sp\u00f8rger efter Caspers autograf, hvilket han afsl\u00e5r. Hovedelementerne i sketchen er referencer til 1990'ernes kritik af Casper Christensens p\u00e5st\u00e5ede grove humor, samt et callback til Caspers tidlige tv-karriere, hvor han havde en v\u00e6rtstjans p\u00e5 Danmarks Radio i b\u00f8rneprogrammet Hvaffor 1 h\u00e5nd, hvori et af de faste indslag var, at Caspers hans far ringede ind med irettes\u00e6ttende formaninger til det han foretog sig i det p\u00e5g\u00e6ldende afsnit."
+  },
+  {
+    "character_name": "Ibiza Polar",
+    "character_desc": "Lider af forvr\u00e6nget virkelighedsopfattelse. Ibiza oplever Casper sige noget andet end vi g\u00f8r, typisk noget, der lyder kinesisk. Ibiza svarer derefter."
+  },
+  {
+    "character_name": "Id\u00e9ernes Venner",
+    "character_desc": "Forening, der vejleder forbrugerne i bedre at udnytte de ting, de har i forvejen. Foreningen best\u00e5r af de fire medlemmer: Angelica Houston, Skat Henningsen, Steffen Bep og Torben Eller Murmark."
+  },
+  {
+    "character_name": "Ingemar Hildelyst",
+    "character_desc": "Har boet i et Ikea-skab hele sit liv og har derfor haft sv\u00e6rt ved at m\u00f8de damer. Casper f\u00e5r ham overtalt til at komme ud af skabet, men fortryder det straks da han ser Ingmars ansigt, som er d\u00e6kket af cornflakes."
+  },
+  {
+    "character_name": "Isak",
+    "character_desc": "Pr\u00e6senterer quizdeltagerne i quiz-programmet Klar, parat, spar!."
+  },
+  { "character_name": "Isak Spas", "character_desc": "New Age-fakir." },
+  {
+    "character_name": "Ivar Urd",
+    "character_desc": "Frivillig (og meget tr\u00e6t) indsamler. Retter gentagende gange \"en hjertesk\u00e6rene appel\" til seerne."
+  },
+  {
+    "character_name": "Jake Ritterband",
+    "character_desc": "V\u00e6rtaspirant."
+  },
+  {
+    "character_name": "Jakob Majkilde",
+    "character_desc": "V\u00e5bens\u00e6lger."
+  },
+  { "character_name": "Janni Henrik", "character_desc": "Boksepromoter." },
+  {
+    "character_name": "Jarl Fonb\u00f8rs",
+    "character_desc": "V\u00e6gtl\u00f8s og ansvarlig for at flytte studiet en centimeter til h\u00f8jre."
+  },
+  { "character_name": "Jean Carlo", "character_desc": "Sig\u00f8jner." },
+  {
+    "character_name": "Jean Tim & Jean Per",
+    "character_desc": "Smink\u00f8rer."
+  },
+  { "character_name": "Jeff Denkendorff", "character_desc": "Vejrv\u00e6rt." },
+  {
+    "character_name": "Jens Jackson",
+    "character_desc": "Ub\u00e5dskaptajn og fan af tv-serien Taxa."
+  },
+  {
+    "character_name": "Jeppe V\u00e6lling",
+    "character_desc": "Produktiv rockmusiker. Hele Danmarks nationalskjald, der ugen op til et bes\u00f8g hos Casper har udgivet 27 plader. \u00c9n af hans mest popul\u00e6re plader hedder \"To Spandauere og En Lille Liter Let\", der er nr. 4 p\u00e5 Helses hitliste."
+  },
+  {
+    "character_name": "Jericho Lala",
+    "character_desc": "Detektiv. Han er en uhyre hurtig fantomtegner og bruger interflora som database."
+  },
+  {
+    "character_name": "Jimbo",
+    "character_desc": "Deltager p\u00e5 guideskolen"
+  },
+  {
+    "character_name": "Jimmy Naller og Bauditz",
+    "character_desc": "Naller er kropsforsker og har taget en ven med. De skal sammen fors\u00f8ge at hj\u00e6lpe Casper til at sidde ordentligt."
+  },
+  {
+    "character_name": "Joakim T\u00fcttel",
+    "character_desc": "Multiportokunstner."
+  },
+  { "character_name": "Joe Alex", "character_desc": "Tidsrejsende." },
+  { "character_name": "Johannes Hot", "character_desc": "Udbryderkonge." },
+  { "character_name": "Johannes Ludvig", "character_desc": "Danseekspert." },
+  {
+    "character_name": "John Gringo",
+    "character_desc": "Verdens mest popul\u00e6re mand. If\u00f8lge ham selv skyldes hans store popularitet, at han har tv-reklamerne i ryggen. Ualindeligt utiltalende og provokerende. Knipser sine fingre lige op i Christensens ansigt flere gange."
+  },
+  {
+    "character_name": "John Datsun",
+    "character_desc": "F\u00f8dt som et HFI-rel\u00e6. Kan overf\u00e6re sin sj\u00e6l til helt tilf\u00e6ldige genstande."
+  },
+  {
+    "character_name": "John Delaware",
+    "character_desc": "M\u00e5lgruppeforsker."
+  },
+  {
+    "character_name": "Jon Bon Jovi",
+    "character_desc": "Forkl\u00e6dt som Rick Astley og Sting."
+  },
+  {
+    "character_name": "Josef Kammerly",
+    "character_desc": "Alternativ behandler."
+  },
+  {
+    "character_name": "Josti & Steffen",
+    "character_desc": "H\u00e5nddukker med ualmindeligt d\u00e5rlige retoriske evner."
+  },
+  {
+    "character_name": "Julius Hazard",
+    "character_desc": "Julius Hazard er en k\u00f8bmand som efter, at have haft et overskud af bacon p\u00e5 sit lager har \u00e6ndret sin livsstil p\u00e5 drastisk vis. Casper har inviteret Julius Hazard for at snakke med ham om denne handling. Julius er nemlig blevet baconhoved. Julius er frygtelig ked af sit valg og starter interviewet med at fort\u00e6lle Casper, at han har fortrudt. Casper pr\u00f8ver, at opmuntrer Julius, men uden den store succes. Julius f\u00f8ler sig ikke respekteret af samfundet, hvilket han blandt andet f\u00f8ler p\u00e5 for\u00e6ldrem\u00f8der. Casper tr\u00f8ster Julius og de finder snart ud af, at Julius har et skjult talent \u2013 han har nemlig rytme! Og det er noget folk godt kan lide mener Julius, s\u00e5 Julius g\u00e5r glad fra studiet."
+  },
+  {
+    "character_name": "J\u00f8rgen Gungading",
+    "character_desc": "Lider af kronisk ironi."
+  },
+  {
+    "character_name": "Kenan Pl\u00f8s",
+    "character_desc": "22 \u00e5r gammel og ufagl\u00e6rt snedker. Medlem af UFO-kulten De Himmelse Kusiners Ferieudflugt. Stenbuk."
+  },
+  {
+    "character_name": "Kenneth",
+    "character_desc": "Niels J\u00f8rgen Steens lillebor og mor til Tina Turner."
+  },
+  {
+    "character_name": "Kenneth Kiwistone",
+    "character_desc": "Selvl\u00e6rt kirurg, habil petanque-kommentator og formand for Dansk B\u00f8sse- og Madvareforbrug. B\u00e6rer en rislampesk\u00e6rm som turban og har en gaffel i brystelommen.\nHan er g\u00e6st i forbindelse med \"Temal\u00f8rdag p\u00e5 DR2 - Nu om onsdagen!\", der denne gang handler om forbrugerservice. Her forklarer han blandt andet at Kristeligt Dagblad ikke l\u00e6ngere er vandt\u00e6t, og at mange kristne er \"godt sure\" over dette, da de ikke l\u00e6ngere kan dykke med avisen. \nKiwistone har desuden v\u00e6ret udsat for en frygtelig jolleulykke ud for Tappern\u00f8je, p\u00e5 vej til en forbrugermesse. Han viser ogs\u00e5, hvordan vha. en vinballon undg\u00e5r, at Robinson-holdet g\u00e5r i opl\u00f8sning."
+  },
+  {
+    "character_name": "Kenzo-kuppen",
+    "character_desc": "Dansetrup. Optr\u00e6der f\u00f8rst med krybbespillet \u00c6ggene og opstandelsen og senere med nummeret Hi-tech Gakov."
+  },
+  { "character_name": "K\u00e9vin", "character_desc": "Mandschauvinist." },
+  { "character_name": "Kim Bellamonte", "character_desc": "" },
+  {
+    "character_name": "Kjukke Mimergolf",
+    "character_desc": "Homo sapiens. Fort\u00e6ller om sit forhold til en vinbjergsnegl."
+  },
+  {
+    "character_name": "Kilimanjaro Jepsen",
+    "character_desc": "Optr\u00e6der med sine \"happy lammek\u00f8ller.\""
+  },
+  {
+    "character_name": "Kiss Slejpner",
+    "character_desc": "Sejlsportstalent og 7 \u00e5r gammel."
+  },
+  { "character_name": "Klaus", "character_desc": "Fra Bomb Squad." },
+  { "character_name": "Klaus Cardigan", "character_desc": "En fredens mand." },
+  {
+    "character_name": "Klovnen Lilian",
+    "character_desc": "Optr\u00e6der i talentkonkurrencen med sit show Limelight."
+  },
+  {
+    "character_name": "Kresten Pikh\u00e5r",
+    "character_desc": "Seksualvejleder."
+  },
+  { "character_name": "Kr\u00f8sus Palnatoke", "character_desc": "Ensom." },
+  {
+    "character_name": "Kurt Thyboe & Kurt Thyboe",
+    "character_desc": "Sportskommentatorer."
+  },
+  {
+    "character_name": "K\u00e5l Frederik & Lars T\u00e6rskev\u00e6rk",
+    "character_desc": "Folkedansere fra Dansk Folkedans Union. Er hinandens umiddelbare mods\u00e6tninger -- den ene kan ikke st\u00e5 stille -- den anden knap nok holde sig v\u00e5gen. De fremviser traditionelle danse, som \"Dan Rachlins tur til bageren\" og \"Sextur til Pattaya\"."
+  },
+  {
+    "character_name": "Lars Krimi",
+    "character_desc": "Selvkritisk mimer. Har v\u00e6ltet h\u00f8jskoler med sin lydl\u00f8se performance, men forlader hver gang opgivende studiet, uden at kunne pr\u00e6stere sit fulde repertoire."
+  },
+  {
+    "character_name": "Lars Pejsekammer",
+    "character_desc": "Har i sinde at l\u00f8be New York Marathon, mens han \"kv\u00e6ler en kattemis med de bare h\u00e6nder\"."
+  },
+  {
+    "character_name": "Larsen",
+    "character_desc": "Figur i Huset p\u00e5 Christianshavn."
+  },
+  {
+    "character_name": "Laughing Eagle",
+    "character_desc": "Den n\u00e6stsidste mohikaner. I f\u00f8rste omgang er Laughing Eagle inviteret ind for at tale om, hvorfor indianerne er ved at udd\u00f8, men interviewet tager en uventet drejning. Det ender med at Casper beskylder Laughing Eagle for v\u00e6rnemageri og sender Laughing Eagle ud af studiet. Til det andet interview vil Casper gerne give Laughing Eagle en chance til men ender igen med at se sig sur p\u00e5 Laughing Eagle og beskylder ham nu for at sympatisere med Japanerne under 2. verdenskrig. Den tredje gang Laughing Eagle er i studiet er det sammen med Wesley Snipes, hvor de skal tale om diskriminering. Ogs\u00e5 denne gang bliver Casper gal p\u00e5 Laughing Eagle og beskylder nu indianerne for ikke at hj\u00e6lpe passagerne p\u00e5 Titanic."
+  },
+  { "character_name": "Laust Willo Willo", "character_desc": "Danser." },
+  {
+    "character_name": "Lennart Berthelsen",
+    "character_desc": "Verdens \u00e6ldste jomfru. Det ben\u00e6gter han dog selv."
+  },
+  {
+    "character_name": "Lennart Rousseau",
+    "character_desc": "Ordblind arkivar og opfinder af \"morgenmadsmappen\", der udg\u00f8res af et ringbind, hvori Rousseau har indsat en morgenkomplet, men alfabetiseret \"croissant\" under Q og #corn flakes# under K."
+  },
+  { "character_name": "Lil-Babs", "character_desc": "Tiggermunk." },
+  {
+    "character_name": "Liller Dr\u00e6sine Peepee",
+    "character_desc": "I stand til at f\u00e5 en d\u00e5se med mintgele til at lette blot ved dans og lydeffekter. Optr\u00e6der med det forrygende \u00e6ggende nummer After Eight."
+  },
+  {
+    "character_name": "Linz Calvin Ankerby",
+    "character_desc": "Luft- og portr\u00e6tfotograf."
+  },
+  {
+    "character_name": "London-Lars",
+    "character_desc": "Forlanger at man siger undskyld til p\u00f8lsen."
+  },
+  {
+    "character_name": "Lonnie Pandra",
+    "character_desc": "Meningsm\u00e5ler fra Gallup."
+  },
+  { "character_name": "Louis the Liver", "character_desc": "" },
+  {
+    "character_name": "Lucy",
+    "character_desc": "Ringer ind med et sp\u00f8rgsm\u00e5l til Det Okkulte Hj\u00f8rne."
+  },
+  { "character_name": "Lukas Pensacola", "character_desc": "" },
+  {
+    "character_name": "Lusty Dave",
+    "character_desc": "Fors\u00f8ger at l\u00e6gge verdens st\u00f8rste kabale."
+  },
+  {
+    "character_name": "Lydias Tati",
+    "character_desc": "N\u00f8dhj\u00e6lpsarbejder."
+  },
+  {
+    "character_name": "Lydolf Milt",
+    "character_desc": "Forsker i nye stjernekonstallationer."
+  },
+  {
+    "character_name": "Mathieu",
+    "character_desc": "Producer p\u00e5 programmet."
+  },
+  {
+    "character_name": "Mad Asta",
+    "character_desc": "Mand, der altid fejler. Casper fors\u00f8ger at opmuntre Asta med det faktum at han i det mindste er m\u00f8dt rettidigt til dagens program, hvortil Asta svarer med dirrende stemme: \"Jeg har siddet her i 62 programmer!\""
+  },
+  {
+    "character_name": "Mand fra Venezuela",
+    "character_desc": "Mand fra Venezuela der spiser af Caspers br\u00f8dstok"
+  },
+  {
+    "character_name": "Mandrillen",
+    "character_desc": "Figuren, der har lagt navn til programmet."
+  },
+  {
+    "character_name": "Mandy Krus",
+    "character_desc": "Dukketeaterentusiast med uforklarlig stor k\u00e6rlighed til kagecreme."
+  },
+  { "character_name": "Marius Caracas", "character_desc": "Superracist." },
+  {
+    "character_name": "Mario Rwanda",
+    "character_desc": "Stenrig patenttager med kraftige tics. Han er blevet rig, fordi han har taget patent p\u00e5 forskellige ting, bl.a. ild, kogt vand og lys. Casper bliver vred p\u00e5 Mario over, at man skal betale for at have lys t\u00e6ndt, for at f\u00e5 varmet sine h\u00e6nder og for at drikke en kop varm kakao. Casper siger derfor, at han vil slukke alt lys og sidde i sin egen lille luftlomme uden at drikke eller tr\u00e6kke vejret, s\u00e5 han ikke skal betale afgifter. Mario fort\u00e6ller dog at dette ikke kan lade sig g\u00f8re, da han ogs\u00e5 har patent p\u00e5 lommer."
+  },
+  { "character_name": "Massimo Blanco", "character_desc": "Reb-artist." },
+  {
+    "character_name": "Maximillian Syfax",
+    "character_desc": "Brugtshowsforhandler. Syfax optr\u00e5dte hen imod slutningen af 1. s\u00e6son, og han ville k\u00f8be det studie Casper lavede optagelserne i, og derefter lave et nyt program, Skumspr\u00f8jt i s\u00f8stjernen, beskrevet af Syfax som \"et erotisk sejlsportsmagasin\". Syfax var en rolle som blev introduceret for at im\u00f8deg\u00e5 den mulighed, at DR2 ikke ville forl\u00e6nge Casper & Mandrilaftalen med yderligere en s\u00e6son. DR2 valgte i sidste ende at forl\u00e6nge med yderligere en s\u00e6son. Det blev i programmet forklaret ved, at figuren Bjarne Goldb\u00e6k blev solgt til FCK, holdet som virkelighedens Bjarne Goldb\u00e6k i en del s\u00e6soner spillede for, hvorefter Casper brugte salgssummen til at k\u00f8be sig fri af sine \u00f8konomiske problemer."
+  },
+  {
+    "character_name": "McGregor M\u00f6wenglut",
+    "character_desc": "M\u00e5nedens medarbejder med et uudtaleligt fornavn -- samt programmets faste frott\u00e9dekorat\u00f8r, som modtager den \u00e6refulde titel for sit arbejde med dette materiale.  M\u00f6wenglut har dog ikke lavet frott\u00e9modellen af Lohals, men har bestemt fortjent Mandrilplatten.\nCasper bliver dog hen mod slutningen af  interviewet gal p\u00e5 M\u00f6wenglut, da denne uforvarende udtv\u00e6rer mandrilplattens med tus p\u00e5tegnede ansigt."
+  },
+  {
+    "character_name": "Melissa",
+    "character_desc": "B\u00f8rnepasser og m\u00e6rkesnob."
+  },
+  { "character_name": "Mentos Thorsen", "character_desc": "Lynsnar." },
+  { "character_name": "Mester Thor", "character_desc": "Imitator." },
+  {
+    "character_name": "Meyer",
+    "character_desc": "Figur i Huset p\u00e5 Christianshavn."
+  },
+  { "character_name": "Mogens Tube", "character_desc": "P\u00e6lesidder." },
+  {
+    "character_name": "Mogens Volvo",
+    "character_desc": "Bruger af pendul-h\u00e5rt\u00f8rreren. Optr\u00e6der i en reklame for samme produkt."
+  },
+  { "character_name": "Molle Bedstefik", "character_desc": "Videnskabsmand." },
+  {
+    "character_name": "Mona Bandy",
+    "character_desc": "Overordentligt overtroisk."
+  },
+  { "character_name": "Morten Frost", "character_desc": "Badmintonspiller." },
+  {
+    "character_name": "M\u00f8rke Ruddin",
+    "character_desc": "Lider af lysoverf\u00f8lsomhed."
+  },
+  { "character_name": "Nadja", "character_desc": "" },
+  {
+    "character_name": "Newton Dynamose",
+    "character_desc": "Ekspert i bogm\u00e6rker. Han skulle eftersigende v\u00e6re en parodi p\u00e5 Niels Boch, som underviser p\u00e5 Marselisborg Gymnasium.[kilde mangler] Tore L. Hanh\u00f8j har ogs\u00e5 samme tics med at gentage \"shh\" konsekvent mens andre taler og ind mellem egne s\u00e6tninger. Niels Boch har ogs\u00e5 lagt navn til Niels Buckingham i Langt fra Las Vegas.[kilde mangler]"
+  },
+  {
+    "character_name": "Niels Esp",
+    "character_desc": "Stor fan af programmet, der har brugt 6-7 \u00e5r p\u00e5 at bage en kage til v\u00e6rtsfiguren Casper som tak for udsendelserne. Blandt ingredienserne i kagen er bl.a. medlemmerne fra Kaos Krew, grisek\u00f8d, rochefort og krymmel."
+  },
+  {
+    "character_name": "Niller Sass Ungdom",
+    "character_desc": "Har lavet Nillers Plejehjem, som er et omrejsende plejehjem, som tager ud til byfester og karneval og l\u00e6gger en d\u00e6mper p\u00e5 stemningen."
+  },
+  { "character_name": "Nonnie", "character_desc": "" },
+  {
+    "character_name": "Norm",
+    "character_desc": "Norms h\u00e6nder er blevet til hollandske tr\u00e6sko efter en gyserfilm, der omhandler flotte h\u00e6nder, hvilket Casper morer sig meget med. Sketchen er ogs\u00e5 en af de eneste hvor Casper driller g\u00e6sten med hans problem."
+  },
+  {
+    "character_name": "Olav Wretborn",
+    "character_desc": "Optr\u00e6der med et dejligt stykke musik spillet p\u00e5 glas."
+  },
+  {
+    "character_name": "Olrik N\u00e6lde",
+    "character_desc": "Verdens st\u00e6rkeste klovn. Kalder sig selv Den lille clown."
+  },
+  {
+    "character_name": "Olsen",
+    "character_desc": "Figur i Huset p\u00e5 Christianshavn."
+  },
+  {
+    "character_name": "Otis Mallebrok",
+    "character_desc": "Temperaturforsker og Jes Dorph-Petersens l\u00e6ge. Mallebrok har de sidste 14 \u00e5r foretaget temperaturm\u00e5linger p\u00e5 Jes dagligt klokken 17:46 og har kunnet konstatere, at han har en h\u00f8jere kropstemperatur end normalt, nemlig 80\u00a0\u00b0C. Temperaturm\u00e5lingen m\u00e5les ved at f\u00f8re et orangader\u00f8r op i rektum p\u00e5 Jes og der er, if\u00f8lge Mallebrok, al grund til bekymring, is\u00e6r hvis man arbejder p\u00e5 TV2 p\u00e5 Kv\u00e6gtorvet i Odense. Af andre patienter ramt af for h\u00f8j kropstemperatur, kan Ulla Terkelsen n\u00e6vnes, da hun i forbindelse med sit korrespondentarbejde rejser med frott\u00e9. Dette skaber s\u00e5 h\u00f8j en friktion at Ulla er glohed. Jes Dorph-Petersens h\u00f8je kropstemperatur skyldes, if\u00f8lge Otis Mallebrok, et alt for h\u00f8jt indtag af hveder og hans temperatur har i v\u00e6rste fald v\u00e6ret oppe p\u00e5 89\u00a0\u00b0C.[6]"
+  },
+  { "character_name": "Otis Rose", "character_desc": "Jurist med et motto." },
+  { "character_name": "Otto Leisner", "character_desc": "" },
+  {
+    "character_name": "Papa Bue's Viking Jazz Band",
+    "character_desc": "Jazz band der spiller mens ilten langsomt suges ud af rummet"
+  },
+  {
+    "character_name": "Papa Rhodos",
+    "character_desc": "Klunkespiller. Optr\u00e6der med percussion-nummeret Ocean View."
+  },
+  {
+    "character_name": "Pelle Klumpfeber",
+    "character_desc": "Regelbesat budbringer. Fremviser ofte ting han har lavet, herunder 'Regler til kinamanden' eller en liste med 'Janteloven m\u00f8der de ti bud'. Han tager desuden ud p\u00e5 en ekspedition sammen med Gentleman Finn og Broder Salsa til Kina. Han har catchphrasen \"Kan du s\u00e5 forst\u00e5 det Marianne!\""
+  },
+  {
+    "character_name": "Pelle St\u00e6rkhylster og Elvira Bo",
+    "character_desc": "St\u00e6rkhylster og Bo er i studiet for at tale om fertilitetsbehandling i Niedersachen, da de ikke kan f\u00e5 \u00f8rn."
+  },
+  {
+    "character_name": "Per de Burg",
+    "character_desc": "Lider af mangel p\u00e5 tidsfornemmelse. Han p\u00e5st\u00e5r blandt andet, at han har ristet br\u00f8d i 32 \u00e5r. Heldigvis havde b\u00f8rdet kun f\u00e5et lige tilpas, og det var faktisk l\u00e6kkert. Sketchen ender med, at Per De Burg bliver forn\u00e6rmet da interviewet er f\u00e6rdigt. Han er utilfreds med kun at blive interviewet i 3 sekunder, n\u00e5r det har taget ham 40 \u00e5r i taxa at komme ind til studiet."
+  },
+  {
+    "character_name": "Pete, Poul og Mary",
+    "character_desc": "De tre l\u00e6ger, der hjalp ved v\u00e6rtsfiguren Caspers hustrus f\u00f8dsel."
+  },
+  {
+    "character_name": "Peter Schmeichel",
+    "character_desc": "Han har altid en ketcher med og siger hver gang at taktikken er at de g\u00e5r ind p\u00e5 banen og r\u00e5ber helt vildt. Til sidst indr\u00f8mmer han at han ikke er Peter Schmeichel alligevel, hvorefter Casper \u00f8nsker ham en god kamp alligevel."
+  },
+  {
+    "character_name": "Peter Winsey",
+    "character_desc": "Kronisk klak\u00f8r; klapper af alt og alle, ogs\u00e5 selvom hans h\u00e6nder bl\u00f8der som f\u00f8lge deraf."
+  },
+  {
+    "character_name": "Phil Rubberband",
+    "character_desc": "Vinder af kategorien Bedste peanut-jonglering ved MTV Awards."
+  },
+  {
+    "character_name": "Plasma Amelung",
+    "character_desc": "Homomaskine-opfinder, politisk kommentator og religi\u00f8s fanatiker. Samtalen mellem Casper og Amelung i homomaskine-sketchen fra afsnit 46 blev k\u00e5ret som Ugens samtale af tv-anmelder Henrik Palle.[kilde mangler]"
+  },
+  { "character_name": "Post & Post", "character_desc": "Lumre postbode." },
+  { "character_name": "Poul Hulahus", "character_desc": "Trafikforsker." },
+  { "character_name": "Poul Reichhardt", "character_desc": "Syvmilevandrer." },
+  {
+    "character_name": "Preben Hmfff",
+    "character_desc": "Ejer Danmarks st\u00f8rste samling af plastdyr."
+  },
+  {
+    "character_name": "Rami & Edvard",
+    "character_desc": "To artister, der i mange \u00e5r studeret japansk forsvarsfilosofi. Duoen optr\u00e6der med kropsshowet Den sande historie om Arhu."
+  },
+  {
+    "character_name": "Regil & Sydorf",
+    "character_desc": "Kropsekvilibrister. Optr\u00e6der med nummeret Moppedansen."
+  },
+  { "character_name": "Rektum", "character_desc": "" },
+  {
+    "character_name": "Renato Offset",
+    "character_desc": "Brandvarm fornyer af det moderne teater."
+  },
+  {
+    "character_name": "Rene d'Seance",
+    "character_desc": "Verdens m\u00e6gtigste mand."
+  },
+  { "character_name": "Rico", "character_desc": "Cowboyder." },
+  { "character_name": "Rod Stewart", "character_desc": "" },
+  {
+    "character_name": "Roar og Jes",
+    "character_desc": "Tore Ellen Hanh\u00f8js to hj\u00e6lpere."
+  },
+  {
+    "character_name": "Rueben Skimmel Paradesh",
+    "character_desc": "Producer og hjernen bag Safir & Granat."
+  },
+  {
+    "character_name": "Rulle og Cromwell",
+    "character_desc": "Br\u00f8dre og j\u00e6gere. G\u00e5r p\u00e5 andejagt med en atomaccelerator der har kostet \u00e9n milliard. Den har dog snart tjent sig selv ind, mener de selv. Ved tilberedning af Anden, turbuleres denne i et bild\u00e6k, for at skabe en meget forvirret and, og for at forvirringen kan tr\u00e6kke ud i k\u00f8det. Derefter dupper Cromwell den med en h\u00e5rt\u00f8rrer, i den tid det tager Rulle at k\u00f8re fra K\u00f8benhavn til Flensborg."
+  },
+  {
+    "character_name": "Rusty Mandolini",
+    "character_desc": "En homoseksuel krigsveteran fra Den Spanske Borgerkrig og pacifist. Casper sp\u00f8rger til krigens r\u00e6dsler, men Rusty er overbevist om, at det var de homoseksuelle, og s\u00e6rligt ham selv, som havde det v\u00e6rst under krigen. Han beretter, at det, under krigen, var ganske umuligt at skaffe Dax Wax og andre h\u00e5rplejeprodukter, at han aldrig sov mere end 5-6 timer om natten og at han var frygteligt stresset pga. at han bl.a. tabte curlere i mudderet. Casper forst\u00e5r ikke at Rusty forkuserer s\u00e5 meget p\u00e5 sig selv i stedet for at se krigens lidelser i det store hele, men Rusty begrunder det med at Casper ikke forst\u00e5r ham, fordi Casper er s\u00e5 \"ung og heteroseksuel\". Rusty begrunder endvidere sine lidelser i at \"der var negle der kn\u00e6kkede, der var homo-k\u00e6rester der deserterede\" og at han var en af de f\u00e5 som blev tisset i hovedet af Ernest Hemingway."
+  },
+  { "character_name": "Safir & Granat", "character_desc": "Drenge danceband." },
+  { "character_name": "Sailor", "character_desc": "Verdens smukkeste mand." },
+  {
+    "character_name": "Saltefanden",
+    "character_desc": "Salter \u00e6ldre menneskers sovs mens de sover. Casper vil en overgang gerne hj\u00e6lpe Saltefanden, men Saltefandens forslag om at Casper skulle gifte sig med 900 salte kvinder og give Saltefanden pengene, ansporer Casper om at der nok er noget galt. Helt galt bliver det ved forslaget om at Casper skal salte folk ombord p\u00e5 fly, og ganske afvisende bliver Casper n\u00e5r Saltefandne vil have ham til at modatge sit nye navn \"Dagens Donna\", hvilket trods alt var for underligt. (End da for Casper, som har sl\u00e5et en Los ihjel med et sv\u00e6rd fordi den k\u00f8rte hans bus)."
+  },
+  {
+    "character_name": "Satan",
+    "character_desc": "Satan selv. Casper f\u00e5r lyst til at takke den person, der har givet ham succes, guld og rigdom -- s\u00e5 han inviterer Satan i studiet.\nDet viser sig at Casper har f\u00e5et sin succes ved at give det f\u00f8rste der l\u00f8b ham i m\u00f8de, da han kom hjem, til Satan. Det f\u00f8rste han m\u00f8dte var en polohest. \"...en meget gammel og \u00e6kel polohest!\" -- og derfor forlanger Satan nu yderligere betaling for sit arbejde.\nDet ender med at Casper og Satan afg\u00f8r det i en heftig violin-battle, hvor de jammer over 'The Devil Went Down To Georgia' af The Charlie Daniel Band, hvor Casper vinder stort."
+  },
+  {
+    "character_name": "Satire John",
+    "character_desc": "Satiriker. Inspirationen til Satire John kom fra Hvams antipati for det, han kalder \"rygmarvssatire\".[5] If\u00f8lge Hvam er rygmarvssatire den form for humor, der f\u00e5r publikum til at l\u00e6ne sig behageligt tilbage og t\u00e6nke: \"Jamen I har jo ret!\": \"Korrekte holdninger f\u00f8rer ikke til noget, vi ikke ved i forvejen. Vi kan ikke lide nazister, men hvad nyt er der i det? Den form for dinosauersatire ser vi alt for tit p\u00e5 dansk tv.\"[5]"
+  },
+  {
+    "character_name": "Scottie",
+    "character_desc": "Scottie arbejder i nabostudiet, hvor han er v\u00e6rt p\u00e5 programmet F\u00f8n Heaven. Her t\u00f8rrer han h\u00e5r p\u00e5 de kendte, bl.a. Lene Espersen, som fik ordnet sit h\u00e5r med en h\u00f8vl."
+  },
+  {
+    "character_name": "Skafte Sergio M\u00fcnster",
+    "character_desc": "Dygtig med sin krop. Hans varm\u00e6rke er at holde ting med hagen. Har optr\u00e5dt ved et stort \u00c5bent hus-arrangement p\u00e5 Nationalmuseet."
+  },
+  {
+    "character_name": "Siam",
+    "character_desc": "Tekniker p\u00e5 programmet."
+  },
+  {
+    "character_name": "Sidney Kreutzfeldt",
+    "character_desc": "Fantasiens mester. Viser Casper hvordan man laver impro-teater, hvor han \"kiiiigger p\u00e5 blomsterne\"."
+  },
+  {
+    "character_name": "Silas Gnom",
+    "character_desc": "Programmets hustegner. Gnom er blevet kendt for sine komiske striber om de to t\u00e6ndstiksm\u00e6nd \"Skam og Skule\", og afslutter n\u00e6sten altid striberne med s\u00e6tningen: \"Giv mig min sko tilbage, r\u00f8v!\""
+  },
+  {
+    "character_name": "Simba",
+    "character_desc": "Simba medvirker i sketchen Guideskolen: Den Nye Generation og leverer citater som \"permaprinter\", \"absolut halogen\" og de legendariske \"Dizzy Mizz Lizzy fun\". Simba minder en del om Guideskolens Jimbo."
+  },
+  { "character_name": "Simon Le Bon", "character_desc": "" },
+  { "character_name": "Siddhartha Colombus", "character_desc": "" },
+  {
+    "character_name": "Sixten Bo Maneater",
+    "character_desc": "Multikunstner."
+  },
+  {
+    "character_name": "Sixten Sparre",
+    "character_desc": "Smaskforelsket kollektiv s\u00f8lvske(-selv-)morder. Slog sin elskerinde ihjel som del af et kollektivt selvmord. Blev imidlertid meget tr\u00e6t af myderiet, og ganske for udmattet til at tage sig selv af dage efterf\u00f8lgende."
+  },
+  {
+    "character_name": "Smokey Spartacus",
+    "character_desc": "Programmets orakel. Han svarer bl.a. p\u00e5 hvordan man transporterer druer og hvorfor cajun-mad er forbudt p\u00e5 havbunden. Han bor desuden i et lyser\u00f8dt badekar."
+  },
+  { "character_name": "Speedy Gregers", "character_desc": "Nanny." },
+  { "character_name": "Spend Abazi", "character_desc": "Skyggebokser." },
+  { "character_name": "Steen Bostrup-flutene", "character_desc": "Flutes." },
+  {
+    "character_name": "Stickan Plint Persson",
+    "character_desc": "Stigan Plint Persson er svensker og formand for firmaet 'Clevin Postordre'. Han solgte engang et porno reli\u00e6f i 3D til Casper. Casper er dog ikke tilfreds med varen og inviterer derfor Stigan i studiet for at diskutere Stigans forretningsmetoder."
+  },
+  {
+    "character_name": "Storbybasserne",
+    "character_desc": "Soldaterne Fjotte, Kok, L\u00f8jtnant Pjock og Unavngiven soldat fra serien ."
+  },
+  {
+    "character_name": "Sune",
+    "character_desc": "En af v\u00e6rtsfiguren Caspers gamle skolekammerater."
+  },
+  {
+    "character_name": "Susse Wold",
+    "character_desc": "Den altoverskyggende hovedrolle i f\u00f8ljetonen Sk\u00f8jtearven."
+  },
+  {
+    "character_name": "Svenne O'Lotta",
+    "character_desc": "Rekordmager og danskvandselsker. Fors\u00f8ger at sl\u00e5 talrige rekorder men gennemf\u00f8rer ingen af dem. Kan i en sv\u00e6ver vending drikke tonic."
+  },
+  { "character_name": "Sylik Mettesen", "character_desc": "Sprogforsker." },
+  {
+    "character_name": "S\u00f8lver Austin",
+    "character_desc": "Foredragsholder om racisme hen over Biker-Jens' krop."
+  },
+  {
+    "character_name": "Tage Nallan og Kjeld",
+    "character_desc": "Den spanienskyndige Tage Nallan og den mentalt ustabile Kjeld."
+  },
+  {
+    "character_name": "Tanja",
+    "character_desc": "G\u00f8r-det-selv-mand. F\u00f8rste gang, han optr\u00e6der i Mandrilaftalen, ser man, at han har ankler af porrer, og anden gang han optr\u00e6der, er de lavet af majskolber."
+  },
+  {
+    "character_name": "Tarp-ekspeditionen",
+    "character_desc": "Meget form\u00e6lte opdagelsesrejsende. Fors\u00f8gte for \u00e5r tilbage at bevise, at Lotte Tarp er landfast med Cypern, deraf navnet. Har nu fors\u00f8gt at tilbagel\u00e6gge den selvsamme rute i Indien, som Gandhi gik. Dog denne gang med en k\u00e6lk, men de m\u00e5tte opgivende vende hjem igen, da de havde glemt k\u00e6lken."
+  },
+  {
+    "character_name": "Teatergruppe fra Odense",
+    "character_desc": "Teatergruppe best\u00e5ende af tre medlemmer med hold i nakken. I et fors\u00f8g p\u00e5 at bevise, at man sagtens kan lave teater med hold i nakken, har de sl\u00e5et sig sammen for at opf\u00f8re teaterstykket Olsen-banden p\u00e5 panodil."
+  },
+  { "character_name": "Terkel", "character_desc": "" },
+  {
+    "character_name": "Terkel Algevind",
+    "character_desc": "Tidligere voldsmand, der er frossen fra navlen og ned, eftersom han er blevet d\u00f8mt til at sidde i en kummefryser resten af sit liv."
+  },
+  {
+    "character_name": "Terkel Pappadums Bhopal",
+    "character_desc": "Revydirekt\u00f8r."
+  },
+  {
+    "character_name": "Theis G\u00fcnther Harboe",
+    "character_desc": "Filmanmelder. Tildeler hverken bowlerhatte eller stjerner, men op til 9 000 birkes."
+  },
+  {
+    "character_name": "Thomas Kammeruhrdistrikt",
+    "character_desc": "Bogstempler."
+  },
+  {
+    "character_name": "Tor Ralle",
+    "character_desc": "Tekniker p\u00e5 programmet. De d\u00f8de taler gennem ham."
+  },
+  {
+    "character_name": "Th\u00f8ger Messias Vorte",
+    "character_desc": "Selvforsynende."
+  },
+  {
+    "character_name": "Tim Stanniole",
+    "character_desc": "Handicappet; stum og lam."
+  },
+  {
+    "character_name": "Tiramisu Sommerset & Ven",
+    "character_desc": "Kropsekspert med assistent."
+  },
+  {
+    "character_name": "Tissmageren",
+    "character_desc": "Smager p\u00e5 tis i programmet Tissmagning. Han bliver undervejs i smagningen chokeret over, at tis og urin er det samme."
+  },
+  {
+    "character_name": "Tjalfe Summersun",
+    "character_desc": "Uhygiejnisk bagersvend og hospitalsarbejder."
+  },
+  { "character_name": "Tom Knickers", "character_desc": "Idr\u00e6tsforsker." },
+  {
+    "character_name": "Tommy Dv\u00e6lsmark",
+    "character_desc": "Opfinder, der aldrig farer vild."
+  },
+  {
+    "character_name": "Tonny Subaru",
+    "character_desc": "I stand til at levere fremragende scorereplikker. Suparuhs motto er \"Opm\u00e6rksomhed, opm\u00e6rksomhed, opm\u00e6rksomhed, opm\u00e6rksomhed.\""
+  },
+  { "character_name": "Tony Curtis", "character_desc": "Sidsteelsker." },
+  { "character_name": "Torben", "character_desc": "" },
+  {
+    "character_name": "Tore Ellen Hanh\u00f8j",
+    "character_desc": "Sportsmunk. Viser Casper hvordan man hepper p\u00e5 sportsstjerner, samt hvordan brydning intet har med sex at g\u00f8re. Dette g\u00f8r han med hans sportselever Roar og Jes. Han er nok mest kendt for at han ubevist tysser p\u00e5 folk, selv n\u00e5r han selv snakker."
+  },
+  { "character_name": "Torsten", "character_desc": "" },
+  {
+    "character_name": "Trommedanser",
+    "character_desc": "Laver en udt\u00f8mningsdans."
+  },
+  { "character_name": "Tronhjem", "character_desc": "Anonym." },
+  { "character_name": "Tue Olivier", "character_desc": "Fodboldgal." },
+  {
+    "character_name": "Tut van der Elsevier",
+    "character_desc": "Egyptisk tusindkunstner. Optr\u00e6der med nummeret Soft Silk Dance."
+  },
+  { "character_name": "Udo Kielbasa", "character_desc": "Aparte krop." },
+  {
+    "character_name": "Ulson Kahlb\u00f8gen",
+    "character_desc": "Den kunstner i verden, der kan mindst."
+  },
+  { "character_name": "Urban Skurk", "character_desc": "Eventmager." },
+  {
+    "character_name": "Vagn Jay-jay",
+    "character_desc": "Caspers gamle klassel\u00e6rer."
+  },
+  {
+    "character_name": "Vagtmesteren",
+    "character_desc": "Balance-f\u00e6nomen."
+  },
+  {
+    "character_name": "Vandrende pind",
+    "character_desc": "Europas sidste vandrende pind."
+  },
+  {
+    "character_name": "Verner Lohals",
+    "character_desc": "Specialist i at holde dyr i live. Han har genoplivet sine dyr, Jungle-Ras og Peder Dingo, flere gange."
+  },
+  { "character_name": "Vienna", "character_desc": "Akustiker." },
+  { "character_name": "Vildere klovn!", "character_desc": "" },
+  {
+    "character_name": "Virtus Bj\u00e6ldeklemme",
+    "character_desc": "M\u00f8belbryder."
+  },
+  {
+    "character_name": "Voksen Lars & Sn\u00f8flen",
+    "character_desc": "Studiev\u00e6rter fra 1970'erne."
+  },
+  {
+    "character_name": "Vuelta con carne",
+    "character_desc": "Dansetrup, der optr\u00e6der med \"Jeg skal skide en kande sangria\"-dansen."
+  },
+  {
+    "character_name": "Wandy Thysk\u00e6g",
+    "character_desc": "Pestpatient med st\u00e6rk dialekt og armene over hovedet, da det er d\u00e9r pesten sidder og tr\u00e6kker. Er utilfreds med sundhedssystemets indsats i forbindelse med hans behandling, da; \"...man har f\u00e5et en pille... kun!\""
+  },
+  {
+    "character_name": "Wesley Snipes",
+    "character_desc": "Han er bl.a. inde for at fort\u00e6lle som sin rolle i \"Blade\", eller p\u00e5 dansk \"Negervampyren\". Han er helt vild med Rene Dif, som han siger er skide s\u00f8d og rig. Han underviser young black educated people fra community college i at de skal skyde lerduer, fordi Rene Dif er bange for dem. Han ejer en husb\u00e5d men planl\u00e6gger at indt\u00e6gten fra \"Negervampyren\" skal bruges p\u00e5 endnu en husb\u00e5d, s\u00e5 han kan hoppe fra husb\u00e5d til husb\u00e5d."
+  },
+  { "character_name": "Wilfred Baal", "character_desc": "Masai." },
+  { "character_name": "Yannik Noah", "character_desc": "" },
+  {
+    "character_name": "Yussuf \u00c5benhat",
+    "character_desc": "Valgobservat\u00f8r og ham med rulletekst-b\u00e5ndet."
+  },
+  { "character_name": "Yngwie Malmsteen", "character_desc": "Utilfreds seer." },
+  {
+    "character_name": "\u00c5nden i vasken",
+    "character_desc": "\u00c5nden i vasken har 1100 stykker krymmel med smag. Viser sig senere at v\u00e6re Smokey Spartacus."
+  }
 ]
