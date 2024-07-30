@@ -133,9 +133,6 @@ def save_cleaned_appearances(cleaned_appearances_rows: dict):
     # Loop through each cleaned appearences row
     for i, appearance_row in enumerate(cleaned_appearances_rows):
 
-        # Create appearance_id
-        appearance_id = i + 1
-
         # Get "character_id" from "characters"
         character_id = characters[i]["character_id"]
 
@@ -144,11 +141,10 @@ def save_cleaned_appearances(cleaned_appearances_rows: dict):
 
         if "," in appearances:
             list_of_appearances = appearances.split(", ")
-            for j, appearance in enumerate(list_of_appearances):
+            for appearance in list_of_appearances:
                 episode_id = int(appearance)
 
                 appearance_item = {
-                    "appearance_id": appearance_id + j,
                     "character_id": character_id,
                     "episode_id": episode_id,
                 }
@@ -156,7 +152,6 @@ def save_cleaned_appearances(cleaned_appearances_rows: dict):
                 appearance_data.append(appearance_item)
         else:
             appearance_item = {
-                "appearance_id": appearance_id,
                 "character_id": character_id,
                 "episode_id": int(appearances),
             }
@@ -176,6 +171,11 @@ def create_database():
 
     cur = con.cursor()
     cur.executescript(sql_script)
+
+    sql = "SELECT * FROM appearances"
+
+    for i in cur.execute(sql):
+        print(i)
 
     con.commit()
     con.close()
