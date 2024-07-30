@@ -13,7 +13,7 @@ def main() -> None:
     soup = BeautifulSoup(r.text, "html.parser")
     tables = soup.find_all("table")
 
-    extract_characters(tables[1])
+    # extract_characters(tables[1])
 
     # extract_actors(tables[1])
 
@@ -23,7 +23,7 @@ def main() -> None:
 
     # save_cleaned_appearances(appearances["cleaned"])
 
-    # create_database()
+    create_database()
 
 
 def extract_characters(table: Tag) -> None:
@@ -163,7 +163,7 @@ def save_cleaned_appearances(cleaned_appearances_rows: dict):
 
 
 def create_database():
-    with open("./create_database.sql") as f:
+    with open("./sql/create_database.sql") as f:
         sql_script = f.read()
 
     con = sqlite3.connect("mandril.db")
