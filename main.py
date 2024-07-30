@@ -164,7 +164,7 @@ def save_cleaned_appearances(cleaned_appearances_rows: dict):
 
 
 def create_database():
-    with open("./mandril.sql") as f:
+    with open("./create_database.sql") as f:
         sql_script = f.read()
 
     con = sqlite3.connect("mandril.db")
