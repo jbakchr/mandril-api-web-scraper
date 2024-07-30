@@ -23,8 +23,8 @@ def main() -> None:
     tables = soup.find_all("table")
 
     # Extract character and actor data
-    extract_characters(tables[1])
-    extract_actors(tables[1])
+    extract_characters_data(tables[1])
+    extract_actors_data(tables[1])
 
     # Create seasons data
     create_episodes_data()
@@ -33,12 +33,14 @@ def main() -> None:
     create_database()
     seed_database()
 
-    # Create appearances data
+    # Extract appearances data
     appearances = extract_appareances(tables[1])
-    # save_cleaned_appearances(appearances["cleaned"])
+
+    # Extract cleaned appearance data
+    extract_cleaned_appearances_data(appearances["cleaned"])
 
 
-def extract_characters(table: Tag) -> None:
+def extract_characters_data(table: Tag) -> None:
     characters = []
 
     characters_table_body = table.find("tbody")
@@ -64,7 +66,7 @@ def extract_characters(table: Tag) -> None:
         f.write(characters_json)
 
 
-def extract_actors(table: Tag) -> None:
+def extract_actors_data(table: Tag) -> None:
     actor_set = set()
 
     actors_table_body = table.find("tbody")
@@ -128,15 +130,6 @@ def seed_database():
 
     # seed episodes
     seed_episodes()
-
-    # Check that episodes gets seeded
-    con = sqlite3.connect("mandril.db")
-
-    cur = con.cursor()
-    for i in cur.execute("SELECT * FROM episodes"):
-        print(i)
-
-    con.close()
 
 
 def seed_characters():
@@ -204,21 +197,29 @@ def extract_appareances(table: Tag) -> dict:
     return appearances
 
 
-def save_cleaned_appearances(cleaned_appearances_rows: dict):
+def extract_cleaned_appearances_data(cleaned_appearances_rows: dict):
     appearance_data = []
 
-    # Load characters
-    with open("./characters.json") as f:
-        characters = json.loads(f.read())
+    # Loop through each cleaned appearance row
+    for appearance_row in cleaned_appearances_rows:
 
-    # Loop through each cleaned appearences row
-    for i, appearance_row in enumerate(cleaned_appearances_rows):
+        # Extract character from appearance_row
+        character_name = str(appearance_row.find("th").text).strip()
 
-        # Get "character_id" from "characters"
-        character_id = characters[i]["character_id"]
+        # Get character id from database
+        con = sqlite3.connect("mandril.db")
+        cur = con.cursor()
 
-        # Get appearances
-        appearances = appearance_row.find_all("td")[2].text.strip()
+        res = cur.execute(
+            "SELECT character_id FROM characters WHERE character_name = ?",
+            [
+                character_name,
+            ],
+        )
+        character_id = res.fetchone()[0]
+
+        # Extract appearances
+        appearances = str(appearance_row.find_all("td")[2].text).strip()
 
         if "," in appearances:
             list_of_appearances = appearances.split(", ")
@@ -237,11 +238,41 @@ def save_cleaned_appearances(cleaned_appearances_rows: dict):
                 "episode_id": int(appearances),
             }
 
-            appearance_data.append(appearance_item)
+    with open("./data/appearances.json", "w") as f:
+        appearances_json = json.loads(appearance_data)
+        f.write(appearances_json)
 
-    with open("./appearances.json", "w") as f:
-        appearance_json = json.dumps(appearance_data)
-        f.write(appearance_json)
+    # # Loop through each cleaned appearences row
+    # for i, appearance_row in enumerate(cleaned_appearances_rows):
+
+    #     # Get "character_id" from "characters"
+    #     character_id = characters[i]["character_id"]
+
+    #     # Get appearances
+    #     appearances = appearance_row.find_all("td")[2].text.strip()
+
+    #     if "," in appearances:
+    #         list_of_appearances = appearances.split(", ")
+    #         for appearance in list_of_appearances:
+    #             episode_id = int(appearance)
+
+    #             appearance_item = {
+    #                 "character_id": character_id,
+    #                 "episode_id": episode_id,
+    #             }
+
+    #             appearance_data.append(appearance_item)
+    #     else:
+    #         appearance_item = {
+    #             "character_id": character_id,
+    #             "episode_id": int(appearances),
+    #         }
+
+    #         appearance_data.append(appearance_item)
+
+    # with open("./appearances.json", "w") as f:
+    #     appearance_json = json.dumps(appearance_data)
+    #     f.write(appearance_json)
 
 
 if __name__ == "__main__":
