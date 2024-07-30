@@ -237,9 +237,10 @@ def extract_cleaned_appearances_data(cleaned_appearances_rows: dict):
                 "character_id": character_id,
                 "episode_id": int(appearances),
             }
+            appearance_data.append(appearance_item)
 
     with open("./data/appearances.json", "w") as f:
-        appearances_json = json.loads(appearance_data)
+        appearances_json = json.dumps(appearance_data)
         f.write(appearances_json)
 
     # # Loop through each cleaned appearences row
