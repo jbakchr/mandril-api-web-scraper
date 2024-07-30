@@ -172,11 +172,6 @@ def create_database():
     cur = con.cursor()
     cur.executescript(sql_script)
 
-    sql = "SELECT * FROM appearances"
-
-    for i in cur.execute(sql):
-        print(i)
-
     con.commit()
     con.close()
 
