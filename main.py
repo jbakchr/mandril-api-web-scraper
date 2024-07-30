@@ -15,9 +15,9 @@ def main() -> None:
 
     # extract_characters(tables[1])
 
-    extract_actors(tables[1])
+    # extract_actors(tables[1])
 
-    # create_seasons_table()
+    create_episodes_table()
 
     # appearances = extract_appareances(tables[1])
 
@@ -82,21 +82,17 @@ def extract_actors(table: Tag) -> None:
         f.write(actors_json)
 
 
-def create_seasons_table() -> None:
+def create_episodes_table() -> None:
     seasons = []
-    counter = 0
 
     for season in range(1, 3):
         for episode in range(1, 49):
             if season == 2 and episode > 19:
                 break
 
-            counter += 1
-            seasons.append(
-                {"episode_id": counter, "season": season, "episode": episode}
-            )
+            seasons.append({"season": season, "episode": episode})
 
-    with open("./episodes.json", "w") as f:
+    with open("./data/episodes.json", "w") as f:
         seasons_json = json.dumps(seasons)
         f.write(seasons_json)
 
