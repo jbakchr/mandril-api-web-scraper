@@ -1,5 +1,6 @@
 import json
 import sqlite3
+import os.path
 
 import requests
 from bs4 import BeautifulSoup, Tag
@@ -20,6 +21,8 @@ def main() -> None:
     # create_episodes_table()
 
     create_database()
+
+    seed_database()
 
     # appearances = extract_appareances(tables[1])
 
@@ -105,6 +108,41 @@ def create_database():
 
     cur = con.cursor()
     cur.executescript(sql_script)
+
+    con.commit()
+    con.close()
+
+
+def seed_database():
+    # seed characters
+    seed_characters()
+
+    # Check that characters gets seeded
+    con = sqlite3.connect("mandril.db")
+
+    cur = con.cursor()
+    for c in cur.execute("SELECT * FROM characters"):
+        print(c)
+
+
+def seed_characters():
+    cur_path = os.getcwd()
+
+    with open(os.path.join(cur_path, "data", "characters.json")) as f:
+        characters = json.loads(f.read())
+
+    con = sqlite3.connect("mandril.db")
+
+    cur = con.cursor()
+
+    sql = """
+            INSERT INTO
+                characters (character_name, character_desc)
+            VALUES
+                (:character_name, :character_desc)
+        """
+
+    cur.executemany(sql, characters)
 
     con.commit()
     con.close()
