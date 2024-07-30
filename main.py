@@ -39,6 +39,33 @@ def main() -> None:
     # Extract cleaned appearance data
     extract_cleaned_appearances_data(appearances["cleaned"])
 
+    # Seed appearances table
+    seed_appearances()
+
+    # con = sqlite3.connect("mandril.db")
+    # cur = con.cursor()
+
+    # sql = """
+    #         SELECT
+    #             c.character_name, c.character_desc
+    #         FROM
+    #             characters AS c
+    #         INNER JOIN
+    #             appearances AS a
+    #         ON
+    #             c.character_id = a.character_id
+    #         INNER JOIN
+    #             episodes AS e
+    #         ON
+    #             a.episode_id = e.episode_id
+    #         WHERE
+    #             e.episode = 3 AND e.season = 1
+    #     """
+
+    # res = cur.execute(sql)
+    # for character in res.fetchall():
+    #     print(character)
+
 
 def extract_characters_data(table: Tag) -> None:
     characters = []
@@ -139,7 +166,6 @@ def seed_characters():
         characters = json.loads(f.read())
 
     con = sqlite3.connect("mandril.db")
-
     cur = con.cursor()
 
     sql = """
@@ -150,7 +176,6 @@ def seed_characters():
         """
 
     cur.executemany(sql, characters)
-
     con.commit()
     con.close()
 
@@ -242,6 +267,27 @@ def extract_cleaned_appearances_data(cleaned_appearances_rows: dict):
     with open("./data/appearances.json", "w") as f:
         appearances_json = json.dumps(appearance_data)
         f.write(appearances_json)
+
+
+def seed_appearances():
+    cur_path = os.getcwd()
+
+    with open(os.path.join(cur_path, "data", "appearances.json")) as f:
+        appearances = json.loads(f.read())
+
+    con = sqlite3.connect("mandril.db")
+    cur = con.cursor()
+
+    sql = """
+            INSERT INTO
+                appearances (character_id, episode_id)
+            VALUES
+                (:character_id, :episode_id)
+        """
+
+    cur.executemany(sql, appearances)
+    con.commit()
+    con.close()
 
 
 if __name__ == "__main__":
