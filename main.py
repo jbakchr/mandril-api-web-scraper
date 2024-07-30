@@ -1,12 +1,20 @@
 import json
 import sqlite3
-import os.path
+import os
 
 import requests
 from bs4 import BeautifulSoup, Tag
 
 
 def main() -> None:
+    # Remove database if it exists
+    cur_dir = os.getcwd()
+    db_filename = "mandril.db"
+    db_path = os.path.join(cur_dir, db_filename)
+
+    if os.path.isfile(db_path):
+        os.remove(db_filename)
+
     r = requests.get(
         "https://da.wikipedia.org/wiki/Figurer_fra_Casper_%26_Mandrilaftalen"
     )
@@ -20,9 +28,9 @@ def main() -> None:
 
     # create_episodes_table()
 
-    create_database()
+    # create_database()
 
-    seed_database()
+    # seed_database()
 
     # appearances = extract_appareances(tables[1])
 
