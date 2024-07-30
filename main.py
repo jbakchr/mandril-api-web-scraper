@@ -243,38 +243,6 @@ def extract_cleaned_appearances_data(cleaned_appearances_rows: dict):
         appearances_json = json.dumps(appearance_data)
         f.write(appearances_json)
 
-    # # Loop through each cleaned appearences row
-    # for i, appearance_row in enumerate(cleaned_appearances_rows):
-
-    #     # Get "character_id" from "characters"
-    #     character_id = characters[i]["character_id"]
-
-    #     # Get appearances
-    #     appearances = appearance_row.find_all("td")[2].text.strip()
-
-    #     if "," in appearances:
-    #         list_of_appearances = appearances.split(", ")
-    #         for appearance in list_of_appearances:
-    #             episode_id = int(appearance)
-
-    #             appearance_item = {
-    #                 "character_id": character_id,
-    #                 "episode_id": episode_id,
-    #             }
-
-    #             appearance_data.append(appearance_item)
-    #     else:
-    #         appearance_item = {
-    #             "character_id": character_id,
-    #             "episode_id": int(appearances),
-    #         }
-
-    #         appearance_data.append(appearance_item)
-
-    # with open("./appearances.json", "w") as f:
-    #     appearance_json = json.dumps(appearance_data)
-    #     f.write(appearance_json)
-
 
 if __name__ == "__main__":
     main()
