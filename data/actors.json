@@ -1,18 +1,1 @@
-[
-  { "actor_name": "Iben Sol Mauritson" },
-  { "actor_name": "Freulein" },
-  { "actor_name": "Nordine Amraoui" },
-  { "actor_name": "Anders Matthesen" },
-  { "actor_name": "Lars Hjortsh\u00f8j" },
-  { "actor_name": "Frank Hvam" },
-  { "actor_name": "Lasse Rimmer" },
-  { "actor_name": "Sebastian Dorset" },
-  { "actor_name": "Anders Lund Madsen" },
-  { "actor_name": "Mick \u00d8gendahl" },
-  { "actor_name": "Thomas Milton" },
-  { "actor_name": "Casper Christensen" },
-  { "actor_name": "Jan Gintberg" },
-  { "actor_name": "Uffe Holm" },
-  { "actor_name": "John Cleese" },
-  { "actor_name": "Susse Wold" }
-]
+[{"actor_name": "Iben Sol Mauritson"}, {"actor_name": "Freulein"}, {"actor_name": "Nordine Amraoui"}, {"actor_name": "John Cleese"}, {"actor_name": "Mick \u00d8gendahl"}, {"actor_name": "Frank Hvam"}, {"actor_name": "Uffe Holm"}, {"actor_name": "Casper Christensen"}, {"actor_name": "Anders Lund Madsen"}, {"actor_name": "Lars Hjortsh\u00f8j"}, {"actor_name": "Lasse Rimmer"}, {"actor_name": "Sebastian Dorset"}, {"actor_name": "Susse Wold"}, {"actor_name": "Thomas Milton"}, {"actor_name": "Jan Gintberg"}, {"actor_name": "Anders Matthesen"}]

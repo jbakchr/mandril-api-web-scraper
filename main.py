@@ -22,16 +22,19 @@ def main() -> None:
     soup = BeautifulSoup(r.text, "html.parser")
     tables = soup.find_all("table")
 
-    # Extract data
+    # Extract character and actor data
     extract_characters(tables[1])
     extract_actors(tables[1])
+
+    # Create seasons data
+    create_episodes_data()
 
     # Create and seed database
     create_database()
     seed_database()
 
-    # appearances = extract_appareances(tables[1])
-
+    # Create appearances data
+    appearances = extract_appareances(tables[1])
     # save_cleaned_appearances(appearances["cleaned"])
 
 
@@ -91,7 +94,7 @@ def extract_actors(table: Tag) -> None:
         f.write(actors_json)
 
 
-def create_episodes_table() -> None:
+def create_episodes_data() -> None:
     seasons = []
 
     for season in range(1, 3):
