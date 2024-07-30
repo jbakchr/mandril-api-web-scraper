@@ -13,7 +13,7 @@ def main() -> None:
     soup = BeautifulSoup(r.text, "html.parser")
     tables = soup.find_all("table")
 
-    # extract_characters(tables[1])
+    extract_characters(tables[1])
 
     # extract_actors(tables[1])
 
@@ -23,7 +23,7 @@ def main() -> None:
 
     # save_cleaned_appearances(appearances["cleaned"])
 
-    create_database()
+    # create_database()
 
 
 def extract_characters(table: Tag) -> None:
@@ -47,7 +47,7 @@ def extract_characters(table: Tag) -> None:
 
             characters.append(character)
 
-    with open("./characters.json", "w", encoding="utf-8") as f:
+    with open("./data/characters.json", "w", encoding="utf-8") as f:
         characters_json = json.dumps(characters)
         f.write(characters_json)
 
