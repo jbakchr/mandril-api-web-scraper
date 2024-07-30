@@ -17,13 +17,13 @@ def main() -> None:
 
     # extract_actors(tables[1])
 
-    create_episodes_table()
+    # create_episodes_table()
+
+    create_database()
 
     # appearances = extract_appareances(tables[1])
 
     # save_cleaned_appearances(appearances["cleaned"])
-
-    # create_database()
 
 
 def extract_characters(table: Tag) -> None:
@@ -97,6 +97,19 @@ def create_episodes_table() -> None:
         f.write(seasons_json)
 
 
+def create_database():
+    with open("./sql/create_database.sql") as f:
+        sql_script = f.read()
+
+    con = sqlite3.connect("mandril.db")
+
+    cur = con.cursor()
+    cur.executescript(sql_script)
+
+    con.commit()
+    con.close()
+
+
 def extract_appareances(table: Tag) -> dict:
     appearances = {"cleaned": [], "missing": []}
 
@@ -156,19 +169,6 @@ def save_cleaned_appearances(cleaned_appearances_rows: dict):
     with open("./appearances.json", "w") as f:
         appearance_json = json.dumps(appearance_data)
         f.write(appearance_json)
-
-
-def create_database():
-    with open("./sql/create_database.sql") as f:
-        sql_script = f.read()
-
-    con = sqlite3.connect("mandril.db")
-
-    cur = con.cursor()
-    cur.executescript(sql_script)
-
-    con.commit()
-    con.close()
 
 
 if __name__ == "__main__":
