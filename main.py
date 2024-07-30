@@ -8,12 +8,12 @@ from bs4 import BeautifulSoup, Tag
 
 def main() -> None:
     # Remove database if it exists
-    cur_dir = os.getcwd()
-    db_filename = "mandril.db"
-    db_path = os.path.join(cur_dir, db_filename)
+    # cur_dir = os.getcwd()
+    # db_filename = "mandril.db"
+    # db_path = os.path.join(cur_dir, db_filename)
 
-    if os.path.isfile(db_path):
-        os.remove(db_filename)
+    # if os.path.isfile(db_path):
+    #     os.remove(db_filename)
 
     r = requests.get(
         "https://da.wikipedia.org/wiki/Figurer_fra_Casper_%26_Mandrilaftalen"
@@ -28,9 +28,9 @@ def main() -> None:
 
     # create_episodes_table()
 
-    # create_database()
+    create_database()
 
-    # seed_database()
+    seed_database()
 
     # appearances = extract_appareances(tables[1])
 
@@ -123,14 +123,19 @@ def create_database():
 
 def seed_database():
     # seed characters
-    seed_characters()
+    # seed_characters()
 
-    # Check that characters gets seeded
+    # seed episodes
+    # seed_episodes()
+
+    # Check that episodes gets seeded
     con = sqlite3.connect("mandril.db")
 
     cur = con.cursor()
-    for c in cur.execute("SELECT * FROM characters"):
-        print(c)
+    for i in cur.execute("SELECT * FROM episodes"):
+        print(i)
+
+    con.close()
 
 
 def seed_characters():
@@ -152,6 +157,27 @@ def seed_characters():
 
     cur.executemany(sql, characters)
 
+    con.commit()
+    con.close()
+
+
+def seed_episodes():
+    cur_path = os.getcwd()
+
+    with open(os.path.join(cur_path, "data", "episodes.json")) as f:
+        episodes = json.loads(f.read())
+
+    con = sqlite3.connect("mandril.db")
+    cur = con.cursor()
+
+    sql = """
+            INSERT INTO
+                episodes (season, episode)
+            VALUES
+                (:season, :episode)
+        """
+
+    cur.executemany(sql, episodes)
     con.commit()
     con.close()
 
