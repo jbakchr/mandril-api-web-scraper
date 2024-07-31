@@ -29,6 +29,11 @@ def main() -> None:
     # # Create seasons data
     create_episodes_data()
 
+    # Extract appearance data
+    appearances = extract_appareances_tds(tables[1])
+
+    # Extract appearances from simple tds
+
     # # Extract appearances data
     # appearances = extract_appareances(tables[1])
 
@@ -114,23 +119,21 @@ def create_episodes_data() -> None:
         f.write(seasons_json)
 
 
-def extract_appareances(table: Tag) -> dict:
-    appearances = {"cleaned": [], "missing": []}
+def extract_appareances_tds(table: Tag) -> dict:
+    appearances = {"simple_tds": [], "complex_tds": []}
 
-    appearances_table_body = table.find("tbody")
-    appearances_table_rows = appearances_table_body.find_all("tr")
+    table_body = table.find("tbody")
+    table_rows = table_body.find_all("tr")
 
-    # Extract cleaned table rows
-    for appearance_row in appearances_table_rows[2:]:
-
+    for row in table_rows[2:]:
         # Get appearance td
-        appearance_td = appearance_row.find_all("td")[2].text.strip()
+        appearance_td = str(row.find_all("td")[2].text).strip()
 
         # Check appearance td include a "-" or a "("
         if "-" in appearance_td or "(" in appearance_td:
-            appearances["missing"].append(appearance_row)
+            appearances["complex_tds"].append(row)
         else:
-            appearances["cleaned"].append(appearance_row)
+            appearances["simple_tds"].append(row)
 
     return appearances
 
