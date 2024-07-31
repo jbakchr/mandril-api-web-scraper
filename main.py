@@ -114,69 +114,6 @@ def create_episodes_data() -> None:
         f.write(seasons_json)
 
 
-def create_database():
-    with open("./sql/create_database.sql") as f:
-        sql_script = f.read()
-
-    con = sqlite3.connect("mandril.db")
-
-    cur = con.cursor()
-    cur.executescript(sql_script)
-
-    con.commit()
-    con.close()
-
-
-def seed_database():
-    # seed characters
-    seed_characters()
-
-    # seed episodes
-    seed_episodes()
-
-
-def seed_characters():
-    cur_path = os.getcwd()
-
-    with open(os.path.join(cur_path, "data", "characters.json")) as f:
-        characters = json.loads(f.read())
-
-    con = sqlite3.connect("mandril.db")
-    cur = con.cursor()
-
-    sql = """
-            INSERT INTO
-                characters (character_name, character_desc)
-            VALUES
-                (:character_name, :character_desc)
-        """
-
-    cur.executemany(sql, characters)
-    con.commit()
-    con.close()
-
-
-def seed_episodes():
-    cur_path = os.getcwd()
-
-    with open(os.path.join(cur_path, "data", "episodes.json")) as f:
-        episodes = json.loads(f.read())
-
-    con = sqlite3.connect("mandril.db")
-    cur = con.cursor()
-
-    sql = """
-            INSERT INTO
-                episodes (season, episode)
-            VALUES
-                (:season, :episode)
-        """
-
-    cur.executemany(sql, episodes)
-    con.commit()
-    con.close()
-
-
 def extract_appareances(table: Tag) -> dict:
     appearances = {"cleaned": [], "missing": []}
 
