@@ -24,7 +24,7 @@ def main() -> None:
 
     # Extract character and actor data
     extract_characters_data(tables[1])
-    # extract_actors_data(tables[1])
+    extract_actors_data(tables[1])
 
     # # Create seasons data
     # create_episodes_data()
@@ -81,25 +81,47 @@ def extract_actors_data(table: Tag) -> None:
     for actor_row in actor_table_rows:
         actor_td = actor_row.find("td")
 
+        # This is needed as 2 "td" elements apparently come out as "None" .. ??
         if actor_td:
             td_links = actor_td.find_all("a")
 
-            for td_link in td_links:
-                actor_set.add(td_link.text)
+            if td_links:
+                for td_link in td_links:
+                    actor_set.add(td_link.text)
+            else:
+                actor_set.add(actor_td.text.strip())
 
-    # First 3 elements are hard-coded missing actors
-    actors = [
-        {"actor_name": "Iben Sol Mauritson"},
-        {"actor_name": "Freulein"},
-        {"actor_name": "Nordine Amraoui"},
-    ]
+    actors = []
+    for i, actor in enumerate(actor_set):
+        actors.append({"actor_id": i + 1, "actor_name": actor})
 
-    for actor in actor_set:
-        actors.append({"actor_name": actor})
-
-    with open("./data/actors.json", "w") as f:
+    cur_dir = os.getcwd()
+    with open(os.path.join(cur_dir, "data", "actors.json"), "w") as file:
         actors_json = json.dumps(actors)
-        f.write(actors_json)
+        file.write(actors_json)
+
+    # for actor_row in actor_table_rows:
+    #     actor_td = actor_row.find("td")
+
+    #     if actor_td:
+    #         td_links = actor_td.find_all("a")
+
+    #         for td_link in td_links:
+    #             actor_set.add(td_link.text)
+
+    # # First 3 elements are hard-coded missing actors
+    # actors = [
+    #     {"actor_name": "Iben Sol Mauritson"},
+    #     {"actor_name": "Freulein"},
+    #     {"actor_name": "Nordine Amraoui"},
+    # ]
+
+    # for actor in actor_set:
+    #     actors.append({"actor_name": actor})
+
+    # with open("./data/actors.json", "w") as f:
+    #     actors_json = json.dumps(actors)
+    #     f.write(actors_json)
 
 
 def create_episodes_data() -> None:
