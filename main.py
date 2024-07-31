@@ -28,7 +28,7 @@ def main() -> None:
     simple_appearances = extract_simple_appearances(appearances["simple_tds"])
 
     # Extract complex appearances
-    extract_complex_appearances(appearances["complex_tds"])
+    complex_appearances = extract_complex_appearances(appearances["complex_tds"])
 
 
 def extract_characters_data(table: Tag) -> None:
@@ -188,8 +188,16 @@ def extract_complex_appearances(complex_td_rows: list):
         appearances = str(appearance_row.find_all("td")[2].text).strip()
 
         if "(" in appearances:
-            # TODO: THIS IS NEXT!!
-            extract_appearances_without_parentheses(appearances)
+            list_of_appearances = extract_appearances_without_parentheses(appearances)
+
+            for appearance in list_of_appearances:
+                appearance_item = {
+                    "character_id": character_id,
+                    "episode_id": appearance,
+                }
+
+                complex_appearances.append(appearance_item)
+
         else:
             list_of_appearances = extract_appearance_sequences(appearances)
 
@@ -202,8 +210,64 @@ def extract_complex_appearances(complex_td_rows: list):
 
                 complex_appearances.append(appearance_item)
 
+    return complex_appearances
 
-def extract_appearances_without_parentheses(appearances): ...
+
+def extract_appearances_without_parentheses(appearances: str):
+    result = []
+
+    # Split string of appearances by ", "
+    splitted_appearance = appearances.split(", ")
+
+    # Loop through each splitted appearance
+    for appearance in splitted_appearance:
+
+        if "(" in appearance:
+            # Split appearance by " ("
+            cleaned_appearance = appearance.split(" (")[0]
+
+            # Check if "cleaned_appearance" has a "-" in it
+            if "-" in cleaned_appearance:
+
+                splitted_cleaned_appearance = cleaned_appearance.split("-")
+
+                start = int(splitted_cleaned_appearance[0])
+                end = int(splitted_cleaned_appearance[1])
+
+                for i in range(start, end + 1):
+                    result.append(i)
+
+            else:
+                result.append(int(cleaned_appearance))
+        else:
+            result.append(int(appearance))
+
+    return result
+
+    # Loop through each splitted appearance
+    # for appearance in splitted_appearance:
+
+    #     # Check if appearance has a "(" in it
+    #     if "(" in appearance:
+    #         cleaned_appearance = appearance.split(" ")[0]
+
+    #         # Check if "cleaned_appearance" has a "-" in it
+    #         if "-" in cleaned_appearance:
+
+    #             # Split by "-"
+    #             splitted_cleaned_appearance = cleaned_appearance.split("-")
+
+    #             # Get start and end
+    #             start = int(splitted_cleaned_appearance[0])
+    #             end = int(splitted_cleaned_appearance[1])
+
+    #             # Loop through start and end
+    #             for i in range(start, end + 1):
+    #                 result.append(i)
+    #         else:
+    #             print(cleaned_appearance)
+    #     else:
+    #         print(appearance)
 
 
 def extract_appearance_sequences(string_of_apperances: str):
