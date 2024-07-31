@@ -25,7 +25,10 @@ def main() -> None:
     appearances = extract_appareances_tds(tables[1])
 
     # Extract appearances from simple tds
-    simple_appearances = extract_simple_appearance_td_data(appearances["simple_tds"])
+    simple_appearances = extract_simple_appearances(appearances["simple_tds"])
+
+    # Extract complex appearances
+    extract_complex_appearances(appearances["complex_tds"])
 
 
 def extract_characters_data(table: Tag) -> None:
@@ -125,7 +128,7 @@ def extract_appareances_tds(table: Tag) -> dict:
     return appearances
 
 
-def extract_simple_appearance_td_data(simple_td_rows: list) -> list[dict]:
+def extract_simple_appearances(simple_td_rows: list) -> list[dict]:
     simple_appearances = []
 
     # Load all characters
@@ -164,6 +167,69 @@ def extract_simple_appearance_td_data(simple_td_rows: list) -> list[dict]:
             simple_appearances.append(appearance_item)
 
     return simple_appearances
+
+
+def extract_complex_appearances(complex_td_rows: list):
+    complex_appearances = []
+
+    # Load all characters
+    with open("./data/characters.json") as file:
+        characters = json.loads(file.read())
+
+    # Loop through each complex td rows
+    for appearance_row in complex_td_rows:
+
+        # Get character id
+        character_name = str(appearance_row.find("th").text).strip()
+
+        character_id = get_character_id(characters, character_name)
+
+        # Get appearances
+        appearances = str(appearance_row.find_all("td")[2].text).strip()
+
+        if "(" in appearances:
+            # TODO: THIS IS NEXT!!
+            extract_appearances_without_parentheses(appearances)
+        else:
+            list_of_appearances = extract_appearance_sequences(appearances)
+
+            # Loop through each appearance and add to "complex_appearances"
+            for appearance in list_of_appearances:
+                appearance_item = {
+                    "character_id": character_id,
+                    "episode_id": appearance,
+                }
+
+                complex_appearances.append(appearance_item)
+
+
+def extract_appearances_without_parentheses(appearances): ...
+
+
+def extract_appearance_sequences(string_of_apperances: str):
+    apperances = []
+
+    # Split appearances
+    splitted_appearances = string_of_apperances.split(", ")
+
+    # Loop through appearances
+    for apperance in splitted_appearances:
+
+        # Checks multiple appearances
+        if "-" in apperance:
+            # Split appearance to extract each appearance
+            splitted_appearance = apperance.split("-")
+
+            # Extract start and stop appearance
+            start = splitted_appearance[0]
+            end = splitted_appearance[1]
+
+            for i in range(int(start), int(end) + 1):
+                apperances.append(i)
+        else:
+            apperances.append(int(apperance))
+
+    return apperances
 
 
 def get_character_id(characters: list[str], name: str):
