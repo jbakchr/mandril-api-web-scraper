@@ -24,7 +24,7 @@ def main() -> None:
     # Extract appearance data
     appearances = extract_appareances_tds(tables[1])
 
-    # Extract appearances from simple tds
+    # Extract simple appearances
     simple_appearances = extract_simple_appearances(appearances["simple_tds"])
 
     # Extract complex appearances
@@ -48,7 +48,7 @@ def extract_characters_data(table: Tag) -> None:
             desc = str(td.text).strip()
 
             character = {
-                "character_id": i,
+                "character_id": i - 1,
                 "character_name": name,
                 "character_desc": desc,
             }
