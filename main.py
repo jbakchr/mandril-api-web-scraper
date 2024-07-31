@@ -24,11 +24,14 @@ def main() -> None:
     # Extract appearance data
     appearances = extract_appareances_tds(tables[1])
 
-    # Extract simple appearances
     simple_appearances = extract_simple_appearances(appearances["simple_tds"])
-
-    # Extract complex appearances
     complex_appearances = extract_complex_appearances(appearances["complex_tds"])
+
+    combined_appearances = simple_appearances + complex_appearances
+
+    with open("./data/appearances.json", "w") as f:
+        c_json = json.dumps(combined_appearances)
+        f.write(c_json)
 
 
 def extract_characters_data(table: Tag) -> None:
