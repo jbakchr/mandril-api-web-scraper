@@ -24,64 +24,43 @@ def main() -> None:
 
     # Extract character and actor data
     extract_characters_data(tables[1])
-    extract_actors_data(tables[1])
+    # extract_actors_data(tables[1])
 
-    # Create seasons data
-    create_episodes_data()
+    # # Create seasons data
+    # create_episodes_data()
 
-    # Create and seed database
-    create_database()
-    seed_database()
+    # # Create and seed database
+    # create_database()
+    # seed_database()
 
-    # Extract appearances data
-    appearances = extract_appareances(tables[1])
+    # # Extract appearances data
+    # appearances = extract_appareances(tables[1])
 
-    # Extract cleaned appearance data
-    extract_cleaned_appearances_data(appearances["cleaned"])
+    # # Extract cleaned appearance data
+    # extract_cleaned_appearances_data(appearances["cleaned"])
 
-    # Seed appearances table
-    seed_appearances()
-
-    # con = sqlite3.connect("mandril.db")
-    # cur = con.cursor()
-
-    # sql = """
-    #         SELECT
-    #             c.character_name, c.character_desc
-    #         FROM
-    #             characters AS c
-    #         INNER JOIN
-    #             appearances AS a
-    #         ON
-    #             c.character_id = a.character_id
-    #         INNER JOIN
-    #             episodes AS e
-    #         ON
-    #             a.episode_id = e.episode_id
-    #         WHERE
-    #             e.episode = 3 AND e.season = 1
-    #     """
-
-    # res = cur.execute(sql)
-    # for character in res.fetchall():
-    #     print(character)
+    # # Seed appearances table
+    # seed_appearances()
 
 
 def extract_characters_data(table: Tag) -> None:
     characters = []
 
+    # Get all "tr" elements
     characters_table_body = table.find("tbody")
     character_table_rows = characters_table_body.find_all("tr")
 
-    # Loop through each character
-    for character_row in character_table_rows:
+    for i, character_row in enumerate(character_table_rows):
+        # Get character name from "th" element
         name = str(character_row.th.text).strip()
 
+        # Extract only "td" element containing description
         desc_td = character_row.find_all("td")[-1:]
         for td in desc_td:
             desc = str(td.text).strip()
 
             character = {
+                "character_id": i,
                 "character_name": name,
                 "character_desc": desc,
             }
