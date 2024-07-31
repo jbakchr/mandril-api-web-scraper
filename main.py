@@ -29,18 +29,11 @@ def main() -> None:
     # # Create seasons data
     create_episodes_data()
 
-    # # Create and seed database
-    # create_database()
-    # seed_database()
-
     # # Extract appearances data
     # appearances = extract_appareances(tables[1])
 
     # # Extract cleaned appearance data
     # extract_cleaned_appearances_data(appearances["cleaned"])
-
-    # # Seed appearances table
-    # seed_appearances()
 
 
 def extract_characters_data(table: Tag) -> None:
