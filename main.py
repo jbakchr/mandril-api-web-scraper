@@ -100,29 +100,6 @@ def extract_actors_data(table: Tag) -> None:
         actors_json = json.dumps(actors)
         file.write(actors_json)
 
-    # for actor_row in actor_table_rows:
-    #     actor_td = actor_row.find("td")
-
-    #     if actor_td:
-    #         td_links = actor_td.find_all("a")
-
-    #         for td_link in td_links:
-    #             actor_set.add(td_link.text)
-
-    # # First 3 elements are hard-coded missing actors
-    # actors = [
-    #     {"actor_name": "Iben Sol Mauritson"},
-    #     {"actor_name": "Freulein"},
-    #     {"actor_name": "Nordine Amraoui"},
-    # ]
-
-    # for actor in actor_set:
-    #     actors.append({"actor_name": actor})
-
-    # with open("./data/actors.json", "w") as f:
-    #     actors_json = json.dumps(actors)
-    #     f.write(actors_json)
-
 
 def create_episodes_data() -> None:
     seasons = []
