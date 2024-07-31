@@ -185,26 +185,5 @@ def extract_cleaned_appearances_data(cleaned_appearances_rows: dict):
         f.write(appearances_json)
 
 
-def seed_appearances():
-    cur_path = os.getcwd()
-
-    with open(os.path.join(cur_path, "data", "appearances.json")) as f:
-        appearances = json.loads(f.read())
-
-    con = sqlite3.connect("mandril.db")
-    cur = con.cursor()
-
-    sql = """
-            INSERT INTO
-                appearances (character_id, episode_id)
-            VALUES
-                (:character_id, :episode_id)
-        """
-
-    cur.executemany(sql, appearances)
-    con.commit()
-    con.close()
-
-
 if __name__ == "__main__":
     main()
