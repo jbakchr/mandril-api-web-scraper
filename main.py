@@ -28,9 +28,6 @@ def main() -> None:
     # Extract appearances from simple tds
     simple_appearances = extract_simple_appearance_td_data(appearances["simple_tds"])
 
-    # # Extract appearances data
-    # appearances = extract_appareances(tables[1])
-
     # # Extract cleaned appearance data
     # extract_cleaned_appearances_data(appearances["cleaned"])
 
