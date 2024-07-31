@@ -33,6 +33,7 @@ def main() -> None:
     appearances = extract_appareances_tds(tables[1])
 
     # Extract appearances from simple tds
+    simple_appearances = extract_simple_appearance_td_data(appearances["simple_tds"])
 
     # # Extract appearances data
     # appearances = extract_appareances(tables[1])
@@ -136,6 +137,57 @@ def extract_appareances_tds(table: Tag) -> dict:
             appearances["simple_tds"].append(row)
 
     return appearances
+
+
+def extract_simple_appearance_td_data(simple_td_rows: list) -> list[dict]:
+    simple_appearances = []
+
+    # Load all characters
+    with open("./data/characters.json") as file:
+        characters = json.loads(file.read())
+
+    # Loop through each simple appearance td
+    for appearance_row in simple_td_rows:
+
+        # Get character id
+        character_name = str(appearance_row.find("th").text).strip()
+
+        character_id = get_character_id(characters, character_name)
+
+        # Get appearances
+        appearances = str(appearance_row.find_all("td")[2].text).strip()
+
+        # Check for multiple appearances
+        if "," in appearances:
+            list_of_appearances = appearances.split(", ")
+            for appearance in list_of_appearances:
+                episode_id = int(appearance)
+
+                appearance_item = {
+                    "character_id": character_id,
+                    "episode_id": episode_id,
+                }
+
+                simple_appearances.append(appearance_item)
+        else:
+            appearance_item = {
+                "character_id": character_id,
+                "episode_id": int(appearances),
+            }
+
+            simple_appearances.append(appearance_item)
+
+    return simple_appearances
+
+
+def get_character_id(characters: list[str], name: str):
+
+    # # Loop through all characters and find the character id
+    for character in characters:
+        character_name = character["character_name"]
+
+        if character_name == name:
+            return character["character_id"]
 
 
 def extract_cleaned_appearances_data(cleaned_appearances_rows: dict):
