@@ -27,7 +27,7 @@ def main() -> None:
     extract_actors_data(tables[1])
 
     # # Create seasons data
-    # create_episodes_data()
+    create_episodes_data()
 
     # # Create and seed database
     # create_database()
@@ -103,13 +103,18 @@ def extract_actors_data(table: Tag) -> None:
 
 def create_episodes_data() -> None:
     seasons = []
+    episode_counter = 0
 
     for season in range(1, 3):
         for episode in range(1, 49):
             if season == 2 and episode > 19:
                 break
 
-            seasons.append({"season": season, "episode": episode})
+            episode_counter += 1
+
+            seasons.append(
+                {"episode_id": episode_counter, "season": season, "episode": episode}
+            )
 
     with open("./data/episodes.json", "w") as f:
         seasons_json = json.dumps(seasons)
