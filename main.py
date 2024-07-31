@@ -7,13 +7,6 @@ from bs4 import BeautifulSoup, Tag
 
 
 def main() -> None:
-    # Remove database if it exists
-    cur_dir = os.getcwd()
-    db_filename = "mandril.db"
-    db_path = os.path.join(cur_dir, db_filename)
-
-    if os.path.isfile(db_path):
-        os.remove(db_filename)
 
     # Extract characters table from Wikipedia
     r = requests.get(
