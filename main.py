@@ -1,5 +1,4 @@
 import json
-import sqlite3
 import os
 
 import requests
@@ -27,9 +26,6 @@ def main() -> None:
 
     # Extract appearances from simple tds
     simple_appearances = extract_simple_appearance_td_data(appearances["simple_tds"])
-
-    # # Extract cleaned appearance data
-    # extract_cleaned_appearances_data(appearances["cleaned"])
 
 
 def extract_characters_data(table: Tag) -> None:
@@ -178,53 +174,6 @@ def get_character_id(characters: list[str], name: str):
 
         if character_name == name:
             return character["character_id"]
-
-
-def extract_cleaned_appearances_data(cleaned_appearances_rows: dict):
-    appearance_data = []
-
-    # Loop through each cleaned appearance row
-    for appearance_row in cleaned_appearances_rows:
-
-        # Extract character from appearance_row
-        character_name = str(appearance_row.find("th").text).strip()
-
-        # Get character id from database
-        con = sqlite3.connect("mandril.db")
-        cur = con.cursor()
-
-        res = cur.execute(
-            "SELECT character_id FROM characters WHERE character_name = ?",
-            [
-                character_name,
-            ],
-        )
-        character_id = res.fetchone()[0]
-
-        # Extract appearances
-        appearances = str(appearance_row.find_all("td")[2].text).strip()
-
-        if "," in appearances:
-            list_of_appearances = appearances.split(", ")
-            for appearance in list_of_appearances:
-                episode_id = int(appearance)
-
-                appearance_item = {
-                    "character_id": character_id,
-                    "episode_id": episode_id,
-                }
-
-                appearance_data.append(appearance_item)
-        else:
-            appearance_item = {
-                "character_id": character_id,
-                "episode_id": int(appearances),
-            }
-            appearance_data.append(appearance_item)
-
-    with open("./data/appearances.json", "w") as f:
-        appearances_json = json.dumps(appearance_data)
-        f.write(appearances_json)
 
 
 if __name__ == "__main__":
