@@ -31,6 +31,9 @@ def main() -> None:
 
     save_appearances(combined_appearances)
 
+    # Extract character played by
+    extract_character_played_by_data(tables[1])
+
 
 def extract_characters_data(table: Tag) -> None:
     characters = []
@@ -211,7 +214,7 @@ def extract_complex_appearances(complex_td_rows: list) -> list[dict]:
 
                 complex_appearances.append(appearance_item)
 
-    print(complex_appearances)
+    # print(complex_appearances)
 
     return complex_appearances
 
@@ -274,6 +277,35 @@ def extract_appearance_sequences(string_of_apperances: str) -> list[int]:
     return apperances
 
 
+def save_appearances(appearances: list[dict]) -> None:
+    with open("./data/appearances.json", "w") as f:
+        c_json = json.dumps(appearances)
+        f.write(c_json)
+
+
+def extract_character_played_by_data(table: Tag):
+    # Get all "played by" trs
+    tbody = table.find("tbody")
+    played_by_trs = tbody.find_all("tr")
+
+    # Load characters
+    with open("./data/characters.json") as file:
+        characters = json.loads(file.read())
+
+    # Get character id and actor ids
+    for tr in played_by_trs:
+
+        # Get character id
+        character_name = str(tr.find("th").text).strip()
+        character_id = get_character_id(characters, character_name)
+
+        # Get list of actor ids
+        actor_td = tr.find("td")
+
+        actor_names = get_list_of_actor_names(actor_td)
+        print(actor_names)
+
+
 def get_character_id(characters: list[str], name: str) -> int:
 
     # # Loop through all characters and find the character id
@@ -284,10 +316,44 @@ def get_character_id(characters: list[str], name: str) -> int:
             return character["character_id"]
 
 
-def save_appearances(appearances: list[dict]) -> None:
-    with open("./data/appearances.json", "w") as f:
-        c_json = json.dumps(appearances)
-        f.write(c_json)
+def get_list_of_actor_names(actor_td):
+    list_of_actor_names = []
+
+    # TODO: Her er du nået til!!
+
+    if actor_td:
+
+        # Check for multiple actors
+        if "og" in actor_td.text:
+
+            if ", " in actor_td.text:
+                splitted_by_ampersand = str(actor_td.text).strip().split(" og ")
+
+                split_by_comma = splitted_by_ampersand[0].split(", ")
+
+                for name in split_by_comma:
+                    list_of_actor_names.append(name)
+
+                end_name = splitted_by_ampersand[1]
+                list_of_actor_names.append(end_name)
+
+            else:
+                splitted_actor_names = str(actor_td.text).strip().split(" og ")
+
+                for name in splitted_actor_names:
+                    list_of_actor_names.append(name)
+
+        else:
+            has_link = actor_td.find("a")
+
+            if has_link:
+                actor = has_link.text
+                list_of_actor_names.append(actor)
+            else:
+                actor = str(actor_td.text).strip()
+                list_of_actor_names.append(actor)
+
+    return list_of_actor_names
 
 
 if __name__ == "__main__":
