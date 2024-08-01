@@ -32,7 +32,9 @@ def main() -> None:
     save_appearances(combined_appearances)
 
     # Extract character played by
-    extract_character_played_by_data(tables[1])
+    characters_played_by = extract_character_played_by_data(tables[1])
+
+    save_characters_played_by(characters_played_by)
 
 
 def extract_characters_data(table: Tag) -> None:
@@ -284,7 +286,7 @@ def save_appearances(appearances: list[dict]) -> None:
 
 
 def extract_character_played_by_data(table: Tag):
-    characters_play_by = []
+    characters_played_by = []
 
     # Get all "played by" trs
     tbody = table.find("tbody")
@@ -293,6 +295,10 @@ def extract_character_played_by_data(table: Tag):
     # Load characters
     with open("./data/characters.json") as file:
         characters = json.loads(file.read())
+
+    # Load actors
+    with open("./data/actors.json") as file:
+        actors = json.loads(file.read())
 
     # Get character id and actor ids
     for tr in played_by_trs:
@@ -308,12 +314,18 @@ def extract_character_played_by_data(table: Tag):
 
         # Loop through each actor and extract actor id
         for name in actor_names:
-            print(name)
+            actor_id = get_actor_id(actors, name)
+
+            played_by_item = {"character_id": character_id, "actor_id": actor_id}
+
+            characters_played_by.append(played_by_item)
+
+    return characters_played_by
 
 
 def get_character_id(characters: list[str], name: str) -> int:
 
-    # # Loop through all characters and find the character id
+    # Loop through all characters and find the character id
     for character in characters:
         character_name = character["character_name"]
 
@@ -323,8 +335,6 @@ def get_character_id(characters: list[str], name: str) -> int:
 
 def get_list_of_actor_names(actor_td):
     list_of_actor_names = []
-
-    # TODO: Her er du nået til!!
 
     if actor_td:
 
@@ -359,6 +369,20 @@ def get_list_of_actor_names(actor_td):
                 list_of_actor_names.append(actor)
 
     return list_of_actor_names
+
+
+def get_actor_id(actors, name):
+    for actor in actors:
+        actor_name = actor["actor_name"]
+
+        if actor_name == name:
+            return actor["actor_id"]
+
+
+def save_characters_played_by(characters_played_by):
+    with open("./data/character_actor.json", "w") as file:
+        played_by_json = json.dumps(characters_played_by)
+        file.write(played_by_json)
 
 
 if __name__ == "__main__":
