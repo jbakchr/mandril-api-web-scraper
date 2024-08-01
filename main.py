@@ -29,9 +29,7 @@ def main() -> None:
 
     combined_appearances = simple_appearances + complex_appearances
 
-    with open("./data/appearances.json", "w") as f:
-        c_json = json.dumps(combined_appearances)
-        f.write(c_json)
+    save_appearances(combined_appearances)
 
 
 def extract_characters_data(table: Tag) -> None:
@@ -172,7 +170,7 @@ def extract_simple_appearances(simple_td_rows: list) -> list[dict]:
     return simple_appearances
 
 
-def extract_complex_appearances(complex_td_rows: list):
+def extract_complex_appearances(complex_td_rows: list) -> list[dict]:
     complex_appearances = []
 
     # Load all characters
@@ -213,10 +211,12 @@ def extract_complex_appearances(complex_td_rows: list):
 
                 complex_appearances.append(appearance_item)
 
+    print(complex_appearances)
+
     return complex_appearances
 
 
-def extract_appearances_without_parentheses(appearances: str):
+def extract_appearances_without_parentheses(appearances: str) -> list[int]:
     result = []
 
     # Split string of appearances by ", "
@@ -247,33 +247,8 @@ def extract_appearances_without_parentheses(appearances: str):
 
     return result
 
-    # Loop through each splitted appearance
-    # for appearance in splitted_appearance:
 
-    #     # Check if appearance has a "(" in it
-    #     if "(" in appearance:
-    #         cleaned_appearance = appearance.split(" ")[0]
-
-    #         # Check if "cleaned_appearance" has a "-" in it
-    #         if "-" in cleaned_appearance:
-
-    #             # Split by "-"
-    #             splitted_cleaned_appearance = cleaned_appearance.split("-")
-
-    #             # Get start and end
-    #             start = int(splitted_cleaned_appearance[0])
-    #             end = int(splitted_cleaned_appearance[1])
-
-    #             # Loop through start and end
-    #             for i in range(start, end + 1):
-    #                 result.append(i)
-    #         else:
-    #             print(cleaned_appearance)
-    #     else:
-    #         print(appearance)
-
-
-def extract_appearance_sequences(string_of_apperances: str):
+def extract_appearance_sequences(string_of_apperances: str) -> list[int]:
     apperances = []
 
     # Split appearances
@@ -299,7 +274,7 @@ def extract_appearance_sequences(string_of_apperances: str):
     return apperances
 
 
-def get_character_id(characters: list[str], name: str):
+def get_character_id(characters: list[str], name: str) -> int:
 
     # # Loop through all characters and find the character id
     for character in characters:
@@ -307,6 +282,12 @@ def get_character_id(characters: list[str], name: str):
 
         if character_name == name:
             return character["character_id"]
+
+
+def save_appearances(appearances: list[dict]) -> None:
+    with open("./data/appearances.json", "w") as f:
+        c_json = json.dumps(appearances)
+        f.write(c_json)
 
 
 if __name__ == "__main__":
