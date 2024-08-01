@@ -284,6 +284,8 @@ def save_appearances(appearances: list[dict]) -> None:
 
 
 def extract_character_played_by_data(table: Tag):
+    characters_play_by = []
+
     # Get all "played by" trs
     tbody = table.find("tbody")
     played_by_trs = tbody.find_all("tr")
@@ -303,7 +305,10 @@ def extract_character_played_by_data(table: Tag):
         actor_td = tr.find("td")
 
         actor_names = get_list_of_actor_names(actor_td)
-        print(actor_names)
+
+        # Loop through each actor and extract actor id
+        for name in actor_names:
+            print(name)
 
 
 def get_character_id(characters: list[str], name: str) -> int:
