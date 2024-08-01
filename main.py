@@ -8,9 +8,9 @@ from bs4 import BeautifulSoup, Tag
 def main() -> None:
 
     # Extract characters table from Wikipedia
-    r = requests.get(
-        "https://da.wikipedia.org/wiki/Figurer_fra_Casper_%26_Mandrilaftalen"
-    )
+    url = "https://da.wikipedia.org/wiki/Figurer_fra_Casper_%26_Mandrilaftalen"
+    r = requests.get(url)
+
     soup = BeautifulSoup(r.text, "html.parser")
     tables = soup.find_all("table")
 
