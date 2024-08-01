@@ -285,7 +285,7 @@ def save_appearances(appearances: list[dict]) -> None:
         f.write(c_json)
 
 
-def extract_character_played_by_data(table: Tag):
+def extract_character_played_by_data(table: Tag) -> list[dict]:
     characters_played_by = []
 
     # Get all "played by" trs
@@ -333,7 +333,7 @@ def get_character_id(characters: list[str], name: str) -> int:
             return character["character_id"]
 
 
-def get_list_of_actor_names(actor_td):
+def get_list_of_actor_names(actor_td) -> list[str]:
     list_of_actor_names = []
 
     if actor_td:
@@ -371,7 +371,7 @@ def get_list_of_actor_names(actor_td):
     return list_of_actor_names
 
 
-def get_actor_id(actors, name):
+def get_actor_id(actors, name) -> int:
     for actor in actors:
         actor_name = actor["actor_name"]
 
@@ -379,7 +379,7 @@ def get_actor_id(actors, name):
             return actor["actor_id"]
 
 
-def save_characters_played_by(characters_played_by):
+def save_characters_played_by(characters_played_by) -> None:
     with open("./data/character_actor.json", "w") as file:
         played_by_json = json.dumps(characters_played_by)
         file.write(played_by_json)
